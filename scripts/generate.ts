@@ -12,6 +12,7 @@ const TOTAL_QUESTIONS = 50;
 interface Question {
   id: number;
   question: string;
+  category: string;
   correct_answer: string;
   wrong_answers: string[];
   explanation: string;
@@ -33,15 +34,31 @@ async function generateBatch(
     messages: [
       {
         role: "user",
-        content: `Generate ${count} multiple-choice trivia questions about rock climbing and bouldering. Cover a mix of topics: climbing history, famous climbers, grading systems (V-scale, Fontainebleau, YDS, French sport grades), techniques, gear, famous routes and boulder problems, competitions (IFSC, Olympics), safety, climbing types (sport, trad, bouldering, deep water solo), climbing ethics, and notable climbing locations worldwide.
+        content: `Generate ${count} multiple-choice trivia questions about rock climbing and bouldering, with a strong focus on the Australian climbing community. Do NOT include any questions about ice climbing or mountaineering.
 
-Each question should have exactly 1 correct answer and 3 plausible but incorrect answers. Make the questions challenging but fair — suitable for a pub quiz night.
+Cover a mix of these topics:
+- Australian climbing areas (Arapiles, Grampians/Gariwerd, Blue Mountains, Nowra, Moonarie, Frog Buttress, Porongurup, etc.)
+- Famous Australian climbers (e.g. HB Lincoln, Malcolm Matheson, Lee Cossey, Monique Forestier, Oceana Mackenzie)
+- Australian climbing history and first ascents
+- Bouldering culture, famous boulder problems in Australia and worldwide
+- Grading systems (V-scale, Ewbank, Fontainebleau, French sport grades)
+- Climbing techniques, movement, and training
+- Gear and equipment (sport, trad, bouldering)
+- International competitions (IFSC, Olympics) including Australian competitors
+- Climbing ethics, bolting ethics, and access issues in Australia
+- General rock climbing and bouldering trivia (sport, trad, bouldering, deep water solo)
+- Famous routes and boulder problems worldwide
+
+Each question must be assigned one of these 5 categories: "Bouldering", "Rope Climbing", "Australia", "General Climbing Knowledge", "Competition & Olympics". Distribute questions roughly evenly across all 5 categories.
+
+Each question should have exactly 1 correct answer and 3 plausible but incorrect answers. Make the questions challenging but fair — suitable for a pub quiz night at a climbing gym.
 
 For each question, also include a brief explanation (2-3 sentences) of why the correct answer is right. Include an interesting fact if possible.${avoidList}
 
 Respond with ONLY a JSON array, no other text. Each element should have this shape:
 {
   "question": "the question text",
+  "category": "one of: Bouldering, Rope Climbing, Australia, General Knowledge, Competition",
   "correct_answer": "the correct answer",
   "wrong_answers": ["wrong1", "wrong2", "wrong3"],
   "explanation": "brief explanation of the correct answer"
@@ -92,6 +109,7 @@ async function main() {
       allQuestions.push({
         id: nextId++,
         question: q.question,
+        category: q.category,
         correct_answer: q.correct_answer,
         wrong_answers: q.wrong_answers,
         explanation: q.explanation,
