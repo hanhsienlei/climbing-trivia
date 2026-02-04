@@ -1,0 +1,552 @@
+[
+  {
+    "id": 1,
+    "question": "What does a V8 bouldering grade convert to approximately in the Fontainebleau system?",
+    "correct_answer": "7A+",
+    "wrong_answers": [
+      "6C+",
+      "7B",
+      "7C"
+    ],
+    "explanation": "The V-scale and Fontainebleau systems have rough conversions, with V8 typically corresponding to 7A+ in the French system. The Fontainebleau system originated in the famous bouldering area outside Paris and uses numbers with letter modifiers."
+  },
+  {
+    "id": 2,
+    "question": "Who made the first free ascent of El Capitan's 'The Dawn Wall' in Yosemite?",
+    "correct_answer": "Tommy Caldwell and Kevin Jorgeson",
+    "wrong_answers": [
+      "Alex Honnold and Tommy Caldwell",
+      "Adam Ondra and Tommy Caldwell",
+      "Chris Sharma and Tommy Caldwell"
+    ],
+    "explanation": "Tommy Caldwell and Kevin Jorgeson completed the first free ascent of The Dawn Wall in January 2015 after 19 days on the wall. This 32-pitch route is considered one of the hardest big wall free climbs in the world, with pitches up to 5.14d."
+  },
+  {
+    "id": 3,
+    "question": "In the YDS (Yosemite Decimal System), what does the number after the decimal point in grades like 5.10a represent?",
+    "correct_answer": "Technical difficulty of the hardest move",
+    "wrong_answers": [
+      "Average difficulty of the entire route",
+      "Length of the climb in rope lengths",
+      "Number of protection points needed"
+    ],
+    "explanation": "In the YDS, the number after 5. indicates the technical difficulty of the hardest moves on the route, not the average difficulty. The letter grades (a, b, c, d) provide further subdivision within each numeric grade from 5.10 onwards."
+  },
+  {
+    "id": 4,
+    "question": "What is a 'dyno' in climbing terminology?",
+    "correct_answer": "A dynamic move where both hands leave the rock",
+    "wrong_answers": [
+      "A type of climbing shoe",
+      "A belay device",
+      "A rest position on overhanging rock"
+    ],
+    "explanation": "A dyno (short for dynamic) is a powerful, explosive move where the climber generates momentum to reach a distant hold, often with both hands leaving the rock simultaneously. It's commonly seen in bouldering and sport climbing on steep terrain."
+  },
+  {
+    "id": 5,
+    "question": "Which climbing area is famous for the boulder problem 'Midnight Lightning'?",
+    "correct_answer": "Yosemite Valley, California",
+    "wrong_answers": [
+      "Fontainebleau, France",
+      "Hueco Tanks, Texas",
+      "Rocky Mountain National Park, Colorado"
+    ],
+    "explanation": "Midnight Lightning is an iconic V8 crack boulder problem on the Columbia Boulder in Camp 4, Yosemite Valley. First climbed by Ron Kauk in 1978, it's considered a classic test piece and has been featured in numerous climbing films."
+  },
+  {
+    "id": 6,
+    "question": "What does IFSC stand for in competitive climbing?",
+    "correct_answer": "International Federation of Sport Climbing",
+    "wrong_answers": [
+      "International Free Solo Climbing",
+      "Indoor Free Sport Climbing",
+      "International Federation of Speed Climbing"
+    ],
+    "explanation": "The International Federation of Sport Climbing (IFSC) is the international governing body for competitive climbing. Founded in 2007, it oversees World Cup competitions, World Championships, and climbing's inclusion in the Olympics."
+  },
+  {
+    "id": 7,
+    "question": "In traditional (trad) climbing, what is a 'bomber' placement?",
+    "correct_answer": "An extremely secure piece of protection",
+    "wrong_answers": [
+      "A type of piton used in aid climbing",
+      "A dangerous loose rock",
+      "A climbing move that involves jumping"
+    ],
+    "explanation": "A 'bomber' placement refers to a piece of protection (like a cam or nut) that is placed so securely it would be nearly impossible to pull out, even under extreme force. The term emphasizes absolute reliability in protection placement."
+  },
+  {
+    "id": 8,
+    "question": "Which French sport climbing grade is approximately equivalent to 5.12a in the YDS?",
+    "correct_answer": "7a+",
+    "wrong_answers": [
+      "6c+",
+      "7b",
+      "7c"
+    ],
+    "explanation": "The French sport climbing grade 7a+ roughly corresponds to 5.12a in the Yosemite Decimal System. The French system uses numbers with letter modifiers (a, b, c) and sometimes + signs for more precise grading of sport routes."
+  },
+  {
+    "id": 9,
+    "question": "What is 'deep water soloing' (DWS)?",
+    "correct_answer": "Climbing without ropes over deep water",
+    "wrong_answers": [
+      "Cave diving with climbing gear",
+      "Underwater rock climbing",
+      "Climbing in heavy rain conditions"
+    ],
+    "explanation": "Deep Water Soloing involves free solo climbing (no ropes or protection) above deep water, which serves as the safety system if you fall. Popular DWS destinations include Mallorca, Thailand, and parts of the Mediterranean coast."
+  },
+  {
+    "id": 10,
+    "question": "Who is widely credited with developing the modern sport climbing grade of 9a (5.14d)?",
+    "correct_answer": "Wolfgang Güllich",
+    "wrong_answers": [
+      "Chris Sharma",
+      "Adam Ondra",
+      "Janja Garnbret"
+    ],
+    "explanation": "Wolfgang Güllich, the German climbing legend, established 'Wallstreet' (9a/5.14d) in the Frankenjura in 1987, which was the world's first route of this grade. He was known for his incredible finger strength and systematic training approach."
+  },
+  {
+    "id": 11,
+    "question": "In bouldering competitions, how many attempts do climbers typically get on each problem in the qualification round?",
+    "correct_answer": "Unlimited attempts within the time limit",
+    "wrong_answers": [
+      "3 attempts",
+      "5 attempts",
+      "2 attempts"
+    ],
+    "explanation": "In IFSC bouldering competitions, climbers have unlimited attempts on each problem within a set time limit (typically 4-5 minutes). Scoring is based on reaching zone holds and tops, with fewer attempts resulting in better scores."
+  },
+  {
+    "id": 12,
+    "question": "What is the 'leave no trace' principle most relevant to climbing ethics?",
+    "correct_answer": "Minimize impact on rock and environment",
+    "wrong_answers": [
+      "Always climb with a partner",
+      "Don't share route information online",
+      "Only use natural protection"
+    ],
+    "explanation": "The 'leave no trace' ethic emphasizes minimizing environmental impact by staying on established trails, not altering rock features, removing chalk marks, and preserving the natural setting for future climbers. This principle is fundamental to sustainable climbing practices."
+  },
+  {
+    "id": 13,
+    "question": "Which climbing hold company is famous for manufacturing competition holds used in IFSC events?",
+    "correct_answer": "Entre Prises",
+    "wrong_answers": [
+      "Metolius",
+      "Black Diamond",
+      "Petzl"
+    ],
+    "explanation": "Entre Prises is a French company that has been the official hold supplier for IFSC World Cup competitions and major climbing events. They're known for their distinctive hold shapes and consistent manufacturing quality used in international competitions."
+  },
+  {
+    "id": 14,
+    "question": "What is a 'flash' in climbing terminology?",
+    "correct_answer": "Climbing a route successfully on the first attempt with prior information",
+    "wrong_answers": [
+      "Climbing without any protection",
+      "A type of camera used in climbing photography",
+      "A sudden rockfall warning"
+    ],
+    "explanation": "A 'flash' means successfully completing a route or boulder problem on your first attempt, but with some prior knowledge such as watching others climb it or receiving advice. This differs from an 'onsight,' which requires no prior information."
+  },
+  {
+    "id": 15,
+    "question": "Which climbing area in Australia is famous for its sea cliff climbing and shark-infested deep water soloing?",
+    "correct_answer": "Point Perpendicular",
+    "wrong_answers": [
+      "Blue Mountains",
+      "Grampians",
+      "Mount Arapiles"
+    ],
+    "explanation": "Point Perpendicular in New South Wales offers spectacular sea cliff climbing and deep water soloing, though the waters are known to contain sharks. The area features high-quality limestone climbing with routes up to 60 meters above the ocean."
+  },
+  {
+    "id": 16,
+    "question": "In aid climbing, what does 'A0' represent in the aid rating system?",
+    "correct_answer": "Aid moves that could be free climbed but are aided for convenience",
+    "wrong_answers": [
+      "The most difficult aid climbing grade",
+      "No aid required",
+      "Aid climbing on overhanging terrain"
+    ],
+    "explanation": "A0 represents the easiest level of aid climbing, where artificial aid is used on moves that could reasonably be free climbed. The aid scale progresses from A0 through A5, with higher numbers indicating more difficult and dangerous aid climbing."
+  },
+  {
+    "id": 17,
+    "question": "Which climbing technique involves using the outside edge of your climbing shoe?",
+    "correct_answer": "Edging",
+    "wrong_answers": [
+      "Smearing",
+      "Heel hooking",
+      "Toe hooking"
+    ],
+    "explanation": "Edging refers to using the edges of your climbing shoes (either inside or outside edge) to stand on small holds or rock features. This technique provides precise foot placement and is fundamental to technical face climbing on small holds."
+  },
+  {
+    "id": 18,
+    "question": "What is the name of Alex Honnold's famous free solo ascent route on El Capitan?",
+    "correct_answer": "Freerider",
+    "wrong_answers": [
+      "The Nose",
+      "The Dawn Wall",
+      "Salathé Wall"
+    ],
+    "explanation": "Alex Honnold free soloed 'Freerider' (5.12d) on El Capitan in June 2017, a feat documented in the film 'Free Solo.' The route is approximately 3,200 feet tall and took him 3 hours and 56 minutes to complete without ropes."
+  },
+  {
+    "id": 19,
+    "question": "Which type of climbing protection expands to fit cracks and is spring-loaded?",
+    "correct_answer": "Camming devices (cams)",
+    "wrong_answers": [
+      "Pitons",
+      "Hexes",
+      "Stoppers"
+    ],
+    "explanation": "Camming devices, or 'cams,' use spring-loaded cam lobes that expand outward against the sides of cracks when weighted. Invented in the 1970s, they revolutionized traditional climbing by providing reliable, removable protection in parallel-sided cracks."
+  },
+  {
+    "id": 20,
+    "question": "In which year did sport climbing make its Olympic debut?",
+    "correct_answer": "2021 (Tokyo Olympics)",
+    "wrong_answers": [
+      "2016 (Rio Olympics)",
+      "2018 (Winter Olympics)",
+      "2024 (Paris Olympics)"
+    ],
+    "explanation": "Sport climbing made its Olympic debut at the 2021 Tokyo Olympics (held in 2021 due to COVID-19). The format combined three disciplines - speed climbing, bouldering, and lead climbing - with athletes competing for combined medals."
+  },
+  {
+    "id": 21,
+    "question": "What is the highest grade on the V-scale bouldering system currently recognized?",
+    "correct_answer": "V17",
+    "wrong_answers": [
+      "V15",
+      "V16",
+      "V18"
+    ],
+    "explanation": "V17 is currently the highest confirmed bouldering grade, with problems like 'Burden of Dreams' by Nalle Hukkataival representing this extreme difficulty level. Some V18 attempts exist but remain unconfirmed by multiple ascents."
+  },
+  {
+    "id": 22,
+    "question": "Which climber is known as the 'Stone Master' and was instrumental in developing Yosemite's big wall climbing in the 1970s?",
+    "correct_answer": "John Bachar",
+    "wrong_answers": [
+      "Royal Robbins",
+      "Warren Harding",
+      "Lynn Hill"
+    ],
+    "explanation": "John Bachar earned the nickname 'Stone Master' for his bold free soloing and development of difficult routes in Yosemite. He was known for his incredible strength and mental fortitude on dangerous climbs without ropes."
+  },
+  {
+    "id": 23,
+    "question": "In the French sport climbing grade system, what grade roughly corresponds to V10 bouldering difficulty?",
+    "correct_answer": "7c+/8a",
+    "wrong_answers": [
+      "7a+/7b",
+      "8b/8b+",
+      "6c+/7a"
+    ],
+    "explanation": "A V10 boulder problem typically translates to around 7c+ to 8a in the French sport system. This represents advanced climbing requiring significant finger strength and technical precision."
+  },
+  {
+    "id": 24,
+    "question": "What climbing technique involves pressing opposing body parts against parallel walls or surfaces?",
+    "correct_answer": "Stemming",
+    "wrong_answers": [
+      "Laybacking",
+      "Mantling",
+      "Flagging"
+    ],
+    "explanation": "Stemming involves using opposing pressure between hands and feet on parallel or near-parallel surfaces, commonly used in chimneys and dihedrals. It's an essential technique for climbing corners and wide cracks."
+  },
+  {
+    "id": 25,
+    "question": "Which piece of climbing gear was invented by Ray Jardine and revolutionized traditional climbing in the 1970s?",
+    "correct_answer": "Spring-loaded camming device (Friend)",
+    "wrong_answers": [
+      "Sticky rubber shoes",
+      "Chalk bag",
+      "Dynamic rope"
+    ],
+    "explanation": "Ray Jardine invented the spring-loaded camming device, originally called 'Friends,' which allowed climbers to place reliable protection in parallel-sided cracks. This innovation made previously unprotectable routes safe to climb."
+  },
+  {
+    "id": 26,
+    "question": "Which boulder problem in Fontainebleau is considered the world's first 8a boulder and was established by Jacky Godoffe?",
+    "correct_answer": "C'était Demain",
+    "wrong_answers": [
+      "La Marie-Rose",
+      "Big Golden",
+      "Karma"
+    ],
+    "explanation": "C'était Demain, established by Jacky Godoffe in 1984, is widely recognized as the first 8a (V11) boulder problem in the world. Located in Fontainebleau, it set new standards for bouldering difficulty."
+  },
+  {
+    "id": 27,
+    "question": "What does 'pink point' mean in climbing terminology?",
+    "correct_answer": "Leading a route cleanly with pre-placed quickdraws",
+    "wrong_answers": [
+      "Completing a route on the first try",
+      "Climbing without chalk",
+      "Using only pink-colored holds"
+    ],
+    "explanation": "A pink point refers to leading a sport climbing route cleanly (without falls or rests) but with the quickdraws already in place from a previous attempt. It's considered easier than a redpoint where you place your own gear."
+  },
+  {
+    "id": 28,
+    "question": "Which climbing competition format was introduced to the Olympics alongside lead and bouldering?",
+    "correct_answer": "Speed climbing",
+    "wrong_answers": [
+      "Ice climbing",
+      "Deep water soloing",
+      "Multi-pitch"
+    ],
+    "explanation": "Speed climbing joined lead and bouldering as the third discipline in Olympic climbing. Athletes race up a standardized 15-meter wall route, with the world record under 5 seconds."
+  },
+  {
+    "id": 29,
+    "question": "What safety rating system is used to indicate the quality of bolt protection on sport climbing routes?",
+    "correct_answer": "PG, R, X system",
+    "wrong_answers": [
+      "Grade I-VI system",
+      "WI rating",
+      "UIAA scale"
+    ],
+    "explanation": "The PG (Pretty Good), R (Runout/serious), and X (extremely dangerous) system warns climbers about protection quality and fall consequences on sport routes. PG indicates safe climbing while X suggests potential for serious injury."
+  },
+  {
+    "id": 30,
+    "question": "Which type of climbing involves ascending routes on natural rock faces using only permanent anchors drilled into the rock?",
+    "correct_answer": "Sport climbing",
+    "wrong_answers": [
+      "Traditional climbing",
+      "Aid climbing",
+      "Alpine climbing"
+    ],
+    "explanation": "Sport climbing uses pre-placed bolts and anchors permanently fixed to the rock, allowing climbers to focus on movement rather than gear placement. This style developed in Europe and emphasizes pure athletic difficulty."
+  },
+  {
+    "id": 31,
+    "question": "What is the ethical climbing principle that prohibits altering the rock to make climbing easier?",
+    "correct_answer": "No chipping or gluing holds",
+    "wrong_answers": [
+      "No aid climbing allowed",
+      "No chalk usage",
+      "No fixed ropes"
+    ],
+    "explanation": "The principle against chipping (carving) or gluing holds maintains the natural integrity of rock formations. This fundamental climbing ethic preserves routes in their original state for future generations."
+  },
+  {
+    "id": 32,
+    "question": "Which climbing destination is famous for its limestone sport climbing and the development of many classic 8a+ and 8b routes?",
+    "correct_answer": "Ceüse, France",
+    "wrong_answers": [
+      "Red River Gorge, USA",
+      "Kalymnos, Greece",
+      "Margalef, Spain"
+    ],
+    "explanation": "Ceüse in the French Alps is legendary for its high-quality limestone and concentration of hard sport routes. It's where many climbers first achieved grades like 8a+ and 8b in the 1980s and 90s."
+  },
+  {
+    "id": 33,
+    "question": "In bouldering, what term describes completing a problem without any prior attempts or beta?",
+    "correct_answer": "Onsight",
+    "wrong_answers": [
+      "Flash",
+      "Send",
+      "Redpoint"
+    ],
+    "explanation": "An onsight means completing a route or boulder problem on the first attempt without any prior knowledge, practice, or beta from others. It's considered the purest and most impressive style of ascent."
+  },
+  {
+    "id": 34,
+    "question": "Which IFSC climbing competition event requires athletes to climb as high as possible on an unknown route?",
+    "correct_answer": "Lead climbing",
+    "wrong_answers": [
+      "Bouldering",
+      "Speed climbing",
+      "Combined format"
+    ],
+    "explanation": "In IFSC lead competitions, climbers attempt to climb as high as possible on a route they've never seen before, with only one attempt allowed. The route is designed so that typically no one reaches the top."
+  },
+  {
+    "id": 35,
+    "question": "What is the minimum breaking strength requirement for dynamic climbing ropes certified by the UIAA?",
+    "correct_answer": "22kN (kilonewtons)",
+    "wrong_answers": [
+      "15kN",
+      "18kN",
+      "25kN"
+    ],
+    "explanation": "UIAA standards require dynamic climbing ropes to withstand at least 22kN of force in testing. This ensures ropes can handle the forces generated in severe climbing falls while maintaining some stretch to reduce impact."
+  },
+  {
+    "id": 36,
+    "question": "Which climbing area in Patagonia is famous for its granite spires and extreme weather conditions?",
+    "correct_answer": "Fitz Roy massif",
+    "wrong_answers": [
+      "Cerro Torre group",
+      "Torres del Paine",
+      "Aconcagua"
+    ],
+    "explanation": "The Fitz Roy massif, including Cerro Fitz Roy and surrounding peaks, is renowned for its technical granite climbing and notoriously bad weather. It attracts world-class alpinists seeking challenging conditions."
+  },
+  {
+    "id": 37,
+    "question": "What does 'beta' mean in climbing terminology?",
+    "correct_answer": "Information about how to climb a route",
+    "wrong_answers": [
+      "A type of climbing hold",
+      "The angle of a climbing wall",
+      "A safety check procedure"
+    ],
+    "explanation": "Beta refers to any information about how to climb a route, including specific moves, sequences, or techniques. The term originated from Betamax videotapes used to record and study climbing sequences."
+  },
+  {
+    "id": 38,
+    "question": "Which female climber was the first to climb 9a (5.14d) and is known for numerous groundbreaking ascents?",
+    "correct_answer": "Josune Bereziartu",
+    "wrong_answers": [
+      "Lynn Hill",
+      "Sasha DiGiulian",
+      "Ashima Shiraishi"
+    ],
+    "explanation": "Josune Bereziartu from Spain was the first woman to climb 9a with her ascent of 'Bain de Sang' in 2002. She broke numerous gender barriers in climbing and established many difficult routes worldwide."
+  },
+  {
+    "id": 39,
+    "question": "What is the name of the famous multi-pitch route on Half Dome that's considered a Yosemite classic?",
+    "correct_answer": "Snake Dike",
+    "wrong_answers": [
+      "The Nose",
+      "Moonlight Buttress",
+      "Serenity Crack"
+    ],
+    "explanation": "Snake Dike is a classic 5.7 route up Half Dome's southwest face, known for its long runouts and spectacular exposure. Despite its moderate grade, it demands confidence and experience due to sparse protection."
+  },
+  {
+    "id": 40,
+    "question": "In which country would you find the Dolomites, famous for both sport climbing and via ferrata routes?",
+    "correct_answer": "Italy",
+    "wrong_answers": [
+      "Austria",
+      "Switzerland",
+      "Slovenia"
+    ],
+    "explanation": "The Dolomites are located in northern Italy and offer world-class limestone climbing. The region is also famous for via ferrata (iron way) routes that use fixed cables and ladders to access dramatic mountain terrain."
+  },
+  {
+    "id": 41,
+    "question": "Which climbing legend is known for establishing the route 'Action Directe' in Germany, the world's first confirmed 9a (5.14d)?",
+    "correct_answer": "Wolfgang Güllich",
+    "wrong_answers": [
+      "Jerry Moffatt",
+      "Ben Moon",
+      "Antoine Le Menestrel"
+    ],
+    "explanation": "Wolfgang Güllich established Action Directe in the Frankenjura in 1991, which stood as the world's hardest sport climb for several years. Güllich was also famous for his dynamic climbing style and tragically died in a car accident in 1992 at age 31."
+  },
+  {
+    "id": 42,
+    "question": "What does an 'E5' grade represent in the British traditional climbing system?",
+    "correct_answer": "Extremely Severe with significant danger",
+    "wrong_answers": [
+      "Easy grade 5",
+      "Expert level 5",
+      "Extreme grade 5 with good protection"
+    ],
+    "explanation": "The British 'E' grades (Extremely Severe) indicate both difficulty and danger/seriousness of protection. E5 represents a very hard route where falls could result in serious injury due to poor or sparse protection placement opportunities."
+  },
+  {
+    "id": 43,
+    "question": "Which bouldering area in South Africa is famous for problems like 'Fragile Steps' and 'Never Never Land'?",
+    "correct_answer": "Rocklands",
+    "wrong_answers": [
+      "Blouberg",
+      "Montagu",
+      "Waterval Boven"
+    ],
+    "explanation": "Rocklands in the Cederberg region is South Africa's premier bouldering destination, featuring unique sandstone formations. It's become a popular winter destination for international climbers escaping cold northern hemisphere weather."
+  },
+  {
+    "id": 44,
+    "question": "In ice climbing, what does 'WI4' represent?",
+    "correct_answer": "Water Ice grade 4 - sustained vertical ice",
+    "wrong_answers": [
+      "Winter Ice level 4",
+      "Waterfall Ice difficulty 4",
+      "White Ice grade 4"
+    ],
+    "explanation": "The WI (Water Ice) grading system rates ice climbing difficulty from WI1 to WI7+. WI4 indicates sustained near-vertical ice that requires good technique and is considered intermediate to advanced level ice climbing."
+  },
+  {
+    "id": 45,
+    "question": "Which female climber was the first woman to climb V15 and has won multiple IFSC Bouldering World Cups?",
+    "correct_answer": "Ashima Shiraishi",
+    "wrong_answers": [
+      "Alex Puccio",
+      "Shauna Coxsey",
+      "Akiyo Noguchi"
+    ],
+    "explanation": "Ashima Shiraishi climbed 'Horizon' (V15) in 2016 at age 15, becoming the first female to climb this grade. She's been climbing at an elite level since childhood and has numerous groundbreaking ascents to her name."
+  },
+  {
+    "id": 46,
+    "question": "What is the primary difference between 'dry tooling' and traditional ice climbing?",
+    "correct_answer": "Dry tooling is done on rock without ice",
+    "wrong_answers": [
+      "Dry tooling uses different axes",
+      "Dry tooling is done indoors only",
+      "Dry tooling doesn't require ropes"
+    ],
+    "explanation": "Dry tooling involves using ice axes and crampons to climb on rock faces, often overhanging terrain where ice tools hook on rock features. It developed from mixed climbing and has become its own discipline with specific techniques and ethics."
+  },
+  {
+    "id": 47,
+    "question": "Which climbing area in Spain is considered the birthplace of modern sport climbing and features routes like 'Raindogs'?",
+    "correct_answer": "Siurana",
+    "wrong_answers": [
+      "Margalef",
+      "Rodellar",
+      "Chulilla"
+    ],
+    "explanation": "Siurana in Catalonia is often called the birthplace of European sport climbing, developed in the 1980s. The area features compact limestone with technical routes, and 'Raindogs' was one of the world's first 8a routes."
+  },
+  {
+    "id": 48,
+    "question": "What is a 'screamer' in traditional climbing terminology?",
+    "correct_answer": "A long fall that pulls out protection",
+    "wrong_answers": [
+      "A very difficult move",
+      "A type of piton",
+      "A warning shout"
+    ],
+    "explanation": "A 'screamer' refers to a long fall in trad climbing where multiple pieces of protection fail or pull out sequentially, often accompanied by the climber's vocal expression of terror. It's every trad climber's nightmare scenario."
+  },
+  {
+    "id": 49,
+    "question": "Which mountain range hosts the famous alpine climbing route 'The Eiger North Face' (Nordwand)?",
+    "correct_answer": "Swiss Alps",
+    "wrong_answers": [
+      "Austrian Alps",
+      "French Alps",
+      "Italian Alps"
+    ],
+    "explanation": "The Eiger's North Face in the Bernese Alps of Switzerland is one of the great north faces of the Alps. First climbed in 1938, it's notorious for rockfall, weather, and technical difficulty, earning it the nickname 'Mordwand' (Murder Wall)."
+  },
+  {
+    "id": 50,
+    "question": "In climbing competitions, what does 'zone' refer to?",
+    "correct_answer": "An intermediate hold that awards partial points",
+    "wrong_answers": [
+      "The climbing area boundary",
+      "A rest position",
+      "The judge's viewing area"
+    ],
+    "explanation": "The zone hold is typically positioned halfway up a competition boulder problem or lead route. Reaching it awards partial points even if the climber doesn't complete the entire route, adding strategic depth to competition climbing."
+  }
+]
