@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useMemo } from "react";
+import { Suspense, useEffect, useState, useMemo } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import QuestionCard from "@/components/QuestionCard";
 import Explanation from "@/components/Explanation";
@@ -27,6 +27,14 @@ function shuffleArray<T>(array: T[]): T[] {
 const QUIZ_SIZE = 10;
 
 export default function QuizPage() {
+  return (
+    <Suspense>
+      <QuizContent />
+    </Suspense>
+  );
+}
+
+function QuizContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const category = searchParams.get("category");
