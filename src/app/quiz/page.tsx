@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState, useMemo } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import QuestionCard from "@/components/QuestionCard";
 import Explanation from "@/components/Explanation";
 import allQuestions from "@/data/questions.json";
@@ -9,6 +9,7 @@ import allQuestions from "@/data/questions.json";
 interface Question {
   id: number;
   question: string;
+  category: string;
   correct_answer: string;
   wrong_answers: string[];
   explanation: string;
@@ -27,10 +28,16 @@ const QUIZ_SIZE = 10;
 
 export default function QuizPage() {
   const router = useRouter();
-  const questions = useMemo(
-    () => shuffleArray(allQuestions as Question[]).slice(0, QUIZ_SIZE),
-    []
-  );
+  const searchParams = useSearchParams();
+  const category = searchParams.get("category");
+
+  const questions = useMemo(() => {
+    const pool = category
+      ? (allQuestions as Question[]).filter((q) => q.category === category)
+      : (allQuestions as Question[]);
+    return shuffleArray(pool).slice(0, QUIZ_SIZE);
+  }, [category]);
+
   const [currentIndex, setCurrentIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [answered, setAnswered] = useState(false);
@@ -68,7 +75,23 @@ export default function QuizPage() {
     }
   }
 
-  if (questions.length === 0) return null;
+  if (questions.length === 0) {
+    return (
+      <div className="flex min-h-screen items-center justify-center bg-zinc-50 dark:bg-black">
+        <div className="text-center">
+          <p className="text-lg text-zinc-600 dark:text-zinc-400">
+            No questions found{category ? ` for "${category}"` : ""}.
+          </p>
+          <button
+            onClick={() => router.push("/")}
+            className="mt-4 rounded-full bg-zinc-900 px-6 py-2 text-white hover:bg-zinc-700 dark:bg-zinc-100 dark:text-zinc-900 cursor-pointer"
+          >
+            Back to Home
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   const currentQuestion = questions[currentIndex];
 
@@ -77,6 +100,11 @@ export default function QuizPage() {
       <div className="mb-8 flex w-full max-w-2xl items-center justify-between">
         <span className="text-sm font-medium text-zinc-500 dark:text-zinc-400">
           Question {currentIndex + 1} of {questions.length}
+          {category && (
+            <span className="ml-2 rounded bg-zinc-200 px-2 py-0.5 text-xs dark:bg-zinc-700">
+              {category}
+            </span>
+          )}
         </span>
         <span className="text-sm font-medium text-zinc-500 dark:text-zinc-400">
           Score: {score}
