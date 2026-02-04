@@ -90,20 +90,12 @@ export default function QuestionsPage() {
                 <div className="mt-4 ml-8 flex flex-col gap-2">
                   <p className="text-sm">
                     <span className="font-semibold text-green-700 dark:text-green-400">
-                      Correct:{" "}
+                      Answer:{" "}
                     </span>
                     <span className="text-zinc-800 dark:text-zinc-200">
                       {q.correct_answer}
                     </span>
                   </p>
-                  <div className="text-sm">
-                    <span className="font-semibold text-zinc-500 dark:text-zinc-400">
-                      Wrong answers:{" "}
-                    </span>
-                    <span className="text-zinc-600 dark:text-zinc-400">
-                      {q.wrong_answers.join(" / ")}
-                    </span>
-                  </div>
                   <div className="mt-2 rounded border border-blue-200 bg-blue-50 p-3 text-sm text-blue-800 dark:border-blue-800 dark:bg-blue-900/20 dark:text-blue-200">
                     {q.explanation}
                   </div>
