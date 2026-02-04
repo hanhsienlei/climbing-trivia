@@ -81,6 +81,12 @@ export default function QuizPage() {
         <span className="text-sm font-medium text-zinc-500 dark:text-zinc-400">
           Score: {score}
         </span>
+        <button
+          onClick={() => router.push("/")}
+          className="text-sm font-medium text-zinc-400 hover:text-zinc-700 dark:text-zinc-500 dark:hover:text-zinc-300 cursor-pointer"
+        >
+          Quit
+        </button>
       </div>
 
       <QuestionCard
