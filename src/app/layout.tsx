@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Rock Climbing Trivia Tutor",
+  title: "Rock Climbing Trivia",
   description: "Test your rock climbing and bouldering knowledge for quiz night!",
 };
 

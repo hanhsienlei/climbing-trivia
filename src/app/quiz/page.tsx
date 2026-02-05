@@ -34,16 +34,44 @@ export default function QuizPage() {
   );
 }
 
+function getSeenIds(): number[] {
+  if (typeof window === "undefined") return [];
+  const stored = localStorage.getItem("seenQuestionIds");
+  return stored ? JSON.parse(stored) : [];
+}
+
+function saveSeenIds(ids: number[]) {
+  localStorage.setItem("seenQuestionIds", JSON.stringify(ids));
+}
+
 function QuizContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const category = searchParams.get("category");
 
   const questions = useMemo(() => {
+    const seenIds = new Set(getSeenIds());
+
     const pool = category
       ? (allQuestions as Question[]).filter((q) => q.category === category)
       : (allQuestions as Question[]);
-    return shuffleArray(pool).slice(0, QUIZ_SIZE);
+
+    // Filter out seen questions
+    let fresh = pool.filter((q) => !seenIds.has(q.id));
+
+    // If not enough fresh questions, reset and use all
+    if (fresh.length < QUIZ_SIZE) {
+      saveSeenIds([]);
+      fresh = pool;
+    }
+
+    const selected = shuffleArray(fresh).slice(0, QUIZ_SIZE);
+
+    // Add selected to seen list
+    const newSeenIds = [...getSeenIds(), ...selected.map((q) => q.id)];
+    saveSeenIds(newSeenIds);
+
+    return selected;
   }, [category]);
 
   const [currentIndex, setCurrentIndex] = useState(0);
