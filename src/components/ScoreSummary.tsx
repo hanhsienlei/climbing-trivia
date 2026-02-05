@@ -5,9 +5,10 @@ import Link from "next/link";
 interface ScoreSummaryProps {
   score: number;
   total: number;
+  category: string | null;
 }
 
-export default function ScoreSummary({ score, total }: ScoreSummaryProps) {
+export default function ScoreSummary({ score, total, category }: ScoreSummaryProps) {
   const percentage = Math.round((score / total) * 100);
 
   let message: string;
@@ -28,7 +29,7 @@ export default function ScoreSummary({ score, total }: ScoreSummaryProps) {
       <p className="text-lg text-zinc-600 dark:text-zinc-400">{message}</p>
       <div className="flex gap-4">
         <Link
-          href="/quiz"
+          href={category ? `/quiz?category=${encodeURIComponent(category)}` : "/quiz"}
           className="rounded-full bg-zinc-900 px-6 py-3 font-medium text-white transition-colors hover:bg-zinc-700 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-zinc-300"
         >
           Play Again

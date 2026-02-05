@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach } from "vitest";
+import { describe, it, expect, beforeEach, afterEach } from "vitest";
 
 // Mock localStorage
 const localStorageMock = (() => {
@@ -138,5 +138,60 @@ describe("Quiz question selection", () => {
     expect(shuffled).toHaveLength(original.length);
     expect(new Set(shuffled).size).toBe(original.length);
     expect(shuffled.sort((a, b) => a - b)).toEqual(original);
+  });
+});
+
+describe("Quiz result category persistence", () => {
+  beforeEach(() => {
+    localStorageMock.clear();
+  });
+
+  function saveQuizResult(score: number, total: number, category: string | null) {
+    localStorage.setItem(
+      "quizResult",
+      JSON.stringify({ score, total, category })
+    );
+  }
+
+  function getQuizResult(): { score: number; total: number; category: string | null } | null {
+    const stored = localStorage.getItem("quizResult");
+    return stored ? JSON.parse(stored) : null;
+  }
+
+  function getPlayAgainUrl(category: string | null): string {
+    return category ? `/quiz?category=${encodeURIComponent(category)}` : "/quiz";
+  }
+
+  it("should save category with quiz result", () => {
+    saveQuizResult(7, 10, "Australia");
+    const result = getQuizResult();
+
+    expect(result).not.toBeNull();
+    expect(result?.score).toBe(7);
+    expect(result?.total).toBe(10);
+    expect(result?.category).toBe("Australia");
+  });
+
+  it("should save null category for all-categories quiz", () => {
+    saveQuizResult(5, 10, null);
+    const result = getQuizResult();
+
+    expect(result).not.toBeNull();
+    expect(result?.category).toBeNull();
+  });
+
+  it("should generate correct play again URL with category", () => {
+    const url = getPlayAgainUrl("Bouldering");
+    expect(url).toBe("/quiz?category=Bouldering");
+  });
+
+  it("should generate correct play again URL without category", () => {
+    const url = getPlayAgainUrl(null);
+    expect(url).toBe("/quiz");
+  });
+
+  it("should encode special characters in category URL", () => {
+    const url = getPlayAgainUrl("Competition & Olympics");
+    expect(url).toBe("/quiz?category=Competition%20%26%20Olympics");
   });
 });

@@ -101,7 +101,7 @@ function QuizContent() {
     if (nextIndex >= questions.length) {
       localStorage.setItem(
         "quizResult",
-        JSON.stringify({ score: score, total: questions.length })
+        JSON.stringify({ score: score, total: questions.length, category: category || null })
       );
       router.push("/results");
     } else {

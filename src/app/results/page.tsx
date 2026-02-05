@@ -6,7 +6,7 @@ import ScoreSummary from "@/components/ScoreSummary";
 
 export default function ResultsPage() {
   const router = useRouter();
-  const [result, setResult] = useState<{ score: number; total: number } | null>(
+  const [result, setResult] = useState<{ score: number; total: number; category: string | null } | null>(
     null
   );
 
@@ -29,7 +29,7 @@ export default function ResultsPage() {
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 px-6 dark:bg-black">
-      <ScoreSummary score={result.score} total={result.total} />
+      <ScoreSummary score={result.score} total={result.total} category={result.category} />
     </div>
   );
 }
