@@ -1,34 +1,8 @@
-## Project Overview
+## Development Guidelines
 
-Climbing Trivia — a Next.js quiz app about rock climbing.
+This document contains critical information about working with this codebase. Follow these guidelines precisely.
 
-## Tech Stack
-
-- Next.js 16 (App Router), React 19, TypeScript
-- Tailwind CSS 4
-- Vitest for testing
-- Question generation via Anthropic SDK (`tsx scripts/generate.ts`)
-
-## Commands
-
-- `npm run dev` — start dev server
-- `npm run build` — production build
-- `npm run lint` — run ESLint
-- `npm test` — run Vitest tests
-- `npm run generate` — generate trivia questions with Claude
-- `npm run format` — apply Prettier formatting
-- `npm run format:check` — verify formatting only
-- `npm run type-check` — TypeScript type checking
-- `npm run test:coverage` — tests with coverage report
-
-## Project Structure
-
-- `src/app/` — Next.js pages (quiz/, results/, questions/)
-- `src/components/` — React components (QuestionCard, Explanation, ScoreSummary)
-- `src/types.ts` — shared TypeScript interfaces
-- `src/lib/` — shared logic (quiz.ts)
-- `src/data/questions.json` — trivia question bank
-- `scripts/` — generation scripts (excluded from tsconfig type-checking)
+Product overview, setup commands, and project structure live in `README.md`.
 
 ## Code Style
 
@@ -49,7 +23,7 @@ Climbing Trivia — a Next.js quiz app about rock climbing.
 | Props interfaces         | PascalCase + `Props` suffix                      | `ScoreSummaryProps`                 |
 | Functions/variables      | camelCase                                        | `shuffleArray`, `currentIndex`      |
 | Module-level constants   | CONSTANT_CASE                                    | `QUIZ_SIZE`, `STORAGE_KEY_RESULT`   |
-| Local `const` values     | camelCase                                        | `const quizSize = 5`                |
+| Local `const` values     | camelCase                                        | `const quizSize = 10`               |
 | Object properties        | camelCase                                        | `correctAnswer`, `wrongAnswers`     |
 | Event handler props      | `on` prefix                                      | `onAnswer`, `onClick`               |
 | Event handler impl       | `handle` prefix                                  | `handleAnswer`, `handleNext`        |
@@ -64,17 +38,25 @@ Climbing Trivia — a Next.js quiz app about rock climbing.
 | File naming     | Match source file + `.test.ts(x)` | `quiz.test.ts` for `quiz.ts`                       |
 | Location        | Co-located next to source file    | `src/lib/quiz.test.ts` next to `src/lib/quiz.ts`   |
 | Component tests | PascalCase matching component     | `QuestionCard.test.tsx` next to `QuestionCard.tsx` |
+| Coverage        | Maintain 100% test coverage       | All branches, statements, functions, lines         |
 
-## Architecture Notes
+## Architecture
 
-- New components must have corresponding co-located tests
+- **Testing:** All components and utilities require co-located tests
+- **State:** Use React hooks (`useState`, `useMemo`) for component state; localStorage for persistence
+- **Data:** Static JSON for questions (`src/data/questions.json`)
+- **Constants:** Define in relevant utility files (e.g., `QUIZ_SIZE` in `src/lib/quiz.ts`)
+- **Client-side only:** All quiz logic runs client-side; use `"use client"` directive in components
 
 ## Commit Messages
 
-- Use conventional commits: `type: description` (lowercase)
-- Types: `feat`, `fix`, `test`, `docs`, `refactor`, `chore`
-- Keep subject line short, imperative mood
-- No period at the end
+- **Format:** `type: description` (lowercase, imperative mood, no period)
+- **Types:** `feat`, `fix`, `test`, `docs`, `refactor`, `chore`
+- **Examples:**
+  - `feat: add difficulty levels to questions`
+  - `fix: handle corrupted localStorage gracefully`
+  - `test: add coverage for edge cases in quiz selection`
+  - `refactor: extract answer shuffling logic`
 
 ## Plan Mode
 
