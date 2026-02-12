@@ -8,7 +8,14 @@ import { STORAGE_KEY_RESULT } from "@/lib/quiz";
 function getStoredResult(): { score: number; total: number; category: string | null } | null {
   if (typeof window === "undefined") return null;
   const stored = localStorage.getItem(STORAGE_KEY_RESULT);
-  return stored ? JSON.parse(stored) : null;
+  if (!stored) return null;
+
+  try {
+    return JSON.parse(stored);
+  } catch {
+    localStorage.removeItem(STORAGE_KEY_RESULT);
+    return null;
+  }
 }
 
 export default function ResultsPage() {
