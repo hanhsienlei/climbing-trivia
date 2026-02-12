@@ -9,12 +9,81 @@ import type { Question } from "../src/types";
 const OUTPUT_PATH = resolve(__dirname, "../src/data/questions.json");
 const BATCH_SIZE = 20;
 const TOTAL_QUESTIONS = 50;
+const MAX_RETRIES = 3;
+
+const VALID_CATEGORIES = [
+  "Bouldering",
+  "Rope Climbing",
+  "Australia",
+  "General Knowledge",
+  "Competition",
+] as const;
+
+interface ValidationResult {
+  isValid: boolean;
+  errors: string[];
+}
+
+function validateQuestion(q: unknown): ValidationResult {
+  const errors: string[] = [];
+
+  if (typeof q !== "object" || q === null) {
+    return { isValid: false, errors: ["Not an object"] };
+  }
+
+  const obj = q as Record<string, unknown>;
+
+  if (typeof obj.question !== "string" || obj.question.trim() === "") {
+    errors.push("Missing or empty question");
+  }
+
+  if (
+    typeof obj.category !== "string" ||
+    !VALID_CATEGORIES.includes(obj.category as (typeof VALID_CATEGORIES)[number])
+  ) {
+    errors.push(`Invalid category: "${String(obj.category)}"`);
+  }
+
+  if (typeof obj.correctAnswer !== "string" || obj.correctAnswer.trim() === "") {
+    errors.push("Missing or empty correctAnswer");
+  }
+
+  if (!Array.isArray(obj.wrongAnswers) || obj.wrongAnswers.length !== 3) {
+    errors.push(
+      `wrongAnswers must be an array of 3 (got ${Array.isArray(obj.wrongAnswers) ? obj.wrongAnswers.length : typeof obj.wrongAnswers})`,
+    );
+  } else {
+    for (let i = 0; i < obj.wrongAnswers.length; i++) {
+      if (
+        typeof obj.wrongAnswers[i] !== "string" ||
+        (obj.wrongAnswers[i] as string).trim() === ""
+      ) {
+        errors.push(`wrongAnswers[${i}] is missing or empty`);
+      }
+    }
+
+    const uniqueWrong = new Set(obj.wrongAnswers as string[]);
+    if (uniqueWrong.size !== 3) {
+      errors.push("wrongAnswers contains duplicates");
+    }
+
+    if (typeof obj.correctAnswer === "string" && uniqueWrong.has(obj.correctAnswer)) {
+      errors.push("correctAnswer appears in wrongAnswers");
+    }
+  }
+
+  if (typeof obj.explanation !== "string" || obj.explanation.trim() === "") {
+    errors.push("Missing or empty explanation");
+  }
+
+  return { isValid: errors.length === 0, errors };
+}
 
 async function generateBatch(
   client: Anthropic,
   count: number,
   existingQuestions: string[],
-): Promise<Omit<Question, "id">[]> {
+): Promise<unknown[]> {
   const avoidList =
     existingQuestions.length > 0
       ? `\n\nDo NOT repeat any of these existing questions:\n${existingQuestions.map((q) => `- ${q}`).join("\n")}`
@@ -41,7 +110,7 @@ Cover a mix of these topics:
 - General rock climbing and bouldering trivia (sport, trad, bouldering, deep water solo)
 - Famous routes and boulder problems worldwide
 
-Each question must be assigned one of these 5 categories: "Bouldering", "Rope Climbing", "Australia", "General Climbing Knowledge", "Competition & Olympics". Distribute questions roughly evenly across all 5 categories.
+Each question must be assigned one of these ${VALID_CATEGORIES.length} categories: ${VALID_CATEGORIES.map((c) => `"${c}"`).join(", ")}. Distribute questions roughly evenly across all ${VALID_CATEGORIES.length} categories.
 
 Each question should have exactly 1 correct answer and 3 plausible but incorrect answers. Make the questions challenging but fair — suitable for a pub quiz night at a climbing gym.
 
@@ -50,7 +119,7 @@ For each question, also include a brief explanation (2-3 sentences) of why the c
 Respond with ONLY a JSON array, no other text. Each element should have this shape:
 {
   "question": "the question text",
-  "category": "one of: Bouldering, Rope Climbing, Australia, General Knowledge, Competition",
+  "category": "one of: ${VALID_CATEGORIES.join(", ")}",
   "correctAnswer": "the correct answer",
   "wrongAnswers": ["wrong1", "wrong2", "wrong3"],
   "explanation": "brief explanation of the correct answer"
@@ -91,26 +160,51 @@ async function main() {
   console.log(`Generating ${remaining} new questions...`);
 
   let generated = 0;
+  let retries = 0;
   while (generated < remaining) {
     const batchSize = Math.min(BATCH_SIZE, remaining - generated);
     console.log(`  Generating batch of ${batchSize}...`);
 
     const batch = await generateBatch(client, batchSize, existingTexts);
 
+    let validCount = 0;
     for (const q of batch) {
+      const { isValid, errors } = validateQuestion(q);
+      if (!isValid) {
+        console.warn(`  Skipping invalid question: ${errors.join("; ")}`);
+        continue;
+      }
+
+      const typed = q as Omit<Question, "id">;
       allQuestions.push({
         id: nextId++,
-        question: q.question,
-        category: q.category,
-        correctAnswer: q.correctAnswer,
-        wrongAnswers: q.wrongAnswers,
-        explanation: q.explanation,
+        question: typed.question,
+        category: typed.category,
+        correctAnswer: typed.correctAnswer,
+        wrongAnswers: typed.wrongAnswers,
+        explanation: typed.explanation,
       });
-      existingTexts.push(q.question);
+      existingTexts.push(typed.question);
+      validCount++;
     }
 
-    generated += batch.length;
-    console.log(`  Got ${batch.length} questions. Total: ${allQuestions.length}`);
+    generated += validCount;
+    console.log(
+      `  Got ${validCount}/${batch.length} valid questions. Total: ${allQuestions.length}`,
+    );
+
+    if (validCount === 0) {
+      retries++;
+      if (retries >= MAX_RETRIES) {
+        console.error(
+          `  Failed to get valid questions after ${MAX_RETRIES} consecutive retries. Stopping.`,
+        );
+        break;
+      }
+      console.warn(`  No valid questions in batch. Retrying (${retries}/${MAX_RETRIES})...`);
+    } else {
+      retries = 0;
+    }
   }
 
   writeFileSync(OUTPUT_PATH, JSON.stringify(allQuestions, null, 2));
