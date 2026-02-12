@@ -51,8 +51,8 @@ Respond with ONLY a JSON array, no other text. Each element should have this sha
 {
   "question": "the question text",
   "category": "one of: Bouldering, Rope Climbing, Australia, General Knowledge, Competition",
-  "correct_answer": "the correct answer",
-  "wrong_answers": ["wrong1", "wrong2", "wrong3"],
+  "correctAnswer": "the correct answer",
+  "wrongAnswers": ["wrong1", "wrong2", "wrong3"],
   "explanation": "brief explanation of the correct answer"
 }`,
       },
@@ -102,8 +102,8 @@ async function main() {
         id: nextId++,
         question: q.question,
         category: q.category,
-        correct_answer: q.correct_answer,
-        wrong_answers: q.wrong_answers,
+        correctAnswer: q.correctAnswer,
+        wrongAnswers: q.wrongAnswers,
         explanation: q.explanation,
       });
       existingTexts.push(q.question);

@@ -36,7 +36,7 @@ function QuizContent() {
   const shuffledAnswers = useMemo(() => {
     if (currentIndex < questions.length) {
       const q = questions[currentIndex];
-      return shuffleArray([q.correct_answer, ...q.wrong_answers]);
+      return shuffleArray([q.correctAnswer, ...q.wrongAnswers]);
     }
     return [];
   }, [questions, currentIndex]);
@@ -108,7 +108,7 @@ function QuizContent() {
       <QuestionCard
         question={currentQuestion.question}
         answers={shuffledAnswers}
-        correctAnswer={currentQuestion.correct_answer}
+        correctAnswer={currentQuestion.correctAnswer}
         onAnswer={handleAnswer}
         disabled={answered}
       />

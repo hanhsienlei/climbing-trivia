@@ -28,21 +28,46 @@ Climbing Trivia — a Next.js quiz app about rock climbing.
 - `src/types.ts` — shared TypeScript interfaces
 - `src/lib/` — shared logic (quiz.ts)
 - `src/data/questions.json` — trivia question bank
-- `src/__tests__/` — test files
 - `scripts/` — generation scripts (excluded from tsconfig type-checking)
 
 ## Code Style
 
 - TypeScript everywhere — no `any` type, no exceptions
 - 2-space indentation
-- Components/types/interfaces: PascalCase (`QuestionCard.tsx`)
-- Functions/variables: camelCase
-- Pages/routes: lowercase directories (`quiz/`, `results/`)
-- Test files: kebab-case `<name>.test.ts` in `src/__tests__/`
+
+### Naming Conventions
+
+| Construct                | Convention                                       | Example                             |
+| ------------------------ | ------------------------------------------------ | ----------------------------------- |
+| Components (name + file) | PascalCase                                       | `QuestionCard` / `QuestionCard.tsx` |
+| Hooks (name + file)      | camelCase, `use` prefix                          | `useQuiz` / `useQuiz.ts`            |
+| Utility files            | camelCase                                        | `quiz.ts`, `formatDate.ts`          |
+| Type/Interface files     | camelCase                                        | `types.ts`                          |
+| Directories              | lowercase / kebab-case                           | `components/`, `lib/`               |
+| Route files              | Next.js mandated                                 | `page.tsx`, `layout.tsx`            |
+| Interfaces/Types         | PascalCase, no `I` prefix                        | `Question`, `QuestionCardProps`     |
+| Props interfaces         | PascalCase + `Props` suffix                      | `ScoreSummaryProps`                 |
+| Functions/variables      | camelCase                                        | `shuffleArray`, `currentIndex`      |
+| Module-level constants   | CONSTANT_CASE                                    | `QUIZ_SIZE`, `STORAGE_KEY_RESULT`   |
+| Local `const` values     | camelCase                                        | `const quizSize = 5`                |
+| Object properties        | camelCase                                        | `correctAnswer`, `wrongAnswers`     |
+| Event handler props      | `on` prefix                                      | `onAnswer`, `onClick`               |
+| Event handler impl       | `handle` prefix                                  | `handleAnswer`, `handleNext`        |
+| Boolean vars/props       | `is`/`has`/`should` prefix where it aids clarity | `isCorrect`, `hasError`             |
+| Abbreviations            | Treat as whole words                             | `loadHttpUrl` not `loadHTTPURL`     |
+| Enums                    | PascalCase name, CONSTANT_CASE values            | `enum Color { RED, BLUE }`          |
+
+### Test Conventions
+
+| Convention      | Rule                              | Example                                            |
+| --------------- | --------------------------------- | -------------------------------------------------- |
+| File naming     | Match source file + `.test.ts(x)` | `quiz.test.ts` for `quiz.ts`                       |
+| Location        | Co-located next to source file    | `src/lib/quiz.test.ts` next to `src/lib/quiz.ts`   |
+| Component tests | PascalCase matching component     | `QuestionCard.test.tsx` next to `QuestionCard.tsx` |
 
 ## Architecture Notes
 
-- New components must have corresponding tests in `src/__tests__/`
+- New components must have corresponding co-located tests
 
 ## Commit Messages
 
