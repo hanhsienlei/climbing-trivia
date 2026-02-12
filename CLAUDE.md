@@ -16,14 +16,20 @@ Climbing Trivia — a Next.js quiz app about rock climbing.
 - `npm run lint` — run ESLint
 - `npm test` — run Vitest tests
 - `npm run generate` — generate trivia questions with Claude
+- `npm run format` — apply Prettier formatting
+- `npm run format:check` — verify formatting only
+- `npm run type-check` — TypeScript type checking
+- `npm run test:coverage` — tests with coverage report
 
 ## Project Structure
 
 - `src/app/` — Next.js pages (quiz/, results/, questions/)
 - `src/components/` — React components (QuestionCard, Explanation, ScoreSummary)
+- `src/types.ts` — shared TypeScript interfaces
+- `src/lib/` — shared logic (quiz.ts)
 - `src/data/questions.json` — trivia question bank
 - `src/__tests__/` — test files
-- `scripts/` — generation scripts
+- `scripts/` — generation scripts (excluded from tsconfig type-checking)
 
 ## Code Style
 

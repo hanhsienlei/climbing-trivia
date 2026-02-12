@@ -3,10 +3,11 @@
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import ScoreSummary from "@/components/ScoreSummary";
+import { STORAGE_KEY_RESULT } from "@/lib/quiz";
 
 function getStoredResult(): { score: number; total: number; category: string | null } | null {
   if (typeof window === "undefined") return null;
-  const stored = localStorage.getItem("quizResult");
+  const stored = localStorage.getItem(STORAGE_KEY_RESULT);
   return stored ? JSON.parse(stored) : null;
 }
 

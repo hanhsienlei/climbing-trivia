@@ -4,19 +4,11 @@ config({ path: ".env.local" });
 import Anthropic from "@anthropic-ai/sdk";
 import { readFileSync, writeFileSync, existsSync } from "fs";
 import { resolve } from "path";
+import type { Question } from "../src/types";
 
 const OUTPUT_PATH = resolve(__dirname, "../src/data/questions.json");
 const BATCH_SIZE = 20;
 const TOTAL_QUESTIONS = 50;
-
-interface Question {
-  id: number;
-  question: string;
-  category: string;
-  correct_answer: string;
-  wrong_answers: string[];
-  explanation: string;
-}
 
 async function generateBatch(
   client: Anthropic,

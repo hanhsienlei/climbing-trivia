@@ -1,4 +1,6 @@
 import { describe, it, expect, beforeEach } from "vitest";
+import type { Question } from "@/types";
+import { shuffleArray, getSeenIds, selectQuestions, STORAGE_KEY_RESULT } from "@/lib/quiz";
 
 // Mock localStorage
 const localStorageMock = (() => {
@@ -15,49 +17,7 @@ const localStorageMock = (() => {
 })();
 
 Object.defineProperty(global, "localStorage", { value: localStorageMock });
-
-// Helper functions (same as in quiz/page.tsx)
-function getSeenIds(): number[] {
-  const stored = localStorage.getItem("seenQuestionIds");
-  return stored ? JSON.parse(stored) : [];
-}
-
-function saveSeenIds(ids: number[]) {
-  localStorage.setItem("seenQuestionIds", JSON.stringify(ids));
-}
-
-function shuffleArray<T>(array: T[]): T[] {
-  const shuffled = [...array];
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-  }
-  return shuffled;
-}
-
-interface Question {
-  id: number;
-  question: string;
-}
-
-function selectQuizQuestions(allQuestions: Question[], quizSize: number): Question[] {
-  const seenIds = new Set(getSeenIds());
-  let fresh = allQuestions.filter((q) => !seenIds.has(q.id));
-
-  // If not enough fresh questions, reset and use all
-  if (fresh.length < quizSize) {
-    saveSeenIds([]);
-    fresh = allQuestions;
-  }
-
-  const selected = shuffleArray(fresh).slice(0, quizSize);
-
-  // Add selected to seen list
-  const newSeenIds = [...getSeenIds(), ...selected.map((q) => q.id)];
-  saveSeenIds(newSeenIds);
-
-  return selected;
-}
+Object.defineProperty(global, "window", { value: {} });
 
 describe("Quiz question selection", () => {
   beforeEach(() => {
@@ -65,17 +25,17 @@ describe("Quiz question selection", () => {
   });
 
   it("should not repeat questions until all have been seen", () => {
-    const questions: Question[] = Array.from({ length: 20 }, (_, i) => ({
+    const questions = Array.from({ length: 20 }, (_, i) => ({
       id: i + 1,
       question: `Question ${i + 1}`,
-    }));
+    })) as Pick<Question, "id" | "question">[] as Question[];
     const quizSize = 5;
 
     const allSeenIds = new Set<number>();
 
     // First 4 quizzes should have no repeats (4 * 5 = 20 questions)
     for (let quiz = 0; quiz < 4; quiz++) {
-      const selected = selectQuizQuestions(questions, quizSize);
+      const selected = selectQuestions(questions, quizSize);
 
       expect(selected).toHaveLength(quizSize);
 
@@ -90,18 +50,18 @@ describe("Quiz question selection", () => {
   });
 
   it("should reset when not enough fresh questions remain", () => {
-    const questions: Question[] = Array.from({ length: 12 }, (_, i) => ({
+    const questions = Array.from({ length: 12 }, (_, i) => ({
       id: i + 1,
       question: `Question ${i + 1}`,
-    }));
+    })) as Pick<Question, "id" | "question">[] as Question[];
     const quizSize = 5;
 
     // First quiz: 5 questions seen
-    const quiz1 = selectQuizQuestions(questions, quizSize);
+    const quiz1 = selectQuestions(questions, quizSize);
     expect(quiz1).toHaveLength(5);
 
     // Second quiz: 5 more questions seen (10 total)
-    const quiz2 = selectQuizQuestions(questions, quizSize);
+    const quiz2 = selectQuestions(questions, quizSize);
     expect(quiz2).toHaveLength(5);
 
     // Verify no overlap between quiz 1 and 2
@@ -112,7 +72,7 @@ describe("Quiz question selection", () => {
     }
 
     // Third quiz: only 2 fresh questions remain, should reset
-    const quiz3 = selectQuizQuestions(questions, quizSize);
+    const quiz3 = selectQuestions(questions, quizSize);
     expect(quiz3).toHaveLength(5);
 
     // seenIds should now only have quiz3's questions (reset happened)
@@ -121,13 +81,13 @@ describe("Quiz question selection", () => {
   });
 
   it("should return all questions when pool is smaller than quiz size", () => {
-    const questions: Question[] = Array.from({ length: 3 }, (_, i) => ({
+    const questions = Array.from({ length: 3 }, (_, i) => ({
       id: i + 1,
       question: `Question ${i + 1}`,
-    }));
+    })) as Pick<Question, "id" | "question">[] as Question[];
     const quizSize = 5;
 
-    const selected = selectQuizQuestions(questions, quizSize);
+    const selected = selectQuestions(questions, quizSize);
     expect(selected).toHaveLength(3);
   });
 
@@ -147,11 +107,11 @@ describe("Quiz result category persistence", () => {
   });
 
   function saveQuizResult(score: number, total: number, category: string | null) {
-    localStorage.setItem("quizResult", JSON.stringify({ score, total, category }));
+    localStorage.setItem(STORAGE_KEY_RESULT, JSON.stringify({ score, total, category }));
   }
 
   function getQuizResult(): { score: number; total: number; category: string | null } | null {
-    const stored = localStorage.getItem("quizResult");
+    const stored = localStorage.getItem(STORAGE_KEY_RESULT);
     return stored ? JSON.parse(stored) : null;
   }
 

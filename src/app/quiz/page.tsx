@@ -4,27 +4,9 @@ import { Suspense, useState, useMemo } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import QuestionCard from "@/components/QuestionCard";
 import Explanation from "@/components/Explanation";
+import type { Question } from "@/types";
+import { shuffleArray, selectQuestions, QUIZ_SIZE, STORAGE_KEY_RESULT } from "@/lib/quiz";
 import allQuestions from "@/data/questions.json";
-
-interface Question {
-  id: number;
-  question: string;
-  category: string;
-  correct_answer: string;
-  wrong_answers: string[];
-  explanation: string;
-}
-
-function shuffleArray<T>(array: T[]): T[] {
-  const shuffled = [...array];
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-  }
-  return shuffled;
-}
-
-const QUIZ_SIZE = 10;
 
 export default function QuizPage() {
   return (
@@ -34,44 +16,17 @@ export default function QuizPage() {
   );
 }
 
-function getSeenIds(): number[] {
-  if (typeof window === "undefined") return [];
-  const stored = localStorage.getItem("seenQuestionIds");
-  return stored ? JSON.parse(stored) : [];
-}
-
-function saveSeenIds(ids: number[]) {
-  localStorage.setItem("seenQuestionIds", JSON.stringify(ids));
-}
-
 function QuizContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const category = searchParams.get("category");
 
   const questions = useMemo(() => {
-    const seenIds = new Set(getSeenIds());
-
     const pool = category
       ? (allQuestions as Question[]).filter((q) => q.category === category)
       : (allQuestions as Question[]);
 
-    // Filter out seen questions
-    let fresh = pool.filter((q) => !seenIds.has(q.id));
-
-    // If not enough fresh questions, reset and use all
-    if (fresh.length < QUIZ_SIZE) {
-      saveSeenIds([]);
-      fresh = pool;
-    }
-
-    const selected = shuffleArray(fresh).slice(0, QUIZ_SIZE);
-
-    // Add selected to seen list
-    const newSeenIds = [...getSeenIds(), ...selected.map((q) => q.id)];
-    saveSeenIds(newSeenIds);
-
-    return selected;
+    return selectQuestions(pool, QUIZ_SIZE);
   }, [category]);
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -86,7 +41,7 @@ function QuizContent() {
     return [];
   }, [questions, currentIndex]);
 
-  function handleAnswer(answer: string, isCorrect: boolean) {
+  function handleAnswer(_answer: string, isCorrect: boolean) {
     setAnswered(true);
     if (isCorrect) {
       setScore((s) => s + 1);
@@ -99,7 +54,7 @@ function QuizContent() {
     const nextIndex = currentIndex + 1;
     if (nextIndex >= questions.length) {
       localStorage.setItem(
-        "quizResult",
+        STORAGE_KEY_RESULT,
         JSON.stringify({ score: score, total: questions.length, category: category || null }),
       );
       router.push("/results");
@@ -158,7 +113,7 @@ function QuizContent() {
         disabled={answered}
       />
 
-      <Explanation explanation={explanation} loading={false} />
+      <Explanation explanation={explanation} />
 
       {answered && (
         <button

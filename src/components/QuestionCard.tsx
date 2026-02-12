@@ -44,9 +44,9 @@ export default function QuestionCard({
     <div className="w-full max-w-2xl">
       <h2 className="mb-6 text-xl font-semibold text-zinc-900 dark:text-zinc-50">{question}</h2>
       <div className="flex flex-col gap-3">
-        {answers.map((answer, i) => (
+        {answers.map((answer) => (
           <button
-            key={i}
+            key={answer}
             onClick={() => handleSelect(answer)}
             disabled={disabled}
             className={`w-full rounded-lg border-2 px-4 py-3 text-left text-base transition-colors ${getButtonStyle(answer)} ${disabled ? "cursor-default" : "cursor-pointer"}`}

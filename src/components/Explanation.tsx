@@ -2,18 +2,9 @@
 
 interface ExplanationProps {
   explanation: string | null;
-  loading: boolean;
 }
 
-export default function Explanation({ explanation, loading }: ExplanationProps) {
-  if (loading) {
-    return (
-      <div className="mt-4 w-full max-w-2xl rounded-lg border border-amber-200 bg-amber-50 p-4 dark:border-amber-800 dark:bg-amber-900/20">
-        <p className="text-amber-800 dark:text-amber-300">Loading explanation...</p>
-      </div>
-    );
-  }
-
+export default function Explanation({ explanation }: ExplanationProps) {
   if (!explanation) return null;
 
   return (
