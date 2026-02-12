@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach, afterEach } from "vitest";
+import { describe, it, expect, beforeEach } from "vitest";
 
 // Mock localStorage
 const localStorageMock = (() => {
@@ -147,10 +147,7 @@ describe("Quiz result category persistence", () => {
   });
 
   function saveQuizResult(score: number, total: number, category: string | null) {
-    localStorage.setItem(
-      "quizResult",
-      JSON.stringify({ score, total, category })
-    );
+    localStorage.setItem("quizResult", JSON.stringify({ score, total, category }));
   }
 
   function getQuizResult(): { score: number; total: number; category: string | null } | null {

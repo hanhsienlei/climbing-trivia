@@ -66,9 +66,7 @@ export default function QuestionsPage() {
               className="rounded-lg border border-zinc-200 bg-white p-4 dark:border-zinc-700 dark:bg-zinc-900"
             >
               <button
-                onClick={() =>
-                  setExpandedId(expandedId === q.id ? null : q.id)
-                }
+                onClick={() => setExpandedId(expandedId === q.id ? null : q.id)}
                 className="w-full text-left cursor-pointer"
               >
                 <div className="flex items-start gap-3">
@@ -92,9 +90,7 @@ export default function QuestionsPage() {
                     <span className="font-semibold text-green-700 dark:text-green-400">
                       Answer:{" "}
                     </span>
-                    <span className="text-zinc-800 dark:text-zinc-200">
-                      {q.correct_answer}
-                    </span>
+                    <span className="text-zinc-800 dark:text-zinc-200">{q.correct_answer}</span>
                   </p>
                   <div className="mt-2 rounded border border-blue-200 bg-blue-50 p-3 text-sm text-blue-800 dark:border-blue-800 dark:bg-blue-900/20 dark:text-blue-200">
                     {q.explanation}

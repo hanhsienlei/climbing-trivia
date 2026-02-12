@@ -4,71 +4,43 @@
     "category": "bouldering",
     "question": "Burden of Dreams (V17/9A) is located in which country?",
     "correct_answer": "Finland",
-    "wrong_answers": [
-      "Sweden",
-      "Norway",
-      "Switzerland"
-    ],
+    "wrong_answers": ["Sweden", "Norway", "Switzerland"],
     "explanation": "Burden of Dreams is a 9A (V17) boulder at Lappnor near Loviisa in Finland, first climbed by Nalle Hukkataival in 2016.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Burden_of_Dreams_(climb)"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Burden_of_Dreams_(climb)"]
   },
   {
     "id": 2,
     "category": "bouldering",
     "question": "Which climber made the first ascent of Burden of Dreams (V17/9A)?",
     "correct_answer": "Nalle Hukkataival",
-    "wrong_answers": [
-      "Jimmy Webb",
-      "Daniel Woods",
-      "Will Bosi"
-    ],
+    "wrong_answers": ["Jimmy Webb", "Daniel Woods", "Will Bosi"],
     "explanation": "The first ascent of Burden of Dreams was by Finnish climber Nalle Hukkataival (23 Oct 2016).",
-    "references": [
-      "https://en.wikipedia.org/wiki/Burden_of_Dreams_(climb)"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Burden_of_Dreams_(climb)"]
   },
   {
     "id": 3,
     "category": "bouldering",
     "question": "The iconic boulder problem 'Midnight Lightning' in Yosemite was first climbed by whom?",
     "correct_answer": "Ron Kauk",
-    "wrong_answers": [
-      "John Bachar",
-      "Jim Holloway",
-      "John Sherman"
-    ],
+    "wrong_answers": ["John Bachar", "Jim Holloway", "John Sherman"],
     "explanation": "Ron Kauk made the first ascent of Midnight Lightning on the Columbia Boulder in 1978.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Midnight_Lightning_(climb)"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Midnight_Lightning_(climb)"]
   },
   {
     "id": 4,
     "category": "bouldering",
     "question": "Where is the bouldering area 'Cresciano' (home to Dreamtime and Evolution) located?",
     "correct_answer": "Switzerland",
-    "wrong_answers": [
-      "Austria",
-      "Italy",
-      "France"
-    ],
+    "wrong_answers": ["Austria", "Italy", "France"],
     "explanation": "Cresciano is a major granite bouldering destination in Switzerland, associated with several benchmark hard problems.",
-    "references": [
-      "https://www.mountainproject.com/area/105843000/cresciano"
-    ]
+    "references": ["https://www.mountainproject.com/area/105843000/cresciano"]
   },
   {
     "id": 5,
     "category": "bouldering",
     "question": "Which bouldering grade system uses labels like 7A+, 7C, and 8A?",
     "correct_answer": "Fontainebleau (Font) scale",
-    "wrong_answers": [
-      "V-scale",
-      "Ewbank",
-      "UIAA"
-    ],
+    "wrong_answers": ["V-scale", "Ewbank", "UIAA"],
     "explanation": "The Fontainebleau system (Font) is widely used for bouldering and uses grades such as 7A+, 7C, and 8A.",
     "references": [
       "https://www.thecrag.com/en/article/grades",
@@ -80,45 +52,27 @@
     "category": "bouldering",
     "question": "In the V-scale, which grade is commonly used as the first 'double-digit' milestone for many boulderers?",
     "correct_answer": "V10",
-    "wrong_answers": [
-      "V6",
-      "V8",
-      "V12"
-    ],
+    "wrong_answers": ["V6", "V8", "V12"],
     "explanation": "V10 is often treated informally as a major milestone because it’s the first two-digit V-grade; the V-scale is widely used in North America.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Grade_(climbing)"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Grade_(climbing)"]
   },
   {
     "id": 7,
     "category": "bouldering",
     "question": "Which term describes a boulder problem where a fall could be especially serious due to height (even with pads)?",
     "correct_answer": "Highball",
-    "wrong_answers": [
-      "Traverse",
-      "Eliminate",
-      "Slab"
-    ],
+    "wrong_answers": ["Traverse", "Eliminate", "Slab"],
     "explanation": "Highball bouldering refers to tall problems where a fall can have serious consequences even with crash pads.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Bouldering"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Bouldering"]
   },
   {
     "id": 8,
     "category": "bouldering",
     "question": "Mandala (V12) is most famously associated with which area?",
     "correct_answer": "Bishop (Buttermilks), California",
-    "wrong_answers": [
-      "Hueco Tanks, Texas",
-      "Fontainebleau, France",
-      "Rocklands, South Africa"
-    ],
+    "wrong_answers": ["Hueco Tanks, Texas", "Fontainebleau, France", "Rocklands, South Africa"],
     "explanation": "Mandala is a famous Bishop-area problem in the Buttermilks, commonly listed as V12.",
-    "references": [
-      "https://www.mountainproject.com/route/105843295/mandala"
-    ]
+    "references": ["https://www.mountainproject.com/route/105843295/mandala"]
   },
   {
     "id": 9,
@@ -131,24 +85,16 @@
       "Reaching the final marked hold only"
     ],
     "explanation": "Top-out means completing the problem by physically getting on top (common outdoors; comps may finish on a top hold).",
-    "references": [
-      "https://en.wikipedia.org/wiki/Bouldering"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Bouldering"]
   },
   {
     "id": 10,
     "category": "bouldering",
     "question": "Which grip position is most associated with pulling on a hold using the thumb over the index finger for extra leverage?",
     "correct_answer": "Full crimp",
-    "wrong_answers": [
-      "Open hand",
-      "Pinch",
-      "Undercling"
-    ],
+    "wrong_answers": ["Open hand", "Pinch", "Undercling"],
     "explanation": "A full crimp typically involves the thumb wrapping over the index finger to increase purchase (and load) on small edges.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Climbing_technique"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Climbing_technique"]
   },
   {
     "id": 11,
@@ -161,24 +107,16 @@
       "Long slow distance running"
     ],
     "explanation": "Hangboards are commonly used for finger strength; max-hang protocols target maximal finger force production.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Hangboard"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Hangboard"]
   },
   {
     "id": 12,
     "category": "bouldering",
     "question": "Which technique uses the heel to create pulling tension—often to keep the hips close on steep terrain?",
     "correct_answer": "Heel hook",
-    "wrong_answers": [
-      "Backstep",
-      "Smearing",
-      "Mantle"
-    ],
+    "wrong_answers": ["Backstep", "Smearing", "Mantle"],
     "explanation": "Heel hooking uses the heel as an active hold to generate pulling force and body tension, especially on steep climbs.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Climbing_technique"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Climbing_technique"]
   },
   {
     "id": 13,
@@ -191,35 +129,23 @@
       "A rope technique for lead climbing"
     ],
     "explanation": "In climbing slang, beta is advice or information about the sequence, body positions, or tactics for a climb.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Beta_(climbing)"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Beta_(climbing)"]
   },
   {
     "id": 14,
     "category": "bouldering",
     "question": "Which item is most characteristic of bouldering gear (vs roped climbing)?",
     "correct_answer": "Crash pad",
-    "wrong_answers": [
-      "Quickdraw",
-      "Camming device",
-      "Grigri"
-    ],
+    "wrong_answers": ["Quickdraw", "Camming device", "Grigri"],
     "explanation": "Bouldering typically uses crash pads for fall protection rather than ropes and hardware.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Bouldering"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Bouldering"]
   },
   {
     "id": 15,
     "category": "bouldering",
     "question": "Which climber is most associated with the iconic documentary 'Free Solo' (though it’s not bouldering)?",
     "correct_answer": "Alex Honnold",
-    "wrong_answers": [
-      "Tommy Caldwell",
-      "Chris Sharma",
-      "Wolfgang Güllich"
-    ],
+    "wrong_answers": ["Tommy Caldwell", "Chris Sharma", "Wolfgang Güllich"],
     "explanation": "Free Solo documents Alex Honnold’s rope-free ascent of El Capitan’s Freerider.",
     "references": [
       "https://en.wikipedia.org/wiki/Free_Solo",
@@ -246,26 +172,16 @@
     "category": "bouldering",
     "question": "Which surface typically provides the *least* friction for smearing when wet?",
     "correct_answer": "Polished limestone",
-    "wrong_answers": [
-      "Rough granite",
-      "Coarse sandstone",
-      "Clean quartzite"
-    ],
+    "wrong_answers": ["Rough granite", "Coarse sandstone", "Clean quartzite"],
     "explanation": "Polished limestone can become especially slick when wet; friction depends on rock texture and moisture.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Rock_climbing"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Rock_climbing"]
   },
   {
     "id": 18,
     "category": "bouldering",
     "question": "Which term describes climbing a boulder problem from the first try with no prior information or watching others?",
     "correct_answer": "Onsight",
-    "wrong_answers": [
-      "Flash",
-      "Redpoint",
-      "Pinkpoint"
-    ],
+    "wrong_answers": ["Flash", "Redpoint", "Pinkpoint"],
     "explanation": "Onsight means first try with no prior information; flash allows prior information, redpoint allows attempts.",
     "references": [
       "https://en.wikipedia.org/wiki/Onsight",
@@ -277,41 +193,25 @@
     "category": "bouldering",
     "question": "Which bouldering destination is famous for orange sandstone blocs and a winter season in the Southern Hemisphere?",
     "correct_answer": "Rocklands, South Africa",
-    "wrong_answers": [
-      "Squamish, Canada",
-      "Magic Wood, Switzerland",
-      "Hueco Tanks, USA"
-    ],
+    "wrong_answers": ["Squamish, Canada", "Magic Wood, Switzerland", "Hueco Tanks, USA"],
     "explanation": "Rocklands (Cederberg, South Africa) is a renowned sandstone bouldering destination popular in the Southern Hemisphere winter.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Rocklands_(bouldering)"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Rocklands_(bouldering)"]
   },
   {
     "id": 20,
     "category": "bouldering",
     "question": "The term 'campusing' most specifically refers to training on which type of apparatus?",
     "correct_answer": "Campus board",
-    "wrong_answers": [
-      "Hangboard",
-      "Moonboard",
-      "Treadwall"
-    ],
+    "wrong_answers": ["Hangboard", "Moonboard", "Treadwall"],
     "explanation": "Campus board training uses rung ladders without feet (or minimal feet) to build power and contact strength.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Campus_board"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Campus_board"]
   },
   {
     "id": 21,
     "category": "rope climbing",
     "question": "Which ascent style means climbing a route cleanly after prior attempts and practice?",
     "correct_answer": "Redpoint",
-    "wrong_answers": [
-      "Onsight",
-      "Flash",
-      "Aid"
-    ],
+    "wrong_answers": ["Onsight", "Flash", "Aid"],
     "explanation": "A redpoint is a clean ascent after working the moves on previous attempts (unlike onsight/flash).",
     "references": [
       "https://en.wikipedia.org/wiki/Redpoint",
@@ -323,75 +223,45 @@
     "category": "rope climbing",
     "question": "Action Directe—often cited as the first consensus 9a—was first climbed by whom?",
     "correct_answer": "Wolfgang Güllich",
-    "wrong_answers": [
-      "Ben Moon",
-      "Chris Sharma",
-      "Adam Ondra"
-    ],
+    "wrong_answers": ["Ben Moon", "Chris Sharma", "Adam Ondra"],
     "explanation": "Wolfgang Güllich made the first ascent of Action Directe in 1991; it’s widely cited as the first consensus 9a.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Action_Directe_(climb)"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Action_Directe_(climb)"]
   },
   {
     "id": 23,
     "category": "rope climbing",
     "question": "In the French sport grade system, which grade is higher?",
     "correct_answer": "8a+",
-    "wrong_answers": [
-      "8a",
-      "7c+",
-      "7c"
-    ],
+    "wrong_answers": ["8a", "7c+", "7c"],
     "explanation": "In the French system, 8a+ is harder than 8a; plus signs indicate a step up within a number/letter grade.",
-    "references": [
-      "https://www.thecrag.com/en/article/grades"
-    ]
+    "references": ["https://www.thecrag.com/en/article/grades"]
   },
   {
     "id": 24,
     "category": "rope climbing",
     "question": "What does 'clean climbing' primarily refer to?",
     "correct_answer": "Using removable protection that avoids damaging the rock",
-    "wrong_answers": [
-      "Climbing without chalk",
-      "Top-roping only",
-      "Using only indoor walls"
-    ],
+    "wrong_answers": ["Climbing without chalk", "Top-roping only", "Using only indoor walls"],
     "explanation": "Clean climbing emphasizes removable protection (nuts/cams) rather than pitons or altering rock.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Clean_climbing"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Clean_climbing"]
   },
   {
     "id": 25,
     "category": "rope climbing",
     "question": "Which piece of sport climbing equipment connects the rope to a bolt hanger?",
     "correct_answer": "Quickdraw",
-    "wrong_answers": [
-      "Nut tool",
-      "Belay plate",
-      "Prusik loop"
-    ],
+    "wrong_answers": ["Nut tool", "Belay plate", "Prusik loop"],
     "explanation": "Quickdraws clip into bolts and the rope, reducing rope drag and allowing progress.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Quickdraw"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Quickdraw"]
   },
   {
     "id": 26,
     "category": "rope climbing",
     "question": "Which trad protection device is spring-loaded and designed to cam against crack walls?",
     "correct_answer": "Spring-loaded camming device (SLCD)",
-    "wrong_answers": [
-      "Stopper (nut)",
-      "Pitons",
-      "Bolted hanger"
-    ],
+    "wrong_answers": ["Stopper (nut)", "Pitons", "Bolted hanger"],
     "explanation": "SLCDs (cams) use a camming mechanism to hold in cracks; they are removable protection.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Spring-loaded_camming_device"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Spring-loaded_camming_device"]
   },
   {
     "id": 27,
@@ -413,15 +283,9 @@
     "category": "rope climbing",
     "question": "Which knot is most commonly used to tie into a harness for climbing?",
     "correct_answer": "Figure-eight follow-through",
-    "wrong_answers": [
-      "Bowline on a bight",
-      "Square knot",
-      "Overhand on a bight"
-    ],
+    "wrong_answers": ["Bowline on a bight", "Square knot", "Overhand on a bight"],
     "explanation": "The figure-eight follow-through is the standard tie-in knot taught for climbing due to security and inspectability.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Figure-eight_knot"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Figure-eight_knot"]
   },
   {
     "id": 29,
@@ -434,39 +298,25 @@
       "The height above sea level"
     ],
     "explanation": "A pitch is one rope-length segment of a route, typically ending at a belay station.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Pitch_(climbing)"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Pitch_(climbing)"]
   },
   {
     "id": 30,
     "category": "rope climbing",
     "question": "Silence (proposed 9c) is located in which climbing area?",
     "correct_answer": "Hanshelleren Cave (Flatanger), Norway",
-    "wrong_answers": [
-      "Céüse, France",
-      "Frankenjura, Germany",
-      "Siurana, Spain"
-    ],
+    "wrong_answers": ["Céüse, France", "Frankenjura, Germany", "Siurana, Spain"],
     "explanation": "Silence (Project Hard) is a route in Hanshelleren Cave in Flatanger, Norway, first climbed by Adam Ondra in 2017.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Silence_(climb)"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Silence_(climb)"]
   },
   {
     "id": 31,
     "category": "rope climbing",
     "question": "Which device is best described as an assisted-braking belay device that uses a cam to help lock the rope?",
     "correct_answer": "Petzl GriGri",
-    "wrong_answers": [
-      "ATC",
-      "Figure 8 descender",
-      "Munter hitch"
-    ],
+    "wrong_answers": ["ATC", "Figure 8 descender", "Munter hitch"],
     "explanation": "The GriGri is an assisted-braking belay device; tube devices like an ATC rely more on belayer braking technique.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Petzl_Grigri"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Petzl_Grigri"]
   },
   {
     "id": 32,
@@ -479,9 +329,7 @@
       "Building a top-rope anchor from the ground"
     ],
     "explanation": "Rappelling (abseiling) is a rope descent technique from anchors or fixed points.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Abseiling"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Abseiling"]
   },
   {
     "id": 33,
@@ -494,39 +342,25 @@
       "Only top-rope is allowed"
     ],
     "explanation": "Sport routes are protected primarily by fixed bolts rather than leader-placed gear.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Sport_climbing"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Sport_climbing"]
   },
   {
     "id": 34,
     "category": "rope climbing",
     "question": "In trad climbing, what is a 'nut' (stopper)?",
     "correct_answer": "A passive wedge-shaped removable protection piece",
-    "wrong_answers": [
-      "A spring-loaded cam",
-      "A bolt hanger",
-      "A belay device"
-    ],
+    "wrong_answers": ["A spring-loaded cam", "A bolt hanger", "A belay device"],
     "explanation": "Stoppers (nuts) are passive protection placed in constrictions and removed afterward.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Nut_(climbing)"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Nut_(climbing)"]
   },
   {
     "id": 35,
     "category": "rope climbing",
     "question": "Which term describes clipping pre-placed quickdraws on a route (instead of carrying and placing them on lead)?",
     "correct_answer": "Pinkpoint",
-    "wrong_answers": [
-      "Onsight",
-      "Flash",
-      "Headpoint"
-    ],
+    "wrong_answers": ["Onsight", "Flash", "Headpoint"],
     "explanation": "A pinkpoint is a lead ascent with draws already in place (definitions vary by community).",
-    "references": [
-      "https://en.wikipedia.org/wiki/Redpoint"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Redpoint"]
   },
   {
     "id": 36,
@@ -539,20 +373,14 @@
       "Mark the start holds"
     ],
     "explanation": "Anchors create a secure system for belaying, lowering, or rappelling at the top of climbs.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Belaying"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Belaying"]
   },
   {
     "id": 37,
     "category": "rope climbing",
     "question": "Which famous multi-pitch free climb on El Capitan was free-soloed by Alex Honnold (documented in Free Solo)?",
     "correct_answer": "Freerider",
-    "wrong_answers": [
-      "The Nose",
-      "The Dawn Wall",
-      "Salathé Wall"
-    ],
+    "wrong_answers": ["The Nose", "The Dawn Wall", "Salathé Wall"],
     "explanation": "Honnold’s free solo was on Freerider on El Capitan; the film Free Solo documents this achievement.",
     "references": [
       "https://en.wikipedia.org/wiki/Freerider_(climb)",
@@ -570,35 +398,23 @@
       "Belaying someone else"
     ],
     "explanation": "Working a route involves rehearsing sequences through multiple attempts before a redpoint.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Redpoint"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Redpoint"]
   },
   {
     "id": 39,
     "category": "rope climbing",
     "question": "Which climbing style typically involves using ladders/aiders and weighting gear to progress upward?",
     "correct_answer": "Aid climbing",
-    "wrong_answers": [
-      "Free climbing",
-      "Bouldering",
-      "Deep water soloing"
-    ],
+    "wrong_answers": ["Free climbing", "Bouldering", "Deep water soloing"],
     "explanation": "Aid climbing uses equipment (aiders, etriers, etc.) to ascend by weighting gear rather than only holds.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Aid_climbing"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Aid_climbing"]
   },
   {
     "id": 40,
     "category": "rope climbing",
     "question": "The Dawn Wall is a famous route on which formation?",
     "correct_answer": "El Capitan (Yosemite Valley)",
-    "wrong_answers": [
-      "Half Dome (Yosemite)",
-      "Devils Tower (Wyoming)",
-      "Cerro Torre (Patagonia)"
-    ],
+    "wrong_answers": ["Half Dome (Yosemite)", "Devils Tower (Wyoming)", "Cerro Torre (Patagonia)"],
     "explanation": "The Dawn Wall is a line on El Capitan in Yosemite Valley; the first free ascent was completed in 2015.",
     "references": [
       "https://en.wikipedia.org/wiki/Dawn_Wall",
@@ -610,11 +426,7 @@
     "category": "Australia",
     "question": "Which Victorian climbing area is famous for Watchtower Crack and Taipan Wall?",
     "correct_answer": "Mount Arapiles",
-    "wrong_answers": [
-      "Mount Buffalo",
-      "Nowra",
-      "Frog Buttress"
-    ],
+    "wrong_answers": ["Mount Buffalo", "Nowra", "Frog Buttress"],
     "explanation": "Mount Arapiles is one of Australia’s premier trad areas, with classics like Watchtower Crack and the Taipan Wall sector.",
     "references": [
       "https://www.thecrag.com/en/climbing/australia/arapiles",
@@ -632,95 +444,59 @@
       "Bolts only used indoors"
     ],
     "explanation": "Carrot bolts are an older Australian bolt style where a removable hanger is placed over a protruding stud.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Bolt_(climbing)#Carrot_bolts"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Bolt_(climbing)#Carrot_bolts"]
   },
   {
     "id": 43,
     "category": "Australia",
     "question": "The Grampians are also officially dual-named with which Indigenous name?",
     "correct_answer": "Gariwerd",
-    "wrong_answers": [
-      "Uluru",
-      "Kata Tjuta",
-      "Warrumbungles"
-    ],
+    "wrong_answers": ["Uluru", "Kata Tjuta", "Warrumbungles"],
     "explanation": "The Grampians National Park is also known as Gariwerd, reflecting Indigenous heritage and naming.",
-    "references": [
-      "https://parks.vic.gov.au/places-to-see/parks/grampians-national-park"
-    ]
+    "references": ["https://parks.vic.gov.au/places-to-see/parks/grampians-national-park"]
   },
   {
     "id": 44,
     "category": "Australia",
     "question": "Which NSW area is especially known for steep limestone sport climbing above the ocean (cliffs around the Nowra region)?",
     "correct_answer": "Nowra",
-    "wrong_answers": [
-      "Blue Mountains",
-      "Arapiles",
-      "Frog Buttress"
-    ],
+    "wrong_answers": ["Blue Mountains", "Arapiles", "Frog Buttress"],
     "explanation": "Nowra (and surrounding coastal cliffs) is widely known for steep limestone sport climbing close to the sea.",
-    "references": [
-      "https://www.mountainproject.com/area/105913561/nowra"
-    ]
+    "references": ["https://www.mountainproject.com/area/105913561/nowra"]
   },
   {
     "id": 45,
     "category": "Australia",
     "question": "Which Queensland crag is a well-known destination for sport climbing on volcanic rock (rhyolite) near Brisbane?",
     "correct_answer": "Frog Buttress",
-    "wrong_answers": [
-      "Arapiles",
-      "Moonarie",
-      "Werribee Gorge"
-    ],
+    "wrong_answers": ["Arapiles", "Moonarie", "Werribee Gorge"],
     "explanation": "Frog Buttress (Queensland) is a popular sport climbing area on volcanic rock in the Scenic Rim region.",
-    "references": [
-      "https://www.mountainproject.com/area/106271954/frog-buttress"
-    ]
+    "references": ["https://www.mountainproject.com/area/106271954/frog-buttress"]
   },
   {
     "id": 46,
     "category": "Australia",
     "question": "Which organization is a national body coordinating climbing advocacy and representation in Australia?",
     "correct_answer": "Climbing Australia",
-    "wrong_answers": [
-      "Sport Australia",
-      "Australian Alpine Club",
-      "Parks Australia"
-    ],
+    "wrong_answers": ["Sport Australia", "Australian Alpine Club", "Parks Australia"],
     "explanation": "Climbing Australia is the national federation for sport climbing and a key national representative body in the climbing ecosystem.",
-    "references": [
-      "https://www.climbingaustralia.org.au"
-    ]
+    "references": ["https://www.climbingaustralia.org.au"]
   },
   {
     "id": 47,
     "category": "Australia",
     "question": "Which Victorian guideline/initiative is widely cited for climber stewardship (chalk, tracks, minimal fixed gear)?",
     "correct_answer": "Climbers Code of Conduct (CliffCare/VCC)",
-    "wrong_answers": [
-      "UIAA Ice Code",
-      "IFSC Rulebook",
-      "Leave No Trace for Boating"
-    ],
+    "wrong_answers": ["UIAA Ice Code", "IFSC Rulebook", "Leave No Trace for Boating"],
     "explanation": "Victoria-based climber stewardship guidance includes minimizing fixed gear and visual impacts like chalk.",
-    "references": [
-      "https://cliffcare.wordpress.com/about/education/climbers-code-of-conduct/"
-    ]
+    "references": ["https://cliffcare.wordpress.com/about/education/climbers-code-of-conduct/"]
   },
   {
     "id": 48,
     "category": "Australia",
     "question": "The Victorian Climbing Management Guidelines are published by which state body/association?",
     "correct_answer": "Australian Climbing Association (Victoria) (ACAV)",
-    "wrong_answers": [
-      "IFSC",
-      "IOC",
-      "Parks Canada"
-    ],
+    "wrong_answers": ["IFSC", "IOC", "Parks Canada"],
     "explanation": "The Victorian Climbing Management Guidelines are published by ACAV, an umbrella body supporting access and responsible climbing in Victoria.",
     "references": [
       "https://acav.climb.org.au/wp-content/uploads/2020/09/victorian-climbing-management-guidelines-v04.pdf"
@@ -731,11 +507,7 @@
     "category": "Australia",
     "question": "Which Australian grading system is open-ended and uses a single number (e.g., 18, 24, 32)?",
     "correct_answer": "Ewbank",
-    "wrong_answers": [
-      "YDS",
-      "UIAA",
-      "British adjectival"
-    ],
+    "wrong_answers": ["YDS", "UIAA", "British adjectival"],
     "explanation": "The Ewbank system (used widely in Australia) is numerical and open-ended.",
     "references": [
       "https://en.wikipedia.org/wiki/Ewbank_grading_system",
@@ -747,30 +519,18 @@
     "category": "Australia",
     "question": "Which area in WA is known for granite tors and dome-like formations (Porongurup Range)?",
     "correct_answer": "Porongurup Range",
-    "wrong_answers": [
-      "Cape Woolamai",
-      "Warrumbungles",
-      "Mount Coolum"
-    ],
+    "wrong_answers": ["Cape Woolamai", "Warrumbungles", "Mount Coolum"],
     "explanation": "Porongurup National Park features distinctive granite formations (tors) and is a known climbing destination in WA.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Porongurup_National_Park"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Porongurup_National_Park"]
   },
   {
     "id": 51,
     "category": "Australia",
     "question": "Which Victorian area is a famous bouldering venue with major granite blocs at high elevation (and a noted hard problem 'Sleepwalker')?",
     "correct_answer": "Mount Buffalo",
-    "wrong_answers": [
-      "The Gap (Blue Mountains)",
-      "Horseshoe Canyon (Grampians)",
-      "Werribee Gorge"
-    ],
+    "wrong_answers": ["The Gap (Blue Mountains)", "Horseshoe Canyon (Grampians)", "Werribee Gorge"],
     "explanation": "Mount Buffalo is a major Victorian granite bouldering area; it’s internationally known in bouldering media for very hard problems.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Mount_Buffalo_National_Park"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Mount_Buffalo_National_Park"]
   },
   {
     "id": 52,
@@ -793,11 +553,7 @@
     "category": "Australia",
     "question": "Which Victorian climbing area has had widely discussed access and cultural heritage considerations relating to Indigenous sites?",
     "correct_answer": "Mount Arapiles / Dyurrite",
-    "wrong_answers": [
-      "Mount Wellington",
-      "Cape Woolamai",
-      "Point Perpendicular"
-    ],
+    "wrong_answers": ["Mount Wellington", "Cape Woolamai", "Point Perpendicular"],
     "explanation": "Mount Arapiles (Dyurrite) has been the focus of ongoing discussions about climbing access and Indigenous cultural heritage protections.",
     "references": [
       "https://www.theguardian.com/australia-news/2025/nov/02/victorian-rock-climbers-urge-people-defy-ban-indigenous-sites"
@@ -808,30 +564,18 @@
     "category": "Australia",
     "question": "Which rock type is most associated with the Blue Mountains’ extensive cliff lines?",
     "correct_answer": "Sandstone",
-    "wrong_answers": [
-      "Granite",
-      "Limestone",
-      "Basalt"
-    ],
+    "wrong_answers": ["Granite", "Limestone", "Basalt"],
     "explanation": "The Blue Mountains are dominated by sandstone geology that forms the region’s famous cliff lines.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Blue_Mountains_(New_South_Wales)"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Blue_Mountains_(New_South_Wales)"]
   },
   {
     "id": 55,
     "category": "Australia",
     "question": "Which Victorian area is known for steep sport climbing in a cave and notable cultural heritage sensitivity (Hollow Mountain Cave)?",
     "correct_answer": "Grampians / Gariwerd",
-    "wrong_answers": [
-      "Arapiles",
-      "Frog Buttress",
-      "Moonarie"
-    ],
+    "wrong_answers": ["Arapiles", "Frog Buttress", "Moonarie"],
     "explanation": "Hollow Mountain Cave is in the Grampians (Gariwerd) and is known for steep sport routes; the park also contains significant Indigenous cultural sites.",
-    "references": [
-      "https://parks.vic.gov.au/places-to-see/parks/grampians-national-park"
-    ]
+    "references": ["https://parks.vic.gov.au/places-to-see/parks/grampians-national-park"]
   },
   {
     "id": 56,
@@ -844,39 +588,25 @@
       "Bolts replace all trad gear on classics"
     ],
     "explanation": "Bolting norms vary by area; many Australian communities emphasize minimal fixed gear and respecting established local ethics.",
-    "references": [
-      "https://cliffcare.wordpress.com/about/education/climbers-code-of-conduct/"
-    ]
+    "references": ["https://cliffcare.wordpress.com/about/education/climbers-code-of-conduct/"]
   },
   {
     "id": 57,
     "category": "Australia",
     "question": "Which resource is most likely to list current access notes, bans, and updates for Australian crags?",
     "correct_answer": "theCrag",
-    "wrong_answers": [
-      "IFSC athlete profiles",
-      "IOC schedule page",
-      "UIAA ice rules"
-    ],
+    "wrong_answers": ["IFSC athlete profiles", "IOC schedule page", "UIAA ice rules"],
     "explanation": "theCrag is widely used in Australia for route databases and access notes at crags.",
-    "references": [
-      "https://www.thecrag.com"
-    ]
+    "references": ["https://www.thecrag.com"]
   },
   {
     "id": 58,
     "category": "Australia",
     "question": "Which of these is a well-known Australian sea-cliff / coastal climbing region strongly associated with deep water soloing (DWS)?",
     "correct_answer": "Point Perpendicular (NSW)",
-    "wrong_answers": [
-      "Arapiles (VIC)",
-      "Mount Buffalo (VIC)",
-      "Frog Buttress (QLD)"
-    ],
+    "wrong_answers": ["Arapiles (VIC)", "Mount Buffalo (VIC)", "Frog Buttress (QLD)"],
     "explanation": "Point Perpendicular is known in Australian climbing for sea cliffs and DWS opportunities.",
-    "references": [
-      "https://www.mountainproject.com/area/106175300/point-perpendicular"
-    ]
+    "references": ["https://www.mountainproject.com/area/106175300/point-perpendicular"]
   },
   {
     "id": 59,
@@ -889,20 +619,14 @@
       "It measures protection quality"
     ],
     "explanation": "Ewbank is an open-ended numerical scale; it does not have a fixed upper limit.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Ewbank_grading_system"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Ewbank_grading_system"]
   },
   {
     "id": 60,
     "category": "Australia",
     "question": "Watchtower Crack at Mount Arapiles is commonly described as what style of climb?",
     "correct_answer": "Multi-pitch traditional crack/climney-style line",
-    "wrong_answers": [
-      "Single-bolt sport slab",
-      "Ice climb",
-      "Indoor speed route"
-    ],
+    "wrong_answers": ["Single-bolt sport slab", "Ice climb", "Indoor speed route"],
     "explanation": "Watchtower Crack is a long corner/crack system typically climbed as multiple pitches and protected with trad gear.",
     "references": [
       "https://www.mountainproject.com/route/105913471/watchtower-crack",
@@ -920,54 +644,34 @@
       "Indicates whether bolts are present"
     ],
     "explanation": "YDS letters a–d subdivide difficulty within a grade (e.g., 5.10a < 5.10d).",
-    "references": [
-      "https://en.wikipedia.org/wiki/Yosemite_Decimal_System"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Yosemite_Decimal_System"]
   },
   {
     "id": 62,
     "category": "general knowledge",
     "question": "Which grading system is most commonly used for sport climbing in France and much of Europe (e.g., 7a, 8b+)?",
     "correct_answer": "French sport grade",
-    "wrong_answers": [
-      "V-scale",
-      "Ewbank",
-      "YDS only"
-    ],
+    "wrong_answers": ["V-scale", "Ewbank", "YDS only"],
     "explanation": "French sport grades (e.g., 7a, 8b+) are widely used internationally for bolted sport climbs.",
-    "references": [
-      "https://www.thecrag.com/en/article/grades"
-    ]
+    "references": ["https://www.thecrag.com/en/article/grades"]
   },
   {
     "id": 63,
     "category": "general knowledge",
     "question": "What does 'crux' mean in climbing?",
     "correct_answer": "The hardest section or move of a route/problem",
-    "wrong_answers": [
-      "A type of bolt",
-      "A knot used for anchors",
-      "The first move of every route"
-    ],
+    "wrong_answers": ["A type of bolt", "A knot used for anchors", "The first move of every route"],
     "explanation": "The crux is the most difficult part, often influencing the overall grade of the climb.",
-    "references": [
-      "https://www.advnture.com/features/what-is-a-crux-in-climbing"
-    ]
+    "references": ["https://www.advnture.com/features/what-is-a-crux-in-climbing"]
   },
   {
     "id": 64,
     "category": "general knowledge",
     "question": "Which term describes climbing above deep water with no rope, relying on water for fall protection?",
     "correct_answer": "Deep Water Soloing",
-    "wrong_answers": [
-      "Buildering",
-      "Top-rope soloing",
-      "Via ferrata"
-    ],
+    "wrong_answers": ["Buildering", "Top-rope soloing", "Via ferrata"],
     "explanation": "Deep water soloing is solo climbing above water deep enough to safely fall into.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Deep-water_soloing"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Deep-water_soloing"]
   },
   {
     "id": 65,
@@ -980,9 +684,7 @@
       "Jumping dynamically between holds"
     ],
     "explanation": "Stemming uses outward pressure with feet/hands against opposing walls to move or rest in corners/chimneys.",
-    "references": [
-      "https://www.ukclimbing.com/articles/skills/technique/stemming-1306"
-    ]
+    "references": ["https://www.ukclimbing.com/articles/skills/technique/stemming-1306"]
   },
   {
     "id": 66,
@@ -995,84 +697,52 @@
       "Smearing on blank slabs"
     ],
     "explanation": "Mantling resembles getting out of a pool: pushing down with hands to stand up onto a ledge/shelf.",
-    "references": [
-      "https://www.ukclimbing.com/articles/skills/technique/mantelshelf-1511"
-    ]
+    "references": ["https://www.ukclimbing.com/articles/skills/technique/mantelshelf-1511"]
   },
   {
     "id": 67,
     "category": "general knowledge",
     "question": "Which piece of equipment primarily reduces impact forces by stretching under load?",
     "correct_answer": "Dynamic climbing rope",
-    "wrong_answers": [
-      "Static rope",
-      "Dyneema sling",
-      "Steel cable"
-    ],
+    "wrong_answers": ["Static rope", "Dyneema sling", "Steel cable"],
     "explanation": "Dynamic ropes stretch to reduce fall forces; static ropes are for hauling/rope access, not lead falls.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Dynamic_rope"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Dynamic_rope"]
   },
   {
     "id": 68,
     "category": "general knowledge",
     "question": "Which knot is most commonly used to join two ropes for rappelling (due to ease of pulling)?",
     "correct_answer": "Overhand bend (EDK)",
-    "wrong_answers": [
-      "Clove hitch",
-      "Figure-eight follow-through",
-      "Bowline"
-    ],
+    "wrong_answers": ["Clove hitch", "Figure-eight follow-through", "Bowline"],
     "explanation": "Many climbers use an overhand bend (often called EDK) to join ropes for rappels because it’s compact and pulls well.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Overhand_knot"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Overhand_knot"]
   },
   {
     "id": 69,
     "category": "general knowledge",
     "question": "In climbing, what does 'belay' most directly mean?",
     "correct_answer": "Managing the rope to protect a climber from falling",
-    "wrong_answers": [
-      "Cleaning chalk off holds",
-      "Measuring route length",
-      "Installing bolts"
-    ],
+    "wrong_answers": ["Cleaning chalk off holds", "Measuring route length", "Installing bolts"],
     "explanation": "Belaying is rope management (taking in/slack, catching falls) to protect the climber.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Belaying"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Belaying"]
   },
   {
     "id": 70,
     "category": "general knowledge",
     "question": "What is a 'send' in common climbing slang?",
     "correct_answer": "Successfully climbing a route/problem cleanly (per the chosen style)",
-    "wrong_answers": [
-      "Taking a rest day",
-      "Falling on the crux",
-      "Carrying pads to the crag"
-    ],
+    "wrong_answers": ["Taking a rest day", "Falling on the crux", "Carrying pads to the crag"],
     "explanation": "To 'send' means to complete the climb successfully (style varies: redpoint, flash, etc.).",
-    "references": [
-      "https://en.wikipedia.org/wiki/Redpoint"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Redpoint"]
   },
   {
     "id": 71,
     "category": "general knowledge",
     "question": "Which technique lowers the center of gravity and can increase reach on overhangs by turning a knee inward?",
     "correct_answer": "Drop-knee",
-    "wrong_answers": [
-      "Mantle",
-      "Dyno",
-      "Smear"
-    ],
+    "wrong_answers": ["Mantle", "Dyno", "Smear"],
     "explanation": "Drop-knee (Egyptian) rotates the hip and drops a knee, often improving body position and reach on steep terrain.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Climbing_technique"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Climbing_technique"]
   },
   {
     "id": 72,
@@ -1085,24 +755,16 @@
       "Increase jumping power for dynos only"
     ],
     "explanation": "ARC training is low-intensity continuous climbing to build forearm endurance and recovery capacity.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Climbing_training"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Climbing_training"]
   },
   {
     "id": 73,
     "category": "general knowledge",
     "question": "Which holds are gripped primarily by squeezing between thumb and fingers?",
     "correct_answer": "Pinches",
-    "wrong_answers": [
-      "Jugs",
-      "Slopers",
-      "Underclings"
-    ],
+    "wrong_answers": ["Jugs", "Slopers", "Underclings"],
     "explanation": "Pinches require squeezing the hold—thumb opposition is key.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Climbing_technique"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Climbing_technique"]
   },
   {
     "id": 74,
@@ -1115,69 +777,43 @@
       "A bolt hanger"
     ],
     "explanation": "Slopers lack positive edges; success depends on friction, body position, and open-hand tension.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Climbing_technique"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Climbing_technique"]
   },
   {
     "id": 75,
     "category": "general knowledge",
     "question": "Which device is typically used to ascend a rope by gripping it mechanically (common in big-wall systems)?",
     "correct_answer": "Ascender (jumar)",
-    "wrong_answers": [
-      "Quickdraw",
-      "Belay plate",
-      "Chalk bag"
-    ],
+    "wrong_answers": ["Quickdraw", "Belay plate", "Chalk bag"],
     "explanation": "Ascenders are mechanical devices that grip a rope for upward progress (e.g., jugging).",
-    "references": [
-      "https://en.wikipedia.org/wiki/Ascender_(climbing)"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Ascender_(climbing)"]
   },
   {
     "id": 76,
     "category": "general knowledge",
     "question": "What does 'beta spraying' mean?",
     "correct_answer": "Giving unsolicited advice about how to do the moves",
-    "wrong_answers": [
-      "A way to dry holds with a towel",
-      "A chalk brand",
-      "A comp scoring term"
-    ],
+    "wrong_answers": ["A way to dry holds with a towel", "A chalk brand", "A comp scoring term"],
     "explanation": "Beta spraying is giving (often unwanted) beta to others, especially in bouldering culture.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Beta_(climbing)"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Beta_(climbing)"]
   },
   {
     "id": 77,
     "category": "general knowledge",
     "question": "Which term describes using opposing forces with hands and feet in a corner/dihedral (often called bridging)?",
     "correct_answer": "Bridging",
-    "wrong_answers": [
-      "Laybacking",
-      "Crimping",
-      "Gaston"
-    ],
+    "wrong_answers": ["Laybacking", "Crimping", "Gaston"],
     "explanation": "Bridging uses opposing pressure to stay stable in corners/dihedrals, distributing weight and allowing rests.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Climbing_technique"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Climbing_technique"]
   },
   {
     "id": 78,
     "category": "general knowledge",
     "question": "Which style typically uses a toprope anchor so the climber is always below the anchor point?",
     "correct_answer": "Top-rope climbing",
-    "wrong_answers": [
-      "Lead climbing",
-      "Deep water soloing",
-      "Free soloing"
-    ],
+    "wrong_answers": ["Lead climbing", "Deep water soloing", "Free soloing"],
     "explanation": "In top-roping, the rope runs from the belayer up through an anchor and back down to the climber.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Top_rope"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Top_rope"]
   },
   {
     "id": 79,
@@ -1190,9 +826,7 @@
       "A rope management technique"
     ],
     "explanation": "A dyno is a dynamic movement (often a jump) where the climber temporarily loses contact with the wall.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Dyno"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Dyno"]
   },
   {
     "id": 80,
@@ -1205,20 +839,14 @@
       "It is the same as the French sport scale"
     ],
     "explanation": "The V-scale is a bouldering difficulty scale and does not encode risk/exposure directly.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Grade_(climbing)"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Grade_(climbing)"]
   },
   {
     "id": 81,
     "category": "competition",
     "question": "According to IFSC rules, how long is the climbing period per boulder in a Boulder final round?",
     "correct_answer": "4 minutes",
-    "wrong_answers": [
-      "3 minutes",
-      "5 minutes",
-      "6 minutes"
-    ],
+    "wrong_answers": ["3 minutes", "5 minutes", "6 minutes"],
     "explanation": "IFSC Rules specify a 4-minute climbing period per boulder in finals (with 5 minutes in qualis/semis).",
     "references": [
       "https://images.ifsc-climbing.org/ifsc/image/private/t_q_good/prd/ugfyikqetemtjmujhwky.pdf"
@@ -1229,11 +857,7 @@
     "category": "competition",
     "question": "Under IFSC bouldering rules, how many attempts may a competitor make on a boulder within the climbing period?",
     "correct_answer": "Unlimited attempts within the time limit",
-    "wrong_answers": [
-      "Exactly 3 attempts",
-      "Exactly 5 attempts",
-      "One attempt only"
-    ],
+    "wrong_answers": ["Exactly 3 attempts", "Exactly 5 attempts", "One attempt only"],
     "explanation": "IFSC bouldering allows unlimited attempts during the climbing period; scoring accounts for attempts depending on format.",
     "references": [
       "https://images.ifsc-climbing.org/ifsc/image/private/t_q_good/prd/ugfyikqetemtjmujhwky.pdf"
@@ -1259,45 +883,27 @@
     "category": "competition",
     "question": "Which discipline uses a standardized 15-meter wall in elite international competition?",
     "correct_answer": "Speed climbing",
-    "wrong_answers": [
-      "Lead climbing",
-      "Bouldering",
-      "Deep water soloing"
-    ],
+    "wrong_answers": ["Lead climbing", "Bouldering", "Deep water soloing"],
     "explanation": "Speed climbing uses a standardized 15m route and wall design for official competitions.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Speed_climbing"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Speed_climbing"]
   },
   {
     "id": 85,
     "category": "competition",
     "question": "Sport climbing first appeared in the Olympics in which year?",
     "correct_answer": "2020 (Tokyo Olympics)",
-    "wrong_answers": [
-      "2012 (London)",
-      "2016 (Rio)",
-      "2024 (Paris)"
-    ],
+    "wrong_answers": ["2012 (London)", "2016 (Rio)", "2024 (Paris)"],
     "explanation": "Sport climbing debuted at the Tokyo 2020 Olympics (held in 2021 due to postponement).",
-    "references": [
-      "https://en.wikipedia.org/wiki/Sport_climbing_at_the_2020_Summer_Olympics"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Sport_climbing_at_the_2020_Summer_Olympics"]
   },
   {
     "id": 86,
     "category": "competition",
     "question": "Which three disciplines comprised the 'combined' event in sport climbing at Tokyo 2020?",
     "correct_answer": "Speed, Bouldering, Lead",
-    "wrong_answers": [
-      "Speed, Trad, Ice",
-      "Bouldering, Trad, Lead",
-      "Lead, Ice, Dry tooling"
-    ],
+    "wrong_answers": ["Speed, Trad, Ice", "Bouldering, Trad, Lead", "Lead, Ice, Dry tooling"],
     "explanation": "At Tokyo 2020, the combined format included speed, bouldering, and lead.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Sport_climbing_at_the_2020_Summer_Olympics"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Sport_climbing_at_the_2020_Summer_Olympics"]
   },
   {
     "id": 87,
@@ -1310,20 +916,14 @@
       "International Federation of Stone Climbing"
     ],
     "explanation": "IFSC is the governing body for international sport climbing competitions.",
-    "references": [
-      "https://en.wikipedia.org/wiki/International_Federation_of_Sport_Climbing"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/International_Federation_of_Sport_Climbing"]
   },
   {
     "id": 88,
     "category": "competition",
     "question": "In IFSC lead climbing, what ends a competitor’s attempt most commonly?",
     "correct_answer": "Falling or weighting the rope",
-    "wrong_answers": [
-      "Touching a zone hold",
-      "Clipping the first quickdraw",
-      "Using chalk"
-    ],
+    "wrong_answers": ["Touching a zone hold", "Clipping the first quickdraw", "Using chalk"],
     "explanation": "In lead, attempts generally end when the climber falls or weights the rope (or time expires).",
     "references": [
       "https://images.ifsc-climbing.org/ifsc/image/private/t_q_good/prd/ugfyikqetemtjmujhwky.pdf"
@@ -1334,11 +934,7 @@
     "category": "competition",
     "question": "In IFSC lead, what is typically the time limit (climbing period) for a route attempt?",
     "correct_answer": "6 minutes",
-    "wrong_answers": [
-      "4 minutes",
-      "5 minutes",
-      "8 minutes"
-    ],
+    "wrong_answers": ["4 minutes", "5 minutes", "8 minutes"],
     "explanation": "IFSC lead typically uses a 6-minute climbing period for attempts (with a preparation period).",
     "references": [
       "https://images.ifsc-climbing.org/ifsc/image/private/t_q_good/prd/ugfyikqetemtjmujhwky.pdf"
@@ -1349,11 +945,7 @@
     "category": "competition",
     "question": "In IFSC Boulder qualification rounds, what is the typical climbing period per boulder (per the rules table)?",
     "correct_answer": "5 minutes",
-    "wrong_answers": [
-      "4 minutes",
-      "6 minutes",
-      "3 minutes"
-    ],
+    "wrong_answers": ["4 minutes", "6 minutes", "3 minutes"],
     "explanation": "IFSC rules list 5 minutes for qualification and semifinal boulder rounds, and 4 minutes for finals.",
     "references": [
       "https://images.ifsc-climbing.org/ifsc/image/private/t_q_good/prd/ugfyikqetemtjmujhwky.pdf"
@@ -1379,15 +971,9 @@
     "category": "competition",
     "question": "Which of these is NOT a standard IFSC competition discipline?",
     "correct_answer": "Traditional climbing",
-    "wrong_answers": [
-      "Bouldering",
-      "Lead",
-      "Speed"
-    ],
+    "wrong_answers": ["Bouldering", "Lead", "Speed"],
     "explanation": "IFSC disciplines include lead, boulder, and speed (plus some combined formats), not trad climbing.",
-    "references": [
-      "https://en.wikipedia.org/wiki/International_Federation_of_Sport_Climbing"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/International_Federation_of_Sport_Climbing"]
   },
   {
     "id": 93,
@@ -1400,9 +986,7 @@
       "Only lead results counted"
     ],
     "explanation": "At Tokyo 2020, combined medals used a rank product system (speed rank × boulder rank × lead rank).",
-    "references": [
-      "https://en.wikipedia.org/wiki/Sport_climbing_at_the_2020_Summer_Olympics"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Sport_climbing_at_the_2020_Summer_Olympics"]
   },
   {
     "id": 94,
@@ -1439,11 +1023,7 @@
     "category": "competition",
     "question": "In modern international events, what is the standard height limit for IFSC bouldering walls/problems?",
     "correct_answer": "4.5 meters (maximum)",
-    "wrong_answers": [
-      "3 meters",
-      "5.5 meters",
-      "10 meters"
-    ],
+    "wrong_answers": ["3 meters", "5.5 meters", "10 meters"],
     "explanation": "IFSC bouldering has a maximum height guideline of 4.5 meters for competition problems.",
     "references": [
       "https://images.ifsc-climbing.org/ifsc/image/private/t_q_good/prd/ugfyikqetemtjmujhwky.pdf"
@@ -1460,35 +1040,23 @@
       "Only one athlete climbs at a time"
     ],
     "explanation": "Speed uses a standardized route so performances are comparable globally.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Speed_climbing"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Speed_climbing"]
   },
   {
     "id": 98,
     "category": "competition",
     "question": "Which of these is an IFSC-governed World Cup circuit discipline category?",
     "correct_answer": "Bouldering World Cup",
-    "wrong_answers": [
-      "Trad World Cup",
-      "Big Wall World Cup",
-      "Deep Water Solo World Cup"
-    ],
+    "wrong_answers": ["Trad World Cup", "Big Wall World Cup", "Deep Water Solo World Cup"],
     "explanation": "IFSC runs World Cups in lead, boulder, and speed (and related combined formats).",
-    "references": [
-      "https://en.wikipedia.org/wiki/IFSC_Climbing_World_Cup"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/IFSC_Climbing_World_Cup"]
   },
   {
     "id": 99,
     "category": "competition",
     "question": "In IFSC rules, who has final authority to stop/restart a round after a repair/incident decision (per general rules section)?",
     "correct_answer": "The Jury President",
-    "wrong_answers": [
-      "The Head Routesetter",
-      "The athletes’ coach",
-      "The venue owner"
-    ],
+    "wrong_answers": ["The Head Routesetter", "The athletes’ coach", "The venue owner"],
     "explanation": "IFSC rules place key round continuation decisions (e.g., after repairs) under the Jury President’s authority.",
     "references": [
       "https://images.ifsc-climbing.org/ifsc/image/private/t_q_good/prd/ugfyikqetemtjmujhwky.pdf"
@@ -1514,11 +1082,7 @@
     "category": "bouldering",
     "question": "Who made the first ascent of the boulder problem Alphane (9A/V17) in Chironico?",
     "correct_answer": "Shawn Raboutou",
-    "wrong_answers": [
-      "Nalle Hukkataival",
-      "Will Bosi",
-      "Daniel Woods"
-    ],
+    "wrong_answers": ["Nalle Hukkataival", "Will Bosi", "Daniel Woods"],
     "explanation": "Alphane is a 9A boulder in Chironico, Switzerland; its first ascent was by Shawn Raboutou in April 2022.",
     "references": [
       "https://climbing-history.org/climb/1919/alphane",
@@ -1536,20 +1100,14 @@
       "Rumney, New Hampshire"
     ],
     "explanation": "Return of the Sleepwalker is a sit-start extension to Sleepwalker located in Black Velvet Canyon in the Red Rock area near Las Vegas, Nevada.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Return_of_the_Sleepwalker"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Return_of_the_Sleepwalker"]
   },
   {
     "id": 103,
     "category": "bouldering",
     "question": "Sleepwalker (V16/8C+)—the boulder that 'Return of the Sleepwalker' extends—was first climbed by whom?",
     "correct_answer": "Jimmy Webb",
-    "wrong_answers": [
-      "Daniel Woods",
-      "Dave Graham",
-      "Fred Nicole"
-    ],
+    "wrong_answers": ["Daniel Woods", "Dave Graham", "Fred Nicole"],
     "explanation": "The original boulder problem Sleepwalker (V16/8C+) was first climbed by Jimmy Webb in 2018.",
     "references": [
       "https://en.wikipedia.org/wiki/Return_of_the_Sleepwalker",
@@ -1583,24 +1141,16 @@
       "A route that is only valid in competitions"
     ],
     "explanation": "An eliminate is a contrived boulder problem that restricts allowed holds or movements to increase difficulty or define a specific line.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Bouldering"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Bouldering"]
   },
   {
     "id": 106,
     "category": "bouldering",
     "question": "Which training tool is most closely associated with standardized benchmark boulders worldwide (problems labeled by year)?",
     "correct_answer": "MoonBoard",
-    "wrong_answers": [
-      "Campus board",
-      "Treadwall",
-      "Fingerboard"
-    ],
+    "wrong_answers": ["Campus board", "Treadwall", "Fingerboard"],
     "explanation": "The MoonBoard is a standardized training wall with shared benchmark problems (often organized by year) used worldwide.",
-    "references": [
-      "https://en.wikipedia.org/wiki/MoonBoard"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/MoonBoard"]
   },
   {
     "id": 107,
@@ -1613,35 +1163,23 @@
       "Using a heel hook"
     ],
     "explanation": "A 'dab' is an infraction in bouldering where the climber touches the ground or an out-of-bounds object while attempting the problem.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Bouldering"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Bouldering"]
   },
   {
     "id": 108,
     "category": "bouldering",
     "question": "Which of these is primarily a *movement* used on steep boulders to generate tension by pulling with the toe on a hold?",
     "correct_answer": "Toe hook",
-    "wrong_answers": [
-      "Gaston",
-      "Mantle",
-      "Smear"
-    ],
+    "wrong_answers": ["Gaston", "Mantle", "Smear"],
     "explanation": "A toe hook uses the top of the shoe to pull on a hold (often on roofs) to create body tension and control swing.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Climbing_technique"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Climbing_technique"]
   },
   {
     "id": 109,
     "category": "bouldering",
     "question": "In Fontainebleau grading, which is harder?",
     "correct_answer": "7C+",
-    "wrong_answers": [
-      "7C",
-      "7A+",
-      "6C+"
-    ],
+    "wrong_answers": ["7C", "7A+", "6C+"],
     "explanation": "In the Fontainebleau bouldering scale, higher numbers and '+' suffixes indicate harder problems (e.g., 7C+ is harder than 7C).",
     "references": [
       "https://en.wikipedia.org/wiki/Grade_(climbing)",
@@ -1669,15 +1207,9 @@
     "category": "bouldering",
     "question": "Which bouldering term describes succeeding on the *first try* after receiving beta or watching someone?",
     "correct_answer": "Flash",
-    "wrong_answers": [
-      "Onsight",
-      "Redpoint",
-      "Headpoint"
-    ],
+    "wrong_answers": ["Onsight", "Redpoint", "Headpoint"],
     "explanation": "A flash is a first-attempt ascent with prior information (beta), unlike an onsight which is first try with no prior info.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Onsight"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Onsight"]
   },
   {
     "id": 112,
@@ -1706,9 +1238,7 @@
       "Mark the route for others"
     ],
     "explanation": "Brushing removes excess chalk and rubber build-up, which can improve friction and reduce visual impact.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Rock_climbing"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Rock_climbing"]
   },
   {
     "id": 114,
@@ -1721,9 +1251,7 @@
       "A chimney requiring back-and-foot"
     ],
     "explanation": "Compression problems rely on squeezing opposing faces/aretes/volumes to generate friction and body tension.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Climbing_technique"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Climbing_technique"]
   },
   {
     "id": 115,
@@ -1736,39 +1264,25 @@
       "The problem becomes a traverse only"
     ],
     "explanation": "A sit start begins from a seated/low position, typically adding extra moves before the original stand start.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Bouldering"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Bouldering"]
   },
   {
     "id": 116,
     "category": "bouldering",
     "question": "Which famous Yosemite boulder problem is on the Columbia Boulder near Camp 4?",
     "correct_answer": "Midnight Lightning",
-    "wrong_answers": [
-      "The Nose",
-      "Astroman",
-      "Separate Reality"
-    ],
+    "wrong_answers": ["The Nose", "Astroman", "Separate Reality"],
     "explanation": "Midnight Lightning is the iconic Camp 4 boulder problem on the Columbia Boulder in Yosemite, first climbed by Ron Kauk in 1978.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Midnight_Lightning_(climb)"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Midnight_Lightning_(climb)"]
   },
   {
     "id": 117,
     "category": "bouldering",
     "question": "Which piece of gear is *most* relevant to reducing ankle roll risk when spotting or landing from boulders?",
     "correct_answer": "Crash pads placed to cover uneven landings",
-    "wrong_answers": [
-      "Quickdraws",
-      "Camming devices",
-      "Static rope"
-    ],
+    "wrong_answers": ["Quickdraws", "Camming devices", "Static rope"],
     "explanation": "Crash pads help reduce impact and can help cover uneven or rocky landings, lowering the chance of ankle injuries.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Bouldering"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Bouldering"]
   },
   {
     "id": 118,
@@ -1781,24 +1295,16 @@
       "Chalk replaces the need for good footwear"
     ],
     "explanation": "Many stewardship guidelines encourage minimizing visible chalk and cleaning tick marks to reduce visual impact at crags.",
-    "references": [
-      "https://cliffcare.wordpress.com/about/education/climbers-code-of-conduct/"
-    ]
+    "references": ["https://cliffcare.wordpress.com/about/education/climbers-code-of-conduct/"]
   },
   {
     "id": 119,
     "category": "bouldering",
     "question": "Which platform is widely used to share and repeat standardized boulder problems on a MoonBoard?",
     "correct_answer": "MoonBoard app / community database",
-    "wrong_answers": [
-      "IFSC score sheets",
-      "UIAA database",
-      "Petzl product catalog"
-    ],
+    "wrong_answers": ["IFSC score sheets", "UIAA database", "Petzl product catalog"],
     "explanation": "MoonBoard problems are logged and shared through the MoonBoard community/app ecosystem.",
-    "references": [
-      "https://en.wikipedia.org/wiki/MoonBoard"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/MoonBoard"]
   },
   {
     "id": 120,
@@ -1811,95 +1317,59 @@
       "The distance between quickdraws"
     ],
     "explanation": "On steep terrain, body tension helps keep feet on and controls swing, allowing precise movement between holds.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Climbing_technique"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Climbing_technique"]
   },
   {
     "id": 121,
     "category": "rope climbing",
     "question": "Realization (Biographie) is located on which cliff/area?",
     "correct_answer": "Céüse, France",
-    "wrong_answers": [
-      "Siurana, Spain",
-      "Kalymnos, Greece",
-      "Flatanger, Norway"
-    ],
+    "wrong_answers": ["Siurana, Spain", "Kalymnos, Greece", "Flatanger, Norway"],
     "explanation": "Realization (also known as Biographie) is a sport route on the limestone cliffs of Céüse in France.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Realization_(climb)"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Realization_(climb)"]
   },
   {
     "id": 122,
     "category": "rope climbing",
     "question": "Who bolted the route originally known as 'Biographie' (later climbed and renamed Realization by Sharma)?",
     "correct_answer": "Jean-Christophe Lafaille",
-    "wrong_answers": [
-      "Arnaud Petit",
-      "Patrick Edlinger",
-      "Sylvain Millet"
-    ],
+    "wrong_answers": ["Arnaud Petit", "Patrick Edlinger", "Sylvain Millet"],
     "explanation": "Biographie was bolted by French climber Jean‑Christophe Lafaille in 1989 before being freed by Chris Sharma in 2001.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Realization_(climb)"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Realization_(climb)"]
   },
   {
     "id": 123,
     "category": "rope climbing",
     "question": "La Dura Dura (9b+) is located in which Spanish area?",
     "correct_answer": "Oliana (Roc de Rumbau), Catalonia",
-    "wrong_answers": [
-      "Margalef, Catalonia",
-      "Mallorca, Balearic Islands",
-      "Rodellar, Aragón"
-    ],
+    "wrong_answers": ["Margalef, Catalonia", "Mallorca, Balearic Islands", "Rodellar, Aragón"],
     "explanation": "La Dura Dura is on the Contrafort de Rumbau sector in Oliana, Spain.",
-    "references": [
-      "https://en.wikipedia.org/wiki/La_Dura_Dura"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/La_Dura_Dura"]
   },
   {
     "id": 124,
     "category": "rope climbing",
     "question": "Which climber made the first free ascent of La Dura Dura (9b+) on 7 Feb 2013?",
     "correct_answer": "Adam Ondra",
-    "wrong_answers": [
-      "Chris Sharma",
-      "Seb Bouin",
-      "Jorge Díaz-Rullo"
-    ],
+    "wrong_answers": ["Chris Sharma", "Seb Bouin", "Jorge Díaz-Rullo"],
     "explanation": "Adam Ondra made the first free ascent of La Dura Dura in February 2013; Sharma followed with the second ascent in March 2013.",
-    "references": [
-      "https://en.wikipedia.org/wiki/La_Dura_Dura"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/La_Dura_Dura"]
   },
   {
     "id": 125,
     "category": "rope climbing",
     "question": "Jumbo Love (9b/5.15b) is a long single-pitch sport route on which mountain?",
     "correct_answer": "Clark Mountain (Mojave Desert, California)",
-    "wrong_answers": [
-      "El Capitan (Yosemite)",
-      "Half Dome (Yosemite)",
-      "Mount Arapiles (Victoria)"
-    ],
+    "wrong_answers": ["El Capitan (Yosemite)", "Half Dome (Yosemite)", "Mount Arapiles (Victoria)"],
     "explanation": "Jumbo Love is on Clark Mountain’s Third Tier limestone in the Mojave Desert, California.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Jumbo_Love"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Jumbo_Love"]
   },
   {
     "id": 126,
     "category": "rope climbing",
     "question": "Who completed the first free ascent of Jumbo Love on 11 Sep 2008?",
     "correct_answer": "Chris Sharma",
-    "wrong_answers": [
-      "Adam Ondra",
-      "Wolfgang Güllich",
-      "Alex Megos"
-    ],
+    "wrong_answers": ["Adam Ondra", "Wolfgang Güllich", "Alex Megos"],
     "explanation": "Chris Sharma made the first free ascent of Jumbo Love in September 2008, a milestone for the first confirmed 9b/5.15b.",
     "references": [
       "https://en.wikipedia.org/wiki/Jumbo_Love",
@@ -1917,24 +1387,16 @@
       "A deep water solo in Mallorca"
     ],
     "explanation": "Cobra Crack is a renowned trad crack line on the Stawamus Chief in Squamish, British Columbia.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Cobra_Crack"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Cobra_Crack"]
   },
   {
     "id": 128,
     "category": "rope climbing",
     "question": "Who made the first free ascent of Cobra Crack in 2006?",
     "correct_answer": "Sonnie Trotter",
-    "wrong_answers": [
-      "Didier Berthod",
-      "Tommy Caldwell",
-      "Hansjörg Auer"
-    ],
+    "wrong_answers": ["Didier Berthod", "Tommy Caldwell", "Hansjörg Auer"],
     "explanation": "Cobra Crack’s first free ascent was made by Sonnie Trotter in 2006 after it had been climbed by aid in 1981.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Cobra_Crack"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Cobra_Crack"]
   },
   {
     "id": 129,
@@ -1947,24 +1409,16 @@
       "Only the rock type"
     ],
     "explanation": "British trad grades combine an adjectival 'E' grade reflecting overall seriousness with a technical grade for the hardest move.",
-    "references": [
-      "https://en.wikipedia.org/wiki/British_trad_climbing_grade"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/British_trad_climbing_grade"]
   },
   {
     "id": 130,
     "category": "rope climbing",
     "question": "In YDS, which is harder?",
     "correct_answer": "5.11d",
-    "wrong_answers": [
-      "5.11a",
-      "5.10d",
-      "5.9"
-    ],
+    "wrong_answers": ["5.11a", "5.10d", "5.9"],
     "explanation": "Within the same YDS number, letter subdivisions increase from a to d (so 5.11d is harder than 5.11a).",
-    "references": [
-      "https://en.wikipedia.org/wiki/Yosemite_Decimal_System"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Yosemite_Decimal_System"]
   },
   {
     "id": 131,
@@ -1977,9 +1431,7 @@
       "To replace the belay device"
     ],
     "explanation": "A tether/personal anchor is used to connect the climber to an anchor, especially when building or managing belays.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Belaying"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Belaying"]
   },
   {
     "id": 132,
@@ -2007,24 +1459,16 @@
       "Climbing on granite instead of limestone"
     ],
     "explanation": "Rope drag increases when the rope changes direction over features and through protection, making upward progress harder.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Rock_climbing"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Rock_climbing"]
   },
   {
     "id": 134,
     "category": "rope climbing",
     "question": "Which quickdraw type is most commonly used to reduce rope drag on wandering sport routes?",
     "correct_answer": "Longer/slingset (extendable) quickdraw",
-    "wrong_answers": [
-      "A steel maillon",
-      "A static line",
-      "A nut key"
-    ],
+    "wrong_answers": ["A steel maillon", "A static line", "A nut key"],
     "explanation": "Longer or extendable draws can reduce rope drag by softening rope angles on wandering lines.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Quickdraw"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Quickdraw"]
   },
   {
     "id": 135,
@@ -2037,9 +1481,7 @@
       "Indicate the route grade"
     ],
     "explanation": "A stopper knot helps prevent accidentally lowering or rappelling off the end of the rope.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Abseiling"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Abseiling"]
   },
   {
     "id": 136,
@@ -2052,20 +1494,14 @@
       "They prevent all rope burn"
     ],
     "explanation": "Dynamic rope elongation reduces the maximum force on climber, belayer, and protection during a fall.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Dynamic_rope"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Dynamic_rope"]
   },
   {
     "id": 137,
     "category": "rope climbing",
     "question": "Which of these is a 'passive' trad protection piece?",
     "correct_answer": "Stopper (nut)",
-    "wrong_answers": [
-      "Spring-loaded camming device",
-      "Quickdraw",
-      "Bolt hanger"
-    ],
+    "wrong_answers": ["Spring-loaded camming device", "Quickdraw", "Bolt hanger"],
     "explanation": "Stoppers are passive protection that wedge into constrictions, unlike cams which actively cam against crack walls.",
     "references": [
       "https://en.wikipedia.org/wiki/Nut_(climbing)",
@@ -2083,9 +1519,7 @@
       "Climbing only on fixed ropes"
     ],
     "explanation": "Simul-climbing involves both climbers moving simultaneously while connected by rope, placing protection to limit potential falls.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Mountaineering"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Mountaineering"]
   },
   {
     "id": 139,
@@ -2098,39 +1532,25 @@
       "Measuring pitch length"
     ],
     "explanation": "Prusik hitches (and related friction hitches) can be used for rope ascent and as backups during rappelling.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Prusik_knot"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Prusik_knot"]
   },
   {
     "id": 140,
     "category": "rope climbing",
     "question": "Which style term means a climb was led with pre-placed protection/quickdraws already clipped?",
     "correct_answer": "Pinkpoint",
-    "wrong_answers": [
-      "Onsight",
-      "Ground-up",
-      "Free solo"
-    ],
+    "wrong_answers": ["Onsight", "Ground-up", "Free solo"],
     "explanation": "A pinkpoint is a lead ascent where quickdraws (or some protection) were pre-placed, reducing effort compared to placing while leading.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Redpoint"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Redpoint"]
   },
   {
     "id": 141,
     "category": "Australia",
     "question": "The Victorian government consultation page for the Dyurrite (Mount Arapiles) management plan amendment is hosted on which platform?",
     "correct_answer": "Engage Victoria (engage.vic.gov.au)",
-    "wrong_answers": [
-      "Change.org",
-      "IFSC event portal",
-      "Olympics.com"
-    ],
+    "wrong_answers": ["Change.org", "IFSC event portal", "Olympics.com"],
     "explanation": "The Dyurrite Cultural Landscape management plan amendment process is hosted on the Victorian Government’s Engage Victoria platform.",
-    "references": [
-      "https://engage.vic.gov.au/dyurrite"
-    ]
+    "references": ["https://engage.vic.gov.au/dyurrite"]
   },
   {
     "id": 142,
@@ -2152,15 +1572,9 @@
     "category": "Australia",
     "question": "Which resource is most commonly used in Australia to post crag access notes and route information online?",
     "correct_answer": "theCrag",
-    "wrong_answers": [
-      "MountainForecast",
-      "Strava segments",
-      "IFSC Rankings"
-    ],
+    "wrong_answers": ["MountainForecast", "Strava segments", "IFSC Rankings"],
     "explanation": "theCrag is widely used in Australia as a route database with access notes and updates for crags.",
-    "references": [
-      "https://www.thecrag.com"
-    ]
+    "references": ["https://www.thecrag.com"]
   },
   {
     "id": 144,
@@ -2173,24 +1587,16 @@
       "A plastic indoor bolt standard"
     ],
     "explanation": "Carrot bolts are an older style of bolt stud (common in Australia) requiring a removable hanger to clip.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Bolt_(climbing)#Carrot_bolts"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Bolt_(climbing)#Carrot_bolts"]
   },
   {
     "id": 145,
     "category": "Australia",
     "question": "Which grading system is most associated with Australia’s traditional and sport climbing guides (e.g., grade 18, 24, 32)?",
     "correct_answer": "Ewbank grading system",
-    "wrong_answers": [
-      "V-scale",
-      "UIAA",
-      "YDS only"
-    ],
+    "wrong_answers": ["V-scale", "UIAA", "YDS only"],
     "explanation": "Australia commonly uses the Ewbank numerical grading system, which is open-ended and uses a single number.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Ewbank_grading_system"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Ewbank_grading_system"]
   },
   {
     "id": 146,
@@ -2203,65 +1609,41 @@
       "Freycinet National Park"
     ],
     "explanation": "Hollow Mountain Cave is in the Grampians, which are also known as Gariwerd; the park contains major climbing and cultural sites.",
-    "references": [
-      "https://parks.vic.gov.au/places-to-see/parks/grampians-national-park"
-    ]
+    "references": ["https://parks.vic.gov.au/places-to-see/parks/grampians-national-park"]
   },
   {
     "id": 147,
     "category": "Australia",
     "question": "Which state is Mount Arapiles / Dyurrite located in?",
     "correct_answer": "Victoria",
-    "wrong_answers": [
-      "New South Wales",
-      "Queensland",
-      "Western Australia"
-    ],
+    "wrong_answers": ["New South Wales", "Queensland", "Western Australia"],
     "explanation": "Mount Arapiles (Dyurrite) is located in western Victoria, Australia.",
-    "references": [
-      "https://engage.vic.gov.au/dyurrite"
-    ]
+    "references": ["https://engage.vic.gov.au/dyurrite"]
   },
   {
     "id": 148,
     "category": "Australia",
     "question": "Which NSW coastal area is widely known for steep limestone sport climbing near the ocean?",
     "correct_answer": "Nowra",
-    "wrong_answers": [
-      "Arapiles",
-      "Mount Buffalo",
-      "Mount Coolum"
-    ],
+    "wrong_answers": ["Arapiles", "Mount Buffalo", "Mount Coolum"],
     "explanation": "The Nowra region (NSW South Coast) is well-known for steep limestone sport climbing on coastal cliffs.",
-    "references": [
-      "https://www.mountainproject.com/area/105913561/nowra"
-    ]
+    "references": ["https://www.mountainproject.com/area/105913561/nowra"]
   },
   {
     "id": 149,
     "category": "Australia",
     "question": "Which Victorian area is internationally known for traditional climbing on quartzite with huge route density?",
     "correct_answer": "Mount Arapiles",
-    "wrong_answers": [
-      "Werribee Gorge",
-      "Porongurup Range",
-      "Mount Coonowrin"
-    ],
+    "wrong_answers": ["Werribee Gorge", "Porongurup Range", "Mount Coonowrin"],
     "explanation": "Mount Arapiles is one of Australia’s premier trad areas with a very large number of routes and a strong trad focus.",
-    "references": [
-      "https://www.thecrag.com/en/climbing/australia/arapiles"
-    ]
+    "references": ["https://www.thecrag.com/en/climbing/australia/arapiles"]
   },
   {
     "id": 150,
     "category": "Australia",
     "question": "Which Victorian national park is famous for high-elevation granite bouldering near The Horn?",
     "correct_answer": "Mount Buffalo National Park",
-    "wrong_answers": [
-      "Royal National Park",
-      "Lane Poole Reserve",
-      "Morialta Conservation Park"
-    ],
+    "wrong_answers": ["Royal National Park", "Lane Poole Reserve", "Morialta Conservation Park"],
     "explanation": "Mount Buffalo National Park is a major granite bouldering destination in Victoria, with boulders near areas like The Horn.",
     "references": [
       "https://en.wikipedia.org/wiki/Mount_Buffalo_National_Park",
@@ -2273,15 +1655,9 @@
     "category": "Australia",
     "question": "A common 'clean climbing' best practice that reduces rock damage is to avoid which legacy protection type when possible?",
     "correct_answer": "Pitons (where removable gear works)",
-    "wrong_answers": [
-      "Quickdraws",
-      "Chalk bags",
-      "Helmets"
-    ],
+    "wrong_answers": ["Quickdraws", "Chalk bags", "Helmets"],
     "explanation": "Clean climbing favors removable protection and generally avoids pitons where they would scar cracks and where nuts/cams can work.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Clean_climbing"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Clean_climbing"]
   },
   {
     "id": 152,
@@ -2294,35 +1670,23 @@
       "Bolting is decided only by gyms"
     ],
     "explanation": "Fixed-gear decisions vary by area; many communities emphasize respecting local ethics, existing route character, and access agreements.",
-    "references": [
-      "https://cliffcare.wordpress.com/about/education/climbers-code-of-conduct/"
-    ]
+    "references": ["https://cliffcare.wordpress.com/about/education/climbers-code-of-conduct/"]
   },
   {
     "id": 153,
     "category": "Australia",
     "question": "Which term refers to the Aboriginal dual name often used for Mount Arapiles in access discussions?",
     "correct_answer": "Dyurrite",
-    "wrong_answers": [
-      "Gariwerd",
-      "Uluru",
-      "Bunya"
-    ],
+    "wrong_answers": ["Gariwerd", "Uluru", "Bunya"],
     "explanation": "Mount Arapiles is also known as Dyurrite; the dual name is commonly used in Victorian park management and access discussions.",
-    "references": [
-      "https://engage.vic.gov.au/dyurrite"
-    ]
+    "references": ["https://engage.vic.gov.au/dyurrite"]
   },
   {
     "id": 154,
     "category": "Australia",
     "question": "Which outlet reported in Nov 2025 that Parks Victoria’s requests to avoid certain Dyurrite areas were voluntary during plan development?",
     "correct_answer": "ABC News (Australia)",
-    "wrong_answers": [
-      "IFSC",
-      "Olympics.com",
-      "UIAA"
-    ],
+    "wrong_answers": ["IFSC", "Olympics.com", "UIAA"],
     "explanation": "ABC News reported that the requests were voluntary while a management plan was being developed and consultation continued.",
     "references": [
       "https://www.abc.net.au/news/2025-11-02/arapiles-dyurrite-rock-climbers-defy-parks-victoria-requests/105950420"
@@ -2333,30 +1697,18 @@
     "category": "Australia",
     "question": "Which WA park/range is known for distinctive granite tors and dome-like formations (a climbing destination)?",
     "correct_answer": "Porongurup Range",
-    "wrong_answers": [
-      "Blue Mountains",
-      "Flinders Ranges",
-      "Glass House Mountains"
-    ],
+    "wrong_answers": ["Blue Mountains", "Flinders Ranges", "Glass House Mountains"],
     "explanation": "Porongurup National Park in WA is known for distinctive granite formations (tors) and is a known climbing destination.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Porongurup_National_Park"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Porongurup_National_Park"]
   },
   {
     "id": 156,
     "category": "Australia",
     "question": "Which rock type dominates many Blue Mountains cliffs that climbers frequent?",
     "correct_answer": "Sandstone",
-    "wrong_answers": [
-      "Limestone",
-      "Granite",
-      "Basalt"
-    ],
+    "wrong_answers": ["Limestone", "Granite", "Basalt"],
     "explanation": "The Blue Mountains region is largely sandstone, which forms the extensive cliff lines used for climbing.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Blue_Mountains_(New_South_Wales)"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Blue_Mountains_(New_South_Wales)"]
   },
   {
     "id": 157,
@@ -2379,30 +1731,18 @@
     "category": "Australia",
     "question": "Which Victorian stewardship initiative’s 'Climbers Code of Conduct' emphasizes minimizing impacts like tracks and excessive chalk?",
     "correct_answer": "CliffCare (Victoria)",
-    "wrong_answers": [
-      "IFSC",
-      "IOC",
-      "Mountain Rescue Victoria"
-    ],
+    "wrong_answers": ["IFSC", "IOC", "Mountain Rescue Victoria"],
     "explanation": "CliffCare’s educational materials include a climbers’ code encouraging minimal-impact behavior at Victorian crags.",
-    "references": [
-      "https://cliffcare.wordpress.com/about/education/climbers-code-of-conduct/"
-    ]
+    "references": ["https://cliffcare.wordpress.com/about/education/climbers-code-of-conduct/"]
   },
   {
     "id": 159,
     "category": "Australia",
     "question": "Mount Buffalo’s popular roadside bouldering sector 'Dreamworld' is listed on which Australian-centric climbing database?",
     "correct_answer": "theCrag",
-    "wrong_answers": [
-      "Olympics.com",
-      "UIAA portal",
-      "Strava"
-    ],
+    "wrong_answers": ["Olympics.com", "UIAA portal", "Strava"],
     "explanation": "Dreamworld at Mount Buffalo is listed on theCrag, which is commonly used in Australia for area and route information.",
-    "references": [
-      "https://www.thecrag.com/en/climbing/australia/buffalo/dreamworld"
-    ]
+    "references": ["https://www.thecrag.com/en/climbing/australia/buffalo/dreamworld"]
   },
   {
     "id": 160,
@@ -2425,45 +1765,27 @@
     "category": "general knowledge",
     "question": "In the French sport grading system, which is harder?",
     "correct_answer": "7c+",
-    "wrong_answers": [
-      "7c",
-      "7b+",
-      "6c+"
-    ],
+    "wrong_answers": ["7c", "7b+", "6c+"],
     "explanation": "In the French sport system, '+' indicates a harder step within the same number/letter grade (so 7c+ is harder than 7c).",
-    "references": [
-      "https://www.thecrag.com/en/article/grades"
-    ]
+    "references": ["https://www.thecrag.com/en/article/grades"]
   },
   {
     "id": 162,
     "category": "general knowledge",
     "question": "Which grade system is most commonly used for bouldering in North America?",
     "correct_answer": "V-scale (Hueco scale)",
-    "wrong_answers": [
-      "Ewbank",
-      "French sport grades",
-      "UIAA"
-    ],
+    "wrong_answers": ["Ewbank", "French sport grades", "UIAA"],
     "explanation": "The V-scale (also called the Hueco scale) is widely used in North America for bouldering difficulty.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Grade_(climbing)"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Grade_(climbing)"]
   },
   {
     "id": 163,
     "category": "general knowledge",
     "question": "Which knot is commonly used to tie a climber directly into the harness tie-in points?",
     "correct_answer": "Figure-eight follow-through",
-    "wrong_answers": [
-      "Double fisherman’s",
-      "Overhand bend (EDK)",
-      "Prusik knot"
-    ],
+    "wrong_answers": ["Double fisherman’s", "Overhand bend (EDK)", "Prusik knot"],
     "explanation": "The figure‑eight follow‑through is the standard tie‑in knot for connecting rope to harness tie-in points.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Figure-eight_knot"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Figure-eight_knot"]
   },
   {
     "id": 164,
@@ -2491,9 +1813,7 @@
       "A speed climbing route"
     ],
     "explanation": "A 'project' is a route/problem someone is trying repeatedly over time, often before a redpoint or send.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Redpoint"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Redpoint"]
   },
   {
     "id": 166,
@@ -2506,9 +1826,7 @@
       "Hooking the heel to pull"
     ],
     "explanation": "A gaston uses outward force on a sidepull with the elbow up, creating opposition through the shoulder and core.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Climbing_technique"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Climbing_technique"]
   },
   {
     "id": 167,
@@ -2521,24 +1839,16 @@
       "Descending without a rope"
     ],
     "explanation": "Laybacking uses opposing forces—hands pull on an edge/crack while feet push on the face—to move upward.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Climbing_technique"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Climbing_technique"]
   },
   {
     "id": 168,
     "category": "general knowledge",
     "question": "Which rope type is generally recommended for top-rope lead-fall protection?",
     "correct_answer": "Dynamic rope",
-    "wrong_answers": [
-      "Static rope",
-      "Steel cable",
-      "Accessory cord only"
-    ],
+    "wrong_answers": ["Static rope", "Steel cable", "Accessory cord only"],
     "explanation": "Dynamic ropes are designed to stretch and absorb energy, making them suitable for catching climbing falls.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Dynamic_rope"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Dynamic_rope"]
   },
   {
     "id": 169,
@@ -2551,9 +1861,7 @@
       "Measuring rope length"
     ],
     "explanation": "The belay loop is the strong central loop used for belaying/rappelling connections (distinct from gear loops).",
-    "references": [
-      "https://en.wikipedia.org/wiki/Climbing_harness"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Climbing_harness"]
   },
   {
     "id": 170,
@@ -2566,9 +1874,7 @@
       "It requires ice tools"
     ],
     "explanation": "Sport climbing routes are protected mainly by fixed bolts that the leader clips with quickdraws.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Sport_climbing"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Sport_climbing"]
   },
   {
     "id": 171,
@@ -2581,129 +1887,79 @@
       "You must climb without a belayer"
     ],
     "explanation": "Traditional climbing uses removable protection placed during the ascent, then removed by the second.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Traditional_climbing"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Traditional_climbing"]
   },
   {
     "id": 172,
     "category": "general knowledge",
     "question": "What does 'beta' mean in climbing slang?",
     "correct_answer": "Information about the best sequence/method for a climb",
-    "wrong_answers": [
-      "A type of rope",
-      "A grading system",
-      "A carabiner shape"
-    ],
+    "wrong_answers": ["A type of rope", "A grading system", "A carabiner shape"],
     "explanation": "Beta is advice/information about how to do the moves or sequence on a route or boulder problem.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Beta_(climbing)"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Beta_(climbing)"]
   },
   {
     "id": 173,
     "category": "general knowledge",
     "question": "Which grip generally increases finger joint loading the most on small edges?",
     "correct_answer": "Full crimp",
-    "wrong_answers": [
-      "Open hand",
-      "Palm press",
-      "Foot smear"
-    ],
+    "wrong_answers": ["Open hand", "Palm press", "Foot smear"],
     "explanation": "A full crimp (often with thumb over index) increases leverage on tiny edges but can raise stress on finger joints.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Climbing_technique"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Climbing_technique"]
   },
   {
     "id": 174,
     "category": "general knowledge",
     "question": "What is 'smearing' primarily?",
     "correct_answer": "Using shoe rubber on blank rock relying on friction",
-    "wrong_answers": [
-      "Jamming a hand in a crack",
-      "Hooking the toe to pull",
-      "Clipping a bolt"
-    ],
+    "wrong_answers": ["Jamming a hand in a crack", "Hooking the toe to pull", "Clipping a bolt"],
     "explanation": "Smearing is placing the foot on a featureless surface using friction rather than edging on a hold.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Climbing_technique"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Climbing_technique"]
   },
   {
     "id": 175,
     "category": "general knowledge",
     "question": "What does 'edging' most specifically describe?",
     "correct_answer": "Using the edge of the climbing shoe on a small foothold",
-    "wrong_answers": [
-      "Jumping to a hold",
-      "Sliding down the wall",
-      "Using the heel to pull"
-    ],
+    "wrong_answers": ["Jumping to a hold", "Sliding down the wall", "Using the heel to pull"],
     "explanation": "Edging is standing on small footholds using the shoe’s edge for precision and support.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Climbing_technique"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Climbing_technique"]
   },
   {
     "id": 176,
     "category": "general knowledge",
     "question": "Which of these best describes a 'dihedral' in climbing?",
     "correct_answer": "An inside corner where two rock faces meet",
-    "wrong_answers": [
-      "A roof crack",
-      "A boulder pad placement",
-      "A type of carabiner gate"
-    ],
+    "wrong_answers": ["A roof crack", "A boulder pad placement", "A type of carabiner gate"],
     "explanation": "A dihedral is an inside corner formed by two rock planes; climbers often use stemming/bridging there.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Climbing_technique"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Climbing_technique"]
   },
   {
     "id": 177,
     "category": "general knowledge",
     "question": "What is 'choss' in climbing slang?",
     "correct_answer": "Loose, poor-quality rock",
-    "wrong_answers": [
-      "A perfect granite splitter crack",
-      "A brand of chalk",
-      "A dyno technique"
-    ],
+    "wrong_answers": ["A perfect granite splitter crack", "A brand of chalk", "A dyno technique"],
     "explanation": "Choss refers to crumbly or unstable rock that can break easily and is often unsafe or unpleasant to climb.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"]
   },
   {
     "id": 178,
     "category": "general knowledge",
     "question": "In many guidebooks, what does 'PG-13' or 'R' typically indicate (in areas that use it)?",
     "correct_answer": "A protection/seriousness rating separate from technical grade",
-    "wrong_answers": [
-      "A bouldering grade conversion",
-      "The number of pitches",
-      "A knot type"
-    ],
+    "wrong_answers": ["A bouldering grade conversion", "The number of pitches", "A knot type"],
     "explanation": "Some areas use seriousness ratings (e.g., PG-13, R, X) to describe fall consequences/protection quality separately from difficulty.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Grade_(climbing)"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Grade_(climbing)"]
   },
   {
     "id": 179,
     "category": "general knowledge",
     "question": "Which accessory is most commonly used to carry chalk while climbing?",
     "correct_answer": "Chalk bag",
-    "wrong_answers": [
-      "Nut tool",
-      "Cam hook",
-      "Maillon"
-    ],
+    "wrong_answers": ["Nut tool", "Cam hook", "Maillon"],
     "explanation": "Climbers typically carry chalk in a chalk bag (or chalk bucket for bouldering).",
-    "references": [
-      "https://en.wikipedia.org/wiki/Chalk_(climbing)"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Chalk_(climbing)"]
   },
   {
     "id": 180,
@@ -2716,20 +1972,14 @@
       "Reduce rope stretch"
     ],
     "explanation": "Rubber keepers help keep the rope-end carabiner in the correct orientation, reducing cross-loading and aiding clipping.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Quickdraw"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Quickdraw"]
   },
   {
     "id": 181,
     "category": "competition",
     "question": "At Paris 2024, sport climbing was split into which medal events per gender?",
     "correct_answer": "Speed, and Boulder & Lead combined",
-    "wrong_answers": [
-      "Lead only, and Bouldering only",
-      "Speed only",
-      "Trad, Sport, Bouldering"
-    ],
+    "wrong_answers": ["Lead only, and Bouldering only", "Speed only", "Trad, Sport, Bouldering"],
     "explanation": "Paris 2024 featured two events per gender: speed and a combined boulder-and-lead event.",
     "references": [
       "https://www.olympics.com/en/news/paris-2024-what-is-the-new-sport-climbing-format",
@@ -2741,26 +1991,16 @@
     "category": "competition",
     "question": "Which organization is the international governing body for sport climbing competitions (World Cups/World Champs)?",
     "correct_answer": "International Federation of Sport Climbing (IFSC)",
-    "wrong_answers": [
-      "UIAA",
-      "IOC",
-      "Parks Victoria"
-    ],
+    "wrong_answers": ["UIAA", "IOC", "Parks Victoria"],
     "explanation": "The IFSC governs international competition climbing, including World Cups and World Championships.",
-    "references": [
-      "https://en.wikipedia.org/wiki/International_Federation_of_Sport_Climbing"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/International_Federation_of_Sport_Climbing"]
   },
   {
     "id": 183,
     "category": "competition",
     "question": "In IFSC bouldering finals (traditional format), what is the maximum climbing period per boulder?",
     "correct_answer": "4 minutes",
-    "wrong_answers": [
-      "3 minutes",
-      "5 minutes",
-      "6 minutes"
-    ],
+    "wrong_answers": ["3 minutes", "5 minutes", "6 minutes"],
     "explanation": "IFSC rules specify a 4-minute climbing period per boulder in finals under the standard bouldering format.",
     "references": [
       "https://images.ifsc-climbing.org/ifsc/image/private/t_q_good/prd/ugfyikqetemtjmujhwky.pdf"
@@ -2771,11 +2011,7 @@
     "category": "competition",
     "question": "In IFSC bouldering qualification/semi-final rounds (traditional format), what is the typical climbing period per boulder?",
     "correct_answer": "5 minutes",
-    "wrong_answers": [
-      "4 minutes",
-      "6 minutes",
-      "8 minutes"
-    ],
+    "wrong_answers": ["4 minutes", "6 minutes", "8 minutes"],
     "explanation": "IFSC rules list 5 minutes per boulder in qualification and semi-final rounds (with 4 minutes in finals).",
     "references": [
       "https://images.ifsc-climbing.org/ifsc/image/private/t_q_good/prd/ugfyikqetemtjmujhwky.pdf"
@@ -2786,26 +2022,16 @@
     "category": "competition",
     "question": "Which wall height is standardized for official speed climbing competition?",
     "correct_answer": "15 meters",
-    "wrong_answers": [
-      "10 meters",
-      "12 meters",
-      "20 meters"
-    ],
+    "wrong_answers": ["10 meters", "12 meters", "20 meters"],
     "explanation": "Speed climbing uses a standardized 15-meter wall and route so performances are comparable worldwide.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Speed_climbing"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Speed_climbing"]
   },
   {
     "id": 186,
     "category": "competition",
     "question": "In IFSC lead competition, what commonly ends a climber’s attempt before time expires?",
     "correct_answer": "Falling or weighting the rope",
-    "wrong_answers": [
-      "Touching the zone hold",
-      "Using chalk",
-      "Asking for beta"
-    ],
+    "wrong_answers": ["Touching the zone hold", "Using chalk", "Asking for beta"],
     "explanation": "Lead attempts generally end when the climber falls or weights the rope (or the time limit is reached).",
     "references": [
       "https://images.ifsc-climbing.org/ifsc/image/private/t_q_good/prd/ugfyikqetemtjmujhwky.pdf"
@@ -2831,11 +2057,7 @@
     "category": "competition",
     "question": "According to the Olympics.com explainer, how many sport climbing gold medals were awarded at Paris 2024 in total?",
     "correct_answer": "4",
-    "wrong_answers": [
-      "2",
-      "6",
-      "8"
-    ],
+    "wrong_answers": ["2", "6", "8"],
     "explanation": "Paris 2024 had two events per gender (speed and boulder+lead), producing four gold medals total across men and women.",
     "references": [
       "https://www.olympics.com/en/news/paris-2024-what-is-the-new-sport-climbing-format"
@@ -2846,11 +2068,7 @@
     "category": "competition",
     "question": "In the Olympic combined event (Paris 2024), which disciplines are combined into one medal event?",
     "correct_answer": "Bouldering and Lead",
-    "wrong_answers": [
-      "Speed and Lead",
-      "Speed and Bouldering",
-      "Trad and Sport"
-    ],
+    "wrong_answers": ["Speed and Lead", "Speed and Bouldering", "Trad and Sport"],
     "explanation": "At Paris 2024, bouldering and lead were combined into one event while speed was a separate event.",
     "references": [
       "https://www.olympics.com/en/news/paris-2024-what-is-the-new-sport-climbing-format"
@@ -2867,20 +2085,14 @@
       "Trad was included"
     ],
     "explanation": "At Tokyo 2020, sport climbing used a single combined medal including speed, bouldering, and lead.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Sport_climbing_at_the_2020_Summer_Olympics"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Sport_climbing_at_the_2020_Summer_Olympics"]
   },
   {
     "id": 191,
     "category": "competition",
     "question": "Which term refers to the person responsible for ensuring the event is judged according to IFSC rules (key officiating authority)?",
     "correct_answer": "Jury President",
-    "wrong_answers": [
-      "Head Setter",
-      "Chief Belayer",
-      "Route Sponsor"
-    ],
+    "wrong_answers": ["Head Setter", "Chief Belayer", "Route Sponsor"],
     "explanation": "IFSC rules assign key officiating authority to roles including the Jury President, who oversees rule application and decisions.",
     "references": [
       "https://images.ifsc-climbing.org/ifsc/image/private/t_q_good/prd/ugfyikqetemtjmujhwky.pdf"
@@ -2891,11 +2103,7 @@
     "category": "competition",
     "question": "In bouldering comps, what does a 'zone' typically represent?",
     "correct_answer": "An intermediate scoring hold indicating partial progress",
-    "wrong_answers": [
-      "A hold that is off-limits",
-      "The starting foothold",
-      "A time bonus hold"
-    ],
+    "wrong_answers": ["A hold that is off-limits", "The starting foothold", "A time bonus hold"],
     "explanation": "A zone hold (used in many IFSC formats) awards partial credit for progress even if the top isn’t achieved.",
     "references": [
       "https://images.ifsc-climbing.org/ifsc/image/private/t_q_good/prd/ugfyikqetemtjmujhwky.pdf"
@@ -2906,11 +2114,7 @@
     "category": "competition",
     "question": "What is the primary job of a competition routesetter?",
     "correct_answer": "Set routes/boulders that fairly test skills and are safe",
-    "wrong_answers": [
-      "Calculate Olympic quotas",
-      "Write athlete biographies",
-      "Sell tickets"
-    ],
+    "wrong_answers": ["Calculate Olympic quotas", "Write athlete biographies", "Sell tickets"],
     "explanation": "Routesetters design and build the competition climbs, balancing difficulty, safety, and separation.",
     "references": [
       "https://images.ifsc-climbing.org/ifsc/image/private/t_q_good/prd/ugfyikqetemtjmujhwky.pdf"
@@ -2921,26 +2125,16 @@
     "category": "competition",
     "question": "Which of these is NOT an IFSC World Cup discipline?",
     "correct_answer": "Traditional climbing",
-    "wrong_answers": [
-      "Lead",
-      "Bouldering",
-      "Speed"
-    ],
+    "wrong_answers": ["Lead", "Bouldering", "Speed"],
     "explanation": "IFSC World Cups are held in lead, bouldering, and speed (and some combined formats), not trad climbing.",
-    "references": [
-      "https://en.wikipedia.org/wiki/IFSC_Climbing_World_Cup"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/IFSC_Climbing_World_Cup"]
   },
   {
     "id": 195,
     "category": "competition",
     "question": "In lead climbing comps, scores are primarily based on what?",
     "correct_answer": "The highest hold controlled before falling/time",
-    "wrong_answers": [
-      "Fastest time to the top",
-      "Fewest chalk dips",
-      "Most dynos attempted"
-    ],
+    "wrong_answers": ["Fastest time to the top", "Fewest chalk dips", "Most dynos attempted"],
     "explanation": "Lead scoring is based on the highest handhold reached/controlled, with tie-break rules applied as needed.",
     "references": [
       "https://images.ifsc-climbing.org/ifsc/image/private/t_q_good/prd/ugfyikqetemtjmujhwky.pdf"
@@ -2957,24 +2151,16 @@
       "Because it’s only outdoors"
     ],
     "explanation": "Speed is set on a standardized route with two lanes, enabling head-to-head races and direct time comparison.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Speed_climbing"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Speed_climbing"]
   },
   {
     "id": 197,
     "category": "competition",
     "question": "Which IFSC discipline most directly tests endurance on a long roped route with a time limit?",
     "correct_answer": "Lead",
-    "wrong_answers": [
-      "Speed",
-      "Bouldering",
-      "Deep water soloing"
-    ],
+    "wrong_answers": ["Speed", "Bouldering", "Deep water soloing"],
     "explanation": "Lead climbing in competition uses long routes testing endurance and route-reading within a time limit.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Sport_climbing"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Sport_climbing"]
   },
   {
     "id": 198,
@@ -2996,15 +2182,9 @@
     "category": "competition",
     "question": "According to Wikipedia’s summary, how did the number of medal events change from Tokyo 2020 to Paris 2024?",
     "correct_answer": "It doubled from 2 to 4",
-    "wrong_answers": [
-      "It stayed the same",
-      "It halved",
-      "It increased by 1 only"
-    ],
+    "wrong_answers": ["It stayed the same", "It halved", "It increased by 1 only"],
     "explanation": "The 2024 Olympics doubled medal events because speed separated from the boulder-and-lead combined, increasing total events.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Sport_climbing_at_the_2024_Summer_Olympics"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Sport_climbing_at_the_2024_Summer_Olympics"]
   },
   {
     "id": 200,
@@ -3017,20 +2197,14 @@
       "Roland-Garros (Paris)"
     ],
     "explanation": "Sport climbing at Paris 2024 was held at the Le Bourget Sport Climbing Venue in Saint‑Denis.",
-    "references": [
-      "https://en.wikipedia.org/wiki/Sport_climbing_at_the_2024_Summer_Olympics"
-    ]
+    "references": ["https://en.wikipedia.org/wiki/Sport_climbing_at_the_2024_Summer_Olympics"]
   },
   {
     "id": 201,
     "category": "rope climbing",
     "question": "Which route grade is the hardest?",
     "correct_answer": "French 6a+",
-    "wrong_answers": [
-      "YDS 5.10a",
-      "Ewbank 18",
-      "British VS 4c"
-    ],
+    "wrong_answers": ["YDS 5.10a", "Ewbank 18", "British VS 4c"],
     "explanation": "YDS 5.10a, Ewbank 18, and British VS 4c are all broadly equivalent to French 6a. French 6a+ represents a clear step up in difficulty beyond those grades.",
     "references": [
       "https://www.thecrag.com/en/article/grades",
@@ -3042,11 +2216,7 @@
     "category": "rope climbing",
     "question": "Which of the following route grades is the hardest?",
     "correct_answer": "YDS 5.11c",
-    "wrong_answers": [
-      "French 7a",
-      "Ewbank 24",
-      "British E3 5c"
-    ],
+    "wrong_answers": ["French 7a", "Ewbank 24", "British E3 5c"],
     "explanation": "YDS 5.11c generally corresponds to French 7a+ and Ewbank 25, making it harder than French 7a and Ewbank 24, and slightly harder than British E3 5c.",
     "references": [
       "https://www.thecrag.com/en/article/grades",
@@ -3058,11 +2228,7 @@
     "category": "rope climbing",
     "question": "Which route grade represents the highest difficulty?",
     "correct_answer": "YDS 5.12d",
-    "wrong_answers": [
-      "French 7c",
-      "Ewbank 28",
-      "British E6 6b"
-    ],
+    "wrong_answers": ["French 7c", "Ewbank 28", "British E6 6b"],
     "explanation": "YDS 5.12d typically aligns with French 7c+/8a and Ewbank 29–30, making it harder than French 7c, Ewbank 28, and British E6 6b.",
     "references": [
       "https://www.thecrag.com/en/article/grades",
@@ -3074,11 +2240,7 @@
     "category": "bouldering",
     "question": "Which bouldering grade is the hardest?",
     "correct_answer": "Font 7A",
-    "wrong_answers": [
-      "V5",
-      "Font 6C",
-      "V4"
-    ],
+    "wrong_answers": ["V5", "Font 6C", "V4"],
     "explanation": "V5 corresponds roughly to Font 6C or 6C+. Font 7A is approximately equivalent to V6, making it the hardest option listed.",
     "references": [
       "https://www.thecrag.com/en/article/grades",
@@ -3090,11 +2252,7 @@
     "category": "bouldering",
     "question": "Which boulder problem grade is the hardest?",
     "correct_answer": "Font 7B",
-    "wrong_answers": [
-      "V7",
-      "Font 7A+",
-      "V6"
-    ],
+    "wrong_answers": ["V7", "Font 7A+", "V6"],
     "explanation": "V7 generally corresponds to Font 7A+. Font 7B is a step harder and is closer to V8, making it the most difficult grade listed.",
     "references": [
       "https://www.thecrag.com/en/article/grades",
@@ -3106,11 +2264,7 @@
     "category": "bouldering",
     "question": "Which bouldering grade represents the highest difficulty?",
     "correct_answer": "Font 7C+",
-    "wrong_answers": [
-      "V10",
-      "Font 7C",
-      "V9"
-    ],
+    "wrong_answers": ["V10", "Font 7C", "V9"],
     "explanation": "Font 7C+ is commonly equated with V11, which is harder than V10 (≈ Font 7C) and V9, making it the most difficult option.",
     "references": [
       "https://www.thecrag.com/en/article/grades",

@@ -20,9 +20,7 @@ export default function ScoreSummary({ score, total, category }: ScoreSummaryPro
 
   return (
     <div className="flex flex-col items-center gap-6 text-center">
-      <div className="text-6xl">
-        {percentage >= 80 ? "🏆" : percentage >= 50 ? "💪" : "📚"}
-      </div>
+      <div className="text-6xl">{percentage >= 80 ? "🏆" : percentage >= 50 ? "💪" : "📚"}</div>
       <h1 className="text-4xl font-bold text-zinc-900 dark:text-zinc-50">
         {score} / {total}
       </h1>

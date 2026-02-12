@@ -1,23 +1,24 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import ScoreSummary from "@/components/ScoreSummary";
 
+function getStoredResult(): { score: number; total: number; category: string | null } | null {
+  if (typeof window === "undefined") return null;
+  const stored = localStorage.getItem("quizResult");
+  return stored ? JSON.parse(stored) : null;
+}
+
 export default function ResultsPage() {
   const router = useRouter();
-  const [result, setResult] = useState<{ score: number; total: number; category: string | null } | null>(
-    null
-  );
+  const result = getStoredResult();
 
   useEffect(() => {
-    const stored = localStorage.getItem("quizResult");
-    if (stored) {
-      setResult(JSON.parse(stored));
-    } else {
+    if (!result) {
       router.push("/");
     }
-  }, [router]);
+  }, [result, router]);
 
   if (!result) {
     return (

@@ -21,7 +21,7 @@ interface Question {
 async function generateBatch(
   client: Anthropic,
   count: number,
-  existingQuestions: string[]
+  existingQuestions: string[],
 ): Promise<Omit<Question, "id">[]> {
   const avoidList =
     existingQuestions.length > 0

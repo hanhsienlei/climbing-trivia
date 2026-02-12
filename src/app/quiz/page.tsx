@@ -1,6 +1,6 @@
 "use client";
 
-import { Suspense, useEffect, useState, useMemo } from "react";
+import { Suspense, useState, useMemo } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import QuestionCard from "@/components/QuestionCard";
 import Explanation from "@/components/Explanation";
@@ -78,13 +78,12 @@ function QuizContent() {
   const [score, setScore] = useState(0);
   const [answered, setAnswered] = useState(false);
   const [explanation, setExplanation] = useState<string | null>(null);
-  const [shuffledAnswers, setShuffledAnswers] = useState<string[]>([]);
-
-  useEffect(() => {
+  const shuffledAnswers = useMemo(() => {
     if (currentIndex < questions.length) {
       const q = questions[currentIndex];
-      setShuffledAnswers(shuffleArray([q.correct_answer, ...q.wrong_answers]));
+      return shuffleArray([q.correct_answer, ...q.wrong_answers]);
     }
+    return [];
   }, [questions, currentIndex]);
 
   function handleAnswer(answer: string, isCorrect: boolean) {
@@ -101,7 +100,7 @@ function QuizContent() {
     if (nextIndex >= questions.length) {
       localStorage.setItem(
         "quizResult",
-        JSON.stringify({ score: score, total: questions.length, category: category || null })
+        JSON.stringify({ score: score, total: questions.length, category: category || null }),
       );
       router.push("/results");
     } else {
@@ -142,9 +141,7 @@ function QuizContent() {
             </span>
           )}
         </span>
-        <span className="text-sm font-medium text-zinc-500 dark:text-zinc-400">
-          Score: {score}
-        </span>
+        <span className="text-sm font-medium text-zinc-500 dark:text-zinc-400">Score: {score}</span>
         <button
           onClick={() => router.push("/")}
           className="text-sm font-medium text-zinc-400 hover:text-zinc-700 dark:text-zinc-500 dark:hover:text-zinc-300 cursor-pointer"

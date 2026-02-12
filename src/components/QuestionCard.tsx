@@ -42,9 +42,7 @@ export default function QuestionCard({
 
   return (
     <div className="w-full max-w-2xl">
-      <h2 className="mb-6 text-xl font-semibold text-zinc-900 dark:text-zinc-50">
-        {question}
-      </h2>
+      <h2 className="mb-6 text-xl font-semibold text-zinc-900 dark:text-zinc-50">{question}</h2>
       <div className="flex flex-col gap-3">
         {answers.map((answer, i) => (
           <button

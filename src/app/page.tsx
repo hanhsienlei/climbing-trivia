@@ -18,8 +18,8 @@ export default function Home() {
           Rock Climbing Trivia
         </h1>
         <p className="max-w-md text-lg text-zinc-600 dark:text-zinc-400">
-          Test your knowledge of climbing history, techniques, famous routes,
-          grading systems, and more. Get ready for quiz night!
+          Test your knowledge of climbing history, techniques, famous routes, grading systems, and
+          more. Get ready for quiz night!
         </p>
         <Link
           href="/quiz"
