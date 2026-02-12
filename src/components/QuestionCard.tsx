@@ -20,7 +20,6 @@ export default function QuestionCard({
   const [selected, setSelected] = useState<string | null>(null);
 
   function handleSelect(answer: string) {
-    if (disabled) return;
     setSelected(answer);
     onAnswer(answer, answer === correctAnswer);
   }
@@ -47,7 +46,7 @@ export default function QuestionCard({
         {answers.map((answer) => (
           <button
             key={answer}
-            onClick={() => handleSelect(answer)}
+            onClick={disabled ? undefined : () => handleSelect(answer)}
             disabled={disabled}
             className={`w-full rounded-lg border-2 px-4 py-3 text-left text-base transition-colors ${getButtonStyle(answer)} ${disabled ? "cursor-default" : "cursor-pointer"}`}
           >

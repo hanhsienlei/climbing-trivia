@@ -106,6 +106,7 @@ function QuizContent() {
       </div>
 
       <QuestionCard
+        key={currentQuestion.id}
         question={currentQuestion.question}
         answers={shuffledAnswers}
         correctAnswer={currentQuestion.correctAnswer}

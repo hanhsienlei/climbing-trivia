@@ -1,6 +1,12 @@
-import { describe, it, expect, beforeEach } from "vitest";
+import { describe, it, expect, beforeEach, vi } from "vitest";
 import type { Question } from "@/types";
-import { shuffleArray, getSeenIds, selectQuestions, STORAGE_KEY_RESULT } from "@/lib/quiz";
+import {
+  shuffleArray,
+  getSeenIds,
+  selectQuestions,
+  STORAGE_KEY_RESULT,
+  STORAGE_KEY_SEEN_IDS,
+} from "@/lib/quiz";
 
 const localStorageMock = (() => {
   let store: Record<string, string> = {};
@@ -9,17 +15,38 @@ const localStorageMock = (() => {
     setItem: (key: string, value: string) => {
       store[key] = value;
     },
+    removeItem: (key: string) => {
+      delete store[key];
+    },
     clear: () => {
       store = {};
     },
   };
 })();
 
-Object.defineProperty(globalThis, "localStorage", { value: localStorageMock });
+Object.defineProperty(globalThis, "localStorage", {
+  value: localStorageMock,
+  configurable: true,
+  writable: true,
+});
 
 describe("Quiz question selection", () => {
   beforeEach(() => {
     localStorageMock.clear();
+  });
+
+  it("should return empty array when window is undefined (SSR)", () => {
+    // Save original window
+    const originalWindow = globalThis.window;
+
+    // @ts-expect-error - Simulating SSR environment
+    delete globalThis.window;
+
+    const seenIds = getSeenIds();
+    expect(seenIds).toEqual([]);
+
+    // Restore window
+    globalThis.window = originalWindow;
   });
 
   it("should not repeat questions until all have been seen", () => {
@@ -97,6 +124,37 @@ describe("Quiz question selection", () => {
     expect(new Set(shuffled).size).toBe(original.length);
     expect(shuffled.sort((a, b) => a - b)).toEqual(original);
   });
+
+  it("should handle corrupted localStorage data gracefully", () => {
+    // Set corrupted JSON data
+    localStorage.setItem(STORAGE_KEY_SEEN_IDS, "{invalid json");
+
+    // Spy on removeItem to verify it's called
+    const removeItemSpy = vi.spyOn(localStorage, "removeItem");
+
+    // Should return empty array and clean up corrupted data
+    const seenIds = getSeenIds();
+    expect(seenIds).toEqual([]);
+    expect(removeItemSpy).toHaveBeenCalledWith(STORAGE_KEY_SEEN_IDS);
+    expect(localStorage.getItem(STORAGE_KEY_SEEN_IDS)).toBeNull();
+
+    removeItemSpy.mockRestore();
+  });
+
+  it("should handle non-array data in localStorage", () => {
+    // Set valid JSON but not an array
+    localStorage.setItem(STORAGE_KEY_SEEN_IDS, JSON.stringify({ foo: "bar" }));
+
+    // Spy on removeItem - should NOT be called since JSON.parse succeeds
+    const removeItemSpy = vi.spyOn(localStorage, "removeItem");
+
+    // Should return empty array but NOT remove the item (it's valid JSON)
+    const seenIds = getSeenIds();
+    expect(seenIds).toEqual([]);
+    expect(removeItemSpy).not.toHaveBeenCalled();
+
+    removeItemSpy.mockRestore();
+  });
 });
 
 describe("Quiz result category persistence", () => {
@@ -110,7 +168,13 @@ describe("Quiz result category persistence", () => {
 
   function getQuizResult(): { score: number; total: number; category: string | null } | null {
     const stored = localStorage.getItem(STORAGE_KEY_RESULT);
-    return stored ? JSON.parse(stored) : null;
+    if (!stored) return null;
+
+    try {
+      return JSON.parse(stored);
+    } catch {
+      return null;
+    }
   }
 
   function getPlayAgainUrl(category: string | null): string {
@@ -148,5 +212,20 @@ describe("Quiz result category persistence", () => {
   it("should encode special characters in category URL", () => {
     const url = getPlayAgainUrl("Competition & Olympics");
     expect(url).toBe("/quiz?category=Competition%20%26%20Olympics");
+  });
+
+  it("should handle corrupted quiz result data", () => {
+    // Set corrupted JSON data
+    localStorage.setItem(STORAGE_KEY_RESULT, "{invalid json");
+
+    // Spy on removeItem to verify cleanup (in test context, no actual cleanup happens)
+    const removeItemSpy = vi.spyOn(localStorage, "removeItem");
+
+    // Should return null (no cleanup in test helper, but production code does clean up)
+    const result = getQuizResult();
+    expect(result).toBeNull();
+    expect(removeItemSpy).not.toHaveBeenCalled(); // Test helper doesn't clean up
+
+    removeItemSpy.mockRestore();
   });
 });

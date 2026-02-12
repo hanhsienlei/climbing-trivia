@@ -16,7 +16,15 @@ export function shuffleArray<T>(array: T[]): T[] {
 export function getSeenIds(): number[] {
   if (typeof window === "undefined") return [];
   const stored = localStorage.getItem(STORAGE_KEY_SEEN_IDS);
-  return stored ? JSON.parse(stored) : [];
+  if (!stored) return [];
+
+  try {
+    const parsed = JSON.parse(stored);
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    localStorage.removeItem(STORAGE_KEY_SEEN_IDS);
+    return [];
+  }
 }
 
 export function saveSeenIds(ids: number[]) {
