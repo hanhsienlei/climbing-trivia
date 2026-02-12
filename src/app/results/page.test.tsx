@@ -1,7 +1,7 @@
 import { describe, it, expect, beforeEach, vi } from "vitest";
-import { render, screen } from "@testing-library/react";
+import { render, screen, waitFor } from "@testing-library/react";
 import { useRouter } from "next/navigation";
-import ResultsPage from "./page";
+import ResultsPage, { getStoredResult } from "./page";
 import { STORAGE_KEY_RESULT } from "@/lib/quiz";
 
 vi.mock("next/navigation", () => ({
@@ -37,7 +37,7 @@ describe("ResultsPage", () => {
     });
   });
 
-  it("should render score summary with valid data", () => {
+  it("renders score summary with valid data", () => {
     localStorage.setItem(
       STORAGE_KEY_RESULT,
       JSON.stringify({ score: 8, total: 10, category: "Bouldering" }),
@@ -45,44 +45,33 @@ describe("ResultsPage", () => {
 
     render(<ResultsPage />);
 
-    expect(screen.getByText("8 / 10")).toBeDefined();
-    expect(screen.getByText(/Great job!/i)).toBeDefined();
+    expect(screen.getByText("8 / 10")).toBeInTheDocument();
+    expect(screen.getByText(/Great job!/i)).toBeInTheDocument();
+    expect(mockPush).not.toHaveBeenCalled();
   });
 
-  it("should handle corrupted localStorage data and clean it up", () => {
-    // Set corrupted JSON data
+  it("cleans corrupted localStorage data and redirects home", async () => {
     localStorage.setItem(STORAGE_KEY_RESULT, "{invalid json");
-
-    // Spy on removeItem to verify it's called
     const removeItemSpy = vi.spyOn(localStorage, "removeItem");
 
     render(<ResultsPage />);
 
-    // Should call removeItem to clean up corrupted data
     expect(removeItemSpy).toHaveBeenCalledWith(STORAGE_KEY_RESULT);
     expect(localStorage.getItem(STORAGE_KEY_RESULT)).toBeNull();
+    expect(screen.getByText("Loading results...")).toBeInTheDocument();
+    await waitFor(() => expect(mockPush).toHaveBeenCalledWith("/"));
 
     removeItemSpy.mockRestore();
   });
 
-  it("should redirect to home when no result exists", () => {
-    // No data in localStorage
+  it("redirects home when no result exists", async () => {
     render(<ResultsPage />);
 
-    // Should attempt to redirect
-    expect(mockPush).toHaveBeenCalledWith("/");
+    expect(screen.getByText("Loading results...")).toBeInTheDocument();
+    await waitFor(() => expect(mockPush).toHaveBeenCalledWith("/"));
   });
 
-  it("should redirect to home when result is corrupted", () => {
-    localStorage.setItem(STORAGE_KEY_RESULT, "{invalid json");
-
-    render(<ResultsPage />);
-
-    // Should attempt to redirect after cleanup
-    expect(mockPush).toHaveBeenCalledWith("/");
-  });
-
-  it("should handle null category", () => {
+  it("handles null category", () => {
     localStorage.setItem(
       STORAGE_KEY_RESULT,
       JSON.stringify({ score: 5, total: 10, category: null }),
@@ -90,7 +79,16 @@ describe("ResultsPage", () => {
 
     render(<ResultsPage />);
 
-    expect(screen.getByText("5 / 10")).toBeDefined();
-    expect(screen.getByText(/Room for improvement/i)).toBeDefined();
+    expect(screen.getByText("5 / 10")).toBeInTheDocument();
+    expect(screen.getByText(/Room for improvement/i)).toBeInTheDocument();
+  });
+
+  it("returns null in SSR when window is undefined", () => {
+    const originalWindow = globalThis.window;
+    vi.stubGlobal("window", undefined);
+
+    expect(getStoredResult()).toBeNull();
+
+    vi.stubGlobal("window", originalWindow);
   });
 });

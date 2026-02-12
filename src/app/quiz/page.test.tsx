@@ -4,6 +4,7 @@ import userEvent from "@testing-library/user-event";
 import { useRouter, useSearchParams } from "next/navigation";
 import QuizPage from "./page";
 import { STORAGE_KEY_RESULT, STORAGE_KEY_SEEN_IDS } from "@/lib/quiz";
+import * as quizLib from "@/lib/quiz";
 import type { Question } from "@/types";
 
 vi.mock("next/navigation", () => ({
@@ -98,6 +99,17 @@ describe("QuizPage", () => {
     });
   });
 
+  it("should show no questions message without category suffix when pool is empty", async () => {
+    vi.spyOn(quizLib, "selectQuestions").mockReturnValueOnce([]);
+
+    render(<QuizPage />);
+
+    await waitFor(() => {
+      expect(screen.getByText("No questions found.")).toBeInTheDocument();
+      expect(screen.queryByText(/No questions found for/i)).toBeNull();
+    });
+  });
+
   it("should navigate home when Back to Home is clicked in no questions state", async () => {
     const user = userEvent.setup();
     mockSearchParams.get.mockReturnValue("nonexistent-category");
@@ -148,7 +160,7 @@ describe("QuizPage", () => {
     });
 
     // Find and click the correct answer
-    const correctButton = screen.getByText(/Correct 1/);
+    const correctButton = screen.getByText(/Correct \d+/);
     await user.click(correctButton);
 
     await waitFor(() => {

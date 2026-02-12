@@ -31,6 +31,20 @@ describe("Quiz question selection", () => {
     localStorageMock.clear();
   });
 
+  it("should return empty array when window is undefined (SSR)", () => {
+    // Save original window
+    const originalWindow = globalThis.window;
+
+    // @ts-expect-error - Simulating SSR environment
+    delete globalThis.window;
+
+    const seenIds = getSeenIds();
+    expect(seenIds).toEqual([]);
+
+    // Restore window
+    globalThis.window = originalWindow;
+  });
+
   it("should not repeat questions until all have been seen", () => {
     const questions = Array.from({ length: 20 }, (_, i) => ({
       id: i + 1,
