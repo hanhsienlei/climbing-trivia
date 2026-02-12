@@ -419,4 +419,43 @@ describe("QuizPage", () => {
       expect(screen.getByText(/Question 2 of/i)).toBeDefined();
     });
   });
+
+  it("resets selected answer styling between questions when answers overlap", async () => {
+    const user = userEvent.setup();
+    vi.spyOn(quizLib, "selectQuestions").mockReturnValueOnce([
+      {
+        id: 101,
+        category: "shared",
+        question: "Shared Question 1?",
+        correctAnswer: "Correct 1",
+        wrongAnswers: ["Shared Choice", "Wrong 1B", "Wrong 1C"],
+        explanation: "Explanation 1",
+      },
+      {
+        id: 102,
+        category: "shared",
+        question: "Shared Question 2?",
+        correctAnswer: "Correct 2",
+        wrongAnswers: ["Shared Choice", "Wrong 2B", "Wrong 2C"],
+        explanation: "Explanation 2",
+      },
+    ] as Question[]);
+
+    render(<QuizPage />);
+
+    await waitFor(() => {
+      expect(screen.getByText("Question 1 of 2")).toBeInTheDocument();
+    });
+
+    await user.click(screen.getByRole("button", { name: "Shared Choice" }));
+    await user.click(screen.getByText("Next Question"));
+
+    await waitFor(() => {
+      expect(screen.getByText("Question 2 of 2")).toBeInTheDocument();
+    });
+
+    const sharedAnswer = screen.getByRole("button", { name: "Shared Choice" });
+    expect(sharedAnswer.className).not.toContain("border-zinc-900");
+    expect(sharedAnswer.className).not.toContain("bg-zinc-100");
+  });
 });
