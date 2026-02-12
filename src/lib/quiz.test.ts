@@ -2,7 +2,6 @@ import { describe, it, expect, beforeEach } from "vitest";
 import type { Question } from "@/types";
 import { shuffleArray, getSeenIds, selectQuestions, STORAGE_KEY_RESULT } from "@/lib/quiz";
 
-// Mock localStorage
 const localStorageMock = (() => {
   let store: Record<string, string> = {};
   return {
@@ -16,8 +15,7 @@ const localStorageMock = (() => {
   };
 })();
 
-Object.defineProperty(global, "localStorage", { value: localStorageMock });
-Object.defineProperty(global, "window", { value: {} });
+Object.defineProperty(globalThis, "localStorage", { value: localStorageMock });
 
 describe("Quiz question selection", () => {
   beforeEach(() => {
