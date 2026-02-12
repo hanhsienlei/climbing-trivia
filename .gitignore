@@ -42,3 +42,11 @@ trivia.db
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# claude code
+.claude/
+
+# system junk
+Library/
+.npm/
+.github/appmod/
