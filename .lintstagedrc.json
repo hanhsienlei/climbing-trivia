@@ -1,4 +1,5 @@
 {
   "*.{ts,tsx,mts}": ["eslint --fix", "prettier --write"],
-  "*.{js,mjs,json,md,css}": ["prettier --write"]
+  "*.{js,mjs,json,md,css}": ["prettier --write"],
+  "src/data/questions.json": ["npm run validate:questions"]
 }

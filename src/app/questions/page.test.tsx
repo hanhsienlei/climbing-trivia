@@ -8,21 +8,21 @@ vi.mock("@/data/questions.json", () => ({
   default: [
     {
       id: 1,
-      category: "bouldering",
+      category: "Bouldering",
       question: "What is a crimp?",
       correctAnswer: "A small edge hold",
       explanation: "A crimp is a small edge hold.",
     },
     {
       id: 2,
-      category: "rope climbing",
+      category: "Rope Climbing",
       question: "What is a belay device?",
       correctAnswer: "Safety equipment",
       explanation: "A belay device is used for safety.",
     },
     {
       id: 3,
-      category: "bouldering",
+      category: "Bouldering",
       question: "What is topping out?",
       correctAnswer: "Finishing a boulder",
       explanation: "Topping out means finishing a boulder problem.",
@@ -52,8 +52,8 @@ describe("QuestionsPage", () => {
     render(<QuestionsPage />);
 
     expect(screen.getByRole("button", { name: "All" })).toBeDefined();
-    expect(screen.getByRole("button", { name: "bouldering" })).toBeDefined();
-    expect(screen.getByRole("button", { name: "rope climbing" })).toBeDefined();
+    expect(screen.getByRole("button", { name: "Bouldering" })).toBeDefined();
+    expect(screen.getByRole("button", { name: "Rope Climbing" })).toBeDefined();
   });
 
   it("should filter questions by category when button is clicked", async () => {
@@ -61,7 +61,7 @@ describe("QuestionsPage", () => {
     render(<QuestionsPage />);
 
     // Click on bouldering category
-    const boulderingButton = screen.getByRole("button", { name: "bouldering" });
+    const boulderingButton = screen.getByRole("button", { name: "Bouldering" });
     await user.click(boulderingButton);
 
     // Should show only 2 bouldering questions
@@ -76,7 +76,7 @@ describe("QuestionsPage", () => {
     render(<QuestionsPage />);
 
     // First filter by category
-    const boulderingButton = screen.getByRole("button", { name: "bouldering" });
+    const boulderingButton = screen.getByRole("button", { name: "Bouldering" });
     await user.click(boulderingButton);
 
     // Then click All
@@ -132,7 +132,7 @@ describe("QuestionsPage", () => {
     expect(screen.getByText("3.")).toBeDefined();
 
     // Category badges are shown inline with questions
-    const categoryBadges = screen.getAllByText("bouldering");
+    const categoryBadges = screen.getAllByText("Bouldering");
     expect(categoryBadges.length).toBeGreaterThan(0); // At least one badge (plus filter button)
   });
 
@@ -140,7 +140,7 @@ describe("QuestionsPage", () => {
     const user = userEvent.setup();
     render(<QuestionsPage />);
 
-    const boulderingButton = screen.getByRole("button", { name: "bouldering" });
+    const boulderingButton = screen.getByRole("button", { name: "Bouldering" });
 
     // Check initial state
     expect(boulderingButton.className).toContain("bg-zinc-200");

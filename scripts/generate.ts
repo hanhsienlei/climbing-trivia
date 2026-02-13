@@ -5,19 +5,12 @@ import Anthropic from "@anthropic-ai/sdk";
 import { readFileSync, writeFileSync, existsSync } from "fs";
 import { resolve } from "path";
 import type { Question } from "../src/types";
+import { CATEGORIES } from "../src/types";
 
 const OUTPUT_PATH = resolve(__dirname, "../src/data/questions.json");
 const BATCH_SIZE = 20;
 const TOTAL_QUESTIONS = 50;
 const MAX_RETRIES = 3;
-
-const VALID_CATEGORIES = [
-  "Bouldering",
-  "Rope Climbing",
-  "Australia",
-  "General Knowledge",
-  "Competition",
-] as const;
 
 interface ValidationResult {
   isValid: boolean;
@@ -39,7 +32,7 @@ function validateQuestion(q: unknown): ValidationResult {
 
   if (
     typeof obj.category !== "string" ||
-    !VALID_CATEGORIES.includes(obj.category as (typeof VALID_CATEGORIES)[number])
+    !CATEGORIES.includes(obj.category as (typeof CATEGORIES)[number])
   ) {
     errors.push(`Invalid category: "${String(obj.category)}"`);
   }
