@@ -69,6 +69,16 @@ function validateQuestion(q: unknown): ValidationResult {
     errors.push("Missing or empty explanation");
   }
 
+  if (!Array.isArray(obj.references) || obj.references.length === 0) {
+    errors.push("Missing or empty references array");
+  } else {
+    for (let i = 0; i < obj.references.length; i++) {
+      if (typeof obj.references[i] !== "string" || !obj.references[i].startsWith("http")) {
+        errors.push(`references[${i}] must be a valid URL starting with http`);
+      }
+    }
+  }
+
   return { isValid: errors.length === 0, errors };
 }
 
@@ -107,7 +117,9 @@ Each question must be assigned one of these ${CATEGORIES.length} categories: ${C
 
 Each question should have exactly 1 correct answer and 3 plausible but incorrect answers. Make the questions challenging but fair — suitable for a pub quiz night at a climbing gym.
 
-For each question, also include a brief explanation (2-3 sentences) of why the correct answer is right. Include an interesting fact if possible.${avoidList}
+For each question, also include a brief explanation (2-3 sentences) of why the correct answer is right. Include an interesting fact if possible.
+
+Also include at least one reference URL for each question as a source. Use Wikipedia, climbing websites (8a.nu, theCrag, Mountain Project), competition results, or other reputable sources.${avoidList}
 
 Respond with ONLY a JSON array, no other text. Each element should have this shape:
 {
@@ -115,7 +127,8 @@ Respond with ONLY a JSON array, no other text. Each element should have this sha
   "category": "one of: ${CATEGORIES.join(", ")}",
   "correctAnswer": "the correct answer",
   "wrongAnswers": ["wrong1", "wrong2", "wrong3"],
-  "explanation": "brief explanation of the correct answer"
+  "explanation": "brief explanation of the correct answer",
+  "references": ["https://example.com/source1", "https://example.com/source2"]
 }`,
       },
     ],
@@ -176,6 +189,7 @@ async function main() {
         correctAnswer: typed.correctAnswer,
         wrongAnswers: typed.wrongAnswers,
         explanation: typed.explanation,
+        references: typed.references,
       });
       existingTexts.push(typed.question);
       validCount++;

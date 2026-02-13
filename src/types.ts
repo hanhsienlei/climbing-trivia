@@ -15,4 +15,5 @@ export interface Question {
   correctAnswer: string;
   wrongAnswers: string[];
   explanation: string;
+  references: string[];
 }

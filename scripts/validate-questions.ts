@@ -71,6 +71,25 @@ if (emptyFields.length > 0) {
   hasErrors = true;
 }
 
+// 7. Validate references field
+const missingReferences = questions.filter((q) => !q.references || q.references.length === 0);
+if (missingReferences.length > 0) {
+  console.error(`\n❌ Found ${missingReferences.length} questions without references:`);
+  missingReferences.forEach((q) => console.error(`  ID ${q.id}`));
+  hasErrors = true;
+}
+
+// 8. Validate reference URLs
+const invalidRefs = questions.filter(
+  (q) =>
+    q.references && q.references.some((ref) => typeof ref !== "string" || !ref.startsWith("http")),
+);
+if (invalidRefs.length > 0) {
+  console.error(`\n❌ Found ${invalidRefs.length} questions with invalid reference URLs:`);
+  invalidRefs.forEach((q) => console.error(`  ID ${q.id}`));
+  hasErrors = true;
+}
+
 if (hasErrors) {
   process.exit(1);
 }
