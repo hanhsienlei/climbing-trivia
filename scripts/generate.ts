@@ -103,7 +103,7 @@ Cover a mix of these topics:
 - General rock climbing and bouldering trivia (sport, trad, bouldering, deep water solo)
 - Famous routes and boulder problems worldwide
 
-Each question must be assigned one of these ${VALID_CATEGORIES.length} categories: ${VALID_CATEGORIES.map((c) => `"${c}"`).join(", ")}. Distribute questions roughly evenly across all ${VALID_CATEGORIES.length} categories.
+Each question must be assigned one of these ${CATEGORIES.length} categories: ${CATEGORIES.map((c) => `"${c}"`).join(", ")}. Distribute questions roughly evenly across all ${CATEGORIES.length} categories.
 
 Each question should have exactly 1 correct answer and 3 plausible but incorrect answers. Make the questions challenging but fair — suitable for a pub quiz night at a climbing gym.
 
@@ -112,7 +112,7 @@ For each question, also include a brief explanation (2-3 sentences) of why the c
 Respond with ONLY a JSON array, no other text. Each element should have this shape:
 {
   "question": "the question text",
-  "category": "one of: ${VALID_CATEGORIES.join(", ")}",
+  "category": "one of: ${CATEGORIES.join(", ")}",
   "correctAnswer": "the correct answer",
   "wrongAnswers": ["wrong1", "wrong2", "wrong3"],
   "explanation": "brief explanation of the correct answer"
