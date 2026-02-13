@@ -134,6 +134,8 @@ Respond with ONLY a JSON array, no other text. Each element should have this sha
     ],
   });
 
+  // TODO: Evaluate programmatic tool calling for schema validation to reduce JSON parsing/format errors:
+  // https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling
   const text = message.content[0].type === "text" ? message.content[0].text : "";
   const jsonMatch = text.match(/\[[\s\S]*\]/);
   if (!jsonMatch) {
