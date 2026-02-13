@@ -37,7 +37,7 @@ multiple categories.
 
 ### Prerequisites
 
-- Node.js 18+
+- Node.js 20+
 
 ### Install & run locally
 
