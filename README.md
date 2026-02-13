@@ -114,6 +114,8 @@ See **[CLAUDE.md](./CLAUDE.md)** for:
 
 ## Future Improvements
 
+- DevOps: containerize local and CI workflows with Docker for reproducible
+  environments
 - Question Quality: automated fact-checking pipeline before committing generated
   questions
 - Testing: add Playwright E2E tests for key flows (eg., Home → Quiz → Results)

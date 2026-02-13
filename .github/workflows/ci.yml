@@ -1,4 +1,5 @@
 name: CI
+# TODO: Containerize CI execution with Docker for reproducible local/CI parity.
 
 on:
   push:
