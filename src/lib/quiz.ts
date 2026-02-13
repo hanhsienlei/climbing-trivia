@@ -32,18 +32,21 @@ export function saveSeenIds(ids: number[]) {
 }
 
 export function selectQuestions(pool: Question[], quizSize: number): Question[] {
-  const seenIds = new Set(getSeenIds());
+  const poolIds = new Set(pool.map((q) => q.id));
+  const persistedSeenIds = getSeenIds().filter((id) => poolIds.has(id));
+  const seenIds = new Set(persistedSeenIds);
   let fresh = pool.filter((q) => !seenIds.has(q.id));
 
   if (fresh.length < quizSize) {
-    saveSeenIds([]);
+    persistedSeenIds.length = 0;
     fresh = pool;
   }
 
   const selected = shuffleArray(fresh).slice(0, quizSize);
-
-  const newSeenIds = [...getSeenIds(), ...selected.map((q) => q.id)];
-  saveSeenIds(newSeenIds);
+  const maxSeenIds = poolIds.size;
+  const mergedSeenIds = [...new Set([...persistedSeenIds, ...selected.map((q) => q.id)])];
+  const cappedSeenIds = mergedSeenIds.slice(Math.max(0, mergedSeenIds.length - maxSeenIds));
+  saveSeenIds(cappedSeenIds);
 
   return selected;
 }

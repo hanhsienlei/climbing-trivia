@@ -155,6 +155,25 @@ describe("Quiz question selection", () => {
 
     removeItemSpy.mockRestore();
   });
+
+  it("should dedupe and cap seen IDs to the current pool size", () => {
+    const questions = Array.from({ length: 3 }, (_, i) => ({
+      id: i + 1,
+      question: `Question ${i + 1}`,
+    })) as Pick<Question, "id" | "question">[] as Question[];
+
+    localStorage.setItem(STORAGE_KEY_SEEN_IDS, JSON.stringify([1, 1, 2, 99, 99]));
+
+    const selected = selectQuestions(questions, 1);
+    expect(selected).toHaveLength(1);
+
+    const seenIds = getSeenIds();
+    expect(new Set(seenIds).size).toBe(seenIds.length);
+    expect(seenIds.length).toBeLessThanOrEqual(questions.length);
+    for (const id of seenIds) {
+      expect(questions.some((q) => q.id === id)).toBe(true);
+    }
+  });
 });
 
 describe("Quiz result category persistence", () => {
