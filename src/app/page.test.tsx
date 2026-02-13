@@ -5,10 +5,10 @@ import Home from "./page";
 // Mock the questions data
 vi.mock("@/data/questions.json", () => ({
   default: [
-    { id: 1, category: "bouldering", question: "Q1" },
-    { id: 2, category: "rope climbing", question: "Q2" },
-    { id: 3, category: "bouldering", question: "Q3" },
-    { id: 4, category: "australia", question: "Q4" },
+    { id: 1, category: "Bouldering", question: "Q1" },
+    { id: 2, category: "Rope Climbing", question: "Q2" },
+    { id: 3, category: "Bouldering", question: "Q3" },
+    { id: 4, category: "Australia", question: "Q4" },
   ],
 }));
 
@@ -31,20 +31,20 @@ describe("Home Page", () => {
   it("should extract and sort unique categories from questions", () => {
     render(<Home />);
 
-    // Should have 3 unique categories: australia, bouldering, rope climbing (sorted)
-    expect(screen.getByText("australia")).toBeDefined();
-    expect(screen.getByText("bouldering")).toBeDefined();
-    expect(screen.getByText("rope climbing")).toBeDefined();
+    // Should have 3 unique categories: Australia, Bouldering, Rope Climbing (sorted)
+    expect(screen.getByText("Australia")).toBeDefined();
+    expect(screen.getByText("Bouldering")).toBeDefined();
+    expect(screen.getByText("Rope Climbing")).toBeDefined();
   });
 
   it("should create category links with encoded URLs", () => {
     render(<Home />);
 
-    const boulderiLink = screen.getByText("bouldering");
-    expect(boulderiLink.getAttribute("href")).toBe("/quiz?category=bouldering");
+    const boulderiLink = screen.getByText("Bouldering");
+    expect(boulderiLink.getAttribute("href")).toBe("/quiz?category=Bouldering");
 
-    const ropeLink = screen.getByText("rope climbing");
-    expect(ropeLink.getAttribute("href")).toBe("/quiz?category=rope%20climbing");
+    const ropeLink = screen.getByText("Rope Climbing");
+    expect(ropeLink.getAttribute("href")).toBe("/quiz?category=Rope%20Climbing");
   });
 
   it("should render View All Questions link", () => {

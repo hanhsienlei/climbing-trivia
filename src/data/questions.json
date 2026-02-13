@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "Burden of Dreams (V17/9A) is located in which country?",
     "correctAnswer": "Finland",
     "wrongAnswers": ["Sweden", "Norway", "Switzerland"],
@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "Which climber made the first ascent of Burden of Dreams (V17/9A)?",
     "correctAnswer": "Nalle Hukkataival",
     "wrongAnswers": ["Jimmy Webb", "Daniel Woods", "Will Bosi"],
@@ -19,7 +19,7 @@
   },
   {
     "id": 3,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "The iconic boulder problem 'Midnight Lightning' in Yosemite was first climbed by whom?",
     "correctAnswer": "Ron Kauk",
     "wrongAnswers": ["John Bachar", "Jim Holloway", "John Sherman"],
@@ -28,7 +28,7 @@
   },
   {
     "id": 4,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "Where is the bouldering area 'Cresciano' (home to Dreamtime and Evolution) located?",
     "correctAnswer": "Switzerland",
     "wrongAnswers": ["Austria", "Italy", "France"],
@@ -37,7 +37,7 @@
   },
   {
     "id": 5,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "Which bouldering grade system uses labels like 7A+, 7C, and 8A?",
     "correctAnswer": "Fontainebleau (Font) scale",
     "wrongAnswers": ["V-scale", "Ewbank", "UIAA"],
@@ -49,7 +49,7 @@
   },
   {
     "id": 6,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "In the V-scale, which grade is commonly used as the first 'double-digit' milestone for many boulderers?",
     "correctAnswer": "V10",
     "wrongAnswers": ["V6", "V8", "V12"],
@@ -58,7 +58,7 @@
   },
   {
     "id": 7,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "Which term describes a boulder problem where a fall could be especially serious due to height (even with pads)?",
     "correctAnswer": "Highball",
     "wrongAnswers": ["Traverse", "Eliminate", "Slab"],
@@ -67,7 +67,7 @@
   },
   {
     "id": 8,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "Mandala (V12) is most famously associated with which area?",
     "correctAnswer": "Bishop (Buttermilks), California",
     "wrongAnswers": ["Hueco Tanks, Texas", "Fontainebleau, France", "Rocklands, South Africa"],
@@ -76,7 +76,7 @@
   },
   {
     "id": 9,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "In modern bouldering, what does 'top-out' most specifically refer to?",
     "correctAnswer": "Finishing by climbing onto the top of the boulder",
     "wrongAnswers": [
@@ -89,7 +89,7 @@
   },
   {
     "id": 10,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "Which grip position is most associated with pulling on a hold using the thumb over the index finger for extra leverage?",
     "correctAnswer": "Full crimp",
     "wrongAnswers": ["Open hand", "Pinch", "Undercling"],
@@ -98,7 +98,7 @@
   },
   {
     "id": 11,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "What training method is most directly aimed at improving maximal finger strength on small edges?",
     "correctAnswer": "Hangboarding (fingerboard max hangs)",
     "wrongAnswers": [
@@ -111,7 +111,7 @@
   },
   {
     "id": 12,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "Which technique uses the heel to create pulling tension—often to keep the hips close on steep terrain?",
     "correctAnswer": "Heel hook",
     "wrongAnswers": ["Backstep", "Smearing", "Mantle"],
@@ -120,7 +120,7 @@
   },
   {
     "id": 13,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "What is the most accurate meaning of 'beta' in bouldering culture?",
     "correctAnswer": "Information about how to do the moves",
     "wrongAnswers": [
@@ -133,7 +133,7 @@
   },
   {
     "id": 14,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "Which item is most characteristic of bouldering gear (vs roped climbing)?",
     "correctAnswer": "Crash pad",
     "wrongAnswers": ["Quickdraw", "Camming device", "Grigri"],
@@ -142,7 +142,7 @@
   },
   {
     "id": 15,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "Which climber is most associated with the iconic documentary 'Free Solo' (though it’s not bouldering)?",
     "correctAnswer": "Alex Honnold",
     "wrongAnswers": ["Tommy Caldwell", "Chris Sharma", "Wolfgang Güllich"],
@@ -154,7 +154,7 @@
   },
   {
     "id": 16,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "In bouldering comps, what is a 'zone' hold intended to represent?",
     "correctAnswer": "A controlled intermediate scoring hold before the top",
     "wrongAnswers": [
@@ -169,7 +169,7 @@
   },
   {
     "id": 17,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "Which surface typically provides the *least* friction for smearing when wet?",
     "correctAnswer": "Polished limestone",
     "wrongAnswers": ["Rough granite", "Coarse sandstone", "Clean quartzite"],
@@ -178,7 +178,7 @@
   },
   {
     "id": 18,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "Which term describes climbing a boulder problem from the first try with no prior information or watching others?",
     "correctAnswer": "Onsight",
     "wrongAnswers": ["Flash", "Redpoint", "Pinkpoint"],
@@ -190,7 +190,7 @@
   },
   {
     "id": 19,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "Which bouldering destination is famous for orange sandstone blocs and a winter season in the Southern Hemisphere?",
     "correctAnswer": "Rocklands, South Africa",
     "wrongAnswers": ["Squamish, Canada", "Magic Wood, Switzerland", "Hueco Tanks, USA"],
@@ -199,7 +199,7 @@
   },
   {
     "id": 20,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "The term 'campusing' most specifically refers to training on which type of apparatus?",
     "correctAnswer": "Campus board",
     "wrongAnswers": ["Hangboard", "Moonboard", "Treadwall"],
@@ -208,7 +208,7 @@
   },
   {
     "id": 21,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "Which ascent style means climbing a route cleanly after prior attempts and practice?",
     "correctAnswer": "Redpoint",
     "wrongAnswers": ["Onsight", "Flash", "Aid"],
@@ -220,7 +220,7 @@
   },
   {
     "id": 22,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "Action Directe—often cited as the first consensus 9a—was first climbed by whom?",
     "correctAnswer": "Wolfgang Güllich",
     "wrongAnswers": ["Ben Moon", "Chris Sharma", "Adam Ondra"],
@@ -229,7 +229,7 @@
   },
   {
     "id": 23,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "In the French sport grade system, which grade is higher?",
     "correctAnswer": "8a+",
     "wrongAnswers": ["8a", "7c+", "7c"],
@@ -238,7 +238,7 @@
   },
   {
     "id": 24,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "What does 'clean climbing' primarily refer to?",
     "correctAnswer": "Using removable protection that avoids damaging the rock",
     "wrongAnswers": ["Climbing without chalk", "Top-roping only", "Using only indoor walls"],
@@ -247,7 +247,7 @@
   },
   {
     "id": 25,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "Which piece of sport climbing equipment connects the rope to a bolt hanger?",
     "correctAnswer": "Quickdraw",
     "wrongAnswers": ["Nut tool", "Belay plate", "Prusik loop"],
@@ -256,7 +256,7 @@
   },
   {
     "id": 26,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "Which trad protection device is spring-loaded and designed to cam against crack walls?",
     "correctAnswer": "Spring-loaded camming device (SLCD)",
     "wrongAnswers": ["Stopper (nut)", "Pitons", "Bolted hanger"],
@@ -265,7 +265,7 @@
   },
   {
     "id": 27,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "In lead climbing, what is 'back-clipping'?",
     "correctAnswer": "Clipping the rope so it can unclip under load more easily",
     "wrongAnswers": [
@@ -280,7 +280,7 @@
   },
   {
     "id": 28,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "Which knot is most commonly used to tie into a harness for climbing?",
     "correctAnswer": "Figure-eight follow-through",
     "wrongAnswers": ["Bowline on a bight", "Square knot", "Overhand on a bight"],
@@ -289,7 +289,7 @@
   },
   {
     "id": 29,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "What does 'pitch' most commonly mean in multipitch climbing?",
     "correctAnswer": "A rope-length section between belay stances",
     "wrongAnswers": [
@@ -302,7 +302,7 @@
   },
   {
     "id": 30,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "Silence (proposed 9c) is located in which climbing area?",
     "correctAnswer": "Hanshelleren Cave (Flatanger), Norway",
     "wrongAnswers": ["Céüse, France", "Frankenjura, Germany", "Siurana, Spain"],
@@ -311,7 +311,7 @@
   },
   {
     "id": 31,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "Which device is best described as an assisted-braking belay device that uses a cam to help lock the rope?",
     "correctAnswer": "Petzl GriGri",
     "wrongAnswers": ["ATC", "Figure 8 descender", "Munter hitch"],
@@ -320,7 +320,7 @@
   },
   {
     "id": 32,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "What is 'rappelling' (abseiling) primarily used for?",
     "correctAnswer": "Descending a rope from an anchor",
     "wrongAnswers": [
@@ -333,7 +333,7 @@
   },
   {
     "id": 33,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "What does 'sport climbing' usually imply about protection?",
     "correctAnswer": "Bolts are pre-placed for protection",
     "wrongAnswers": [
@@ -346,7 +346,7 @@
   },
   {
     "id": 34,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "In trad climbing, what is a 'nut' (stopper)?",
     "correctAnswer": "A passive wedge-shaped removable protection piece",
     "wrongAnswers": ["A spring-loaded cam", "A bolt hanger", "A belay device"],
@@ -355,7 +355,7 @@
   },
   {
     "id": 35,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "Which term describes clipping pre-placed quickdraws on a route (instead of carrying and placing them on lead)?",
     "correctAnswer": "Pinkpoint",
     "wrongAnswers": ["Onsight", "Flash", "Headpoint"],
@@ -364,7 +364,7 @@
   },
   {
     "id": 36,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "What is the main purpose of an anchor at the top of a single-pitch climb?",
     "correctAnswer": "Provide a secure attachment point for belaying and lowering/rappelling",
     "wrongAnswers": [
@@ -377,7 +377,7 @@
   },
   {
     "id": 37,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "Which famous multi-pitch free climb on El Capitan was free-soloed by Alex Honnold (documented in Free Solo)?",
     "correctAnswer": "Freerider",
     "wrongAnswers": ["The Nose", "The Dawn Wall", "Salathé Wall"],
@@ -389,7 +389,7 @@
   },
   {
     "id": 38,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "In the context of sport climbing, what does 'working a route' mean?",
     "correctAnswer": "Practicing moves over multiple attempts (often while hanging on the rope)",
     "wrongAnswers": ["Cleaning loose rock from holds", "Installing bolts", "Belaying someone else"],
@@ -398,7 +398,7 @@
   },
   {
     "id": 39,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "Which climbing style typically involves using ladders/aiders and weighting gear to progress upward?",
     "correctAnswer": "Aid climbing",
     "wrongAnswers": ["Free climbing", "Bouldering", "Deep water soloing"],
@@ -407,7 +407,7 @@
   },
   {
     "id": 40,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "The Dawn Wall is a famous route on which formation?",
     "correctAnswer": "El Capitan (Yosemite Valley)",
     "wrongAnswers": ["Half Dome (Yosemite)", "Devils Tower (Wyoming)", "Cerro Torre (Patagonia)"],
@@ -631,7 +631,7 @@
   },
   {
     "id": 61,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "In the YDS, what does the letter suffix in 5.10a–d primarily do?",
     "correctAnswer": "Subdivides the difficulty within a given grade number",
     "wrongAnswers": [
@@ -644,7 +644,7 @@
   },
   {
     "id": 62,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "Which grading system is most commonly used for sport climbing in France and much of Europe (e.g., 7a, 8b+)?",
     "correctAnswer": "French sport grade",
     "wrongAnswers": ["V-scale", "Ewbank", "YDS only"],
@@ -653,7 +653,7 @@
   },
   {
     "id": 63,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "What does 'crux' mean in climbing?",
     "correctAnswer": "The hardest section or move of a route/problem",
     "wrongAnswers": ["A type of bolt", "A knot used for anchors", "The first move of every route"],
@@ -662,7 +662,7 @@
   },
   {
     "id": 64,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "Which term describes climbing above deep water with no rope, relying on water for fall protection?",
     "correctAnswer": "Deep Water Soloing",
     "wrongAnswers": ["Buildering", "Top-rope soloing", "Via ferrata"],
@@ -671,7 +671,7 @@
   },
   {
     "id": 65,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "What is 'stemming'?",
     "correctAnswer": "Using opposing pressure between two surfaces (often in corners)",
     "wrongAnswers": [
@@ -684,7 +684,7 @@
   },
   {
     "id": 66,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "What does 'mantle' (mantling) mean?",
     "correctAnswer": "Pressing down on holds to push the body up and over a ledge",
     "wrongAnswers": [
@@ -697,7 +697,7 @@
   },
   {
     "id": 67,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "Which piece of equipment primarily reduces impact forces by stretching under load?",
     "correctAnswer": "Dynamic climbing rope",
     "wrongAnswers": ["Static rope", "Dyneema sling", "Steel cable"],
@@ -706,7 +706,7 @@
   },
   {
     "id": 68,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "Which knot is most commonly used to join two ropes for rappelling (due to ease of pulling)?",
     "correctAnswer": "Overhand bend (EDK)",
     "wrongAnswers": ["Clove hitch", "Figure-eight follow-through", "Bowline"],
@@ -715,7 +715,7 @@
   },
   {
     "id": 69,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "In climbing, what does 'belay' most directly mean?",
     "correctAnswer": "Managing the rope to protect a climber from falling",
     "wrongAnswers": ["Cleaning chalk off holds", "Measuring route length", "Installing bolts"],
@@ -724,7 +724,7 @@
   },
   {
     "id": 70,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "What is a 'send' in common climbing slang?",
     "correctAnswer": "Successfully climbing a route/problem cleanly (per the chosen style)",
     "wrongAnswers": ["Taking a rest day", "Falling on the crux", "Carrying pads to the crag"],
@@ -733,7 +733,7 @@
   },
   {
     "id": 71,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "Which technique lowers the center of gravity and can increase reach on overhangs by turning a knee inward?",
     "correctAnswer": "Drop-knee",
     "wrongAnswers": ["Mantle", "Dyno", "Smear"],
@@ -742,7 +742,7 @@
   },
   {
     "id": 72,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "What is the main goal of 'ARC' training (Aerobic Restoration & Capillarity) for climbers?",
     "correctAnswer": "Build forearm aerobic endurance for sustained climbing",
     "wrongAnswers": [
@@ -755,7 +755,7 @@
   },
   {
     "id": 73,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "Which holds are gripped primarily by squeezing between thumb and fingers?",
     "correctAnswer": "Pinches",
     "wrongAnswers": ["Jugs", "Slopers", "Underclings"],
@@ -764,7 +764,7 @@
   },
   {
     "id": 74,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "What is a 'sloper'?",
     "correctAnswer": "A rounded hold that relies heavily on friction and open-hand grip",
     "wrongAnswers": [
@@ -777,7 +777,7 @@
   },
   {
     "id": 75,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "Which device is typically used to ascend a rope by gripping it mechanically (common in big-wall systems)?",
     "correctAnswer": "Ascender (jumar)",
     "wrongAnswers": ["Quickdraw", "Belay plate", "Chalk bag"],
@@ -786,7 +786,7 @@
   },
   {
     "id": 76,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "What does 'beta spraying' mean?",
     "correctAnswer": "Giving unsolicited advice about how to do the moves",
     "wrongAnswers": ["A way to dry holds with a towel", "A chalk brand", "A comp scoring term"],
@@ -795,7 +795,7 @@
   },
   {
     "id": 77,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "Which term describes using opposing forces with hands and feet in a corner/dihedral (often called bridging)?",
     "correctAnswer": "Bridging",
     "wrongAnswers": ["Laybacking", "Crimping", "Gaston"],
@@ -804,7 +804,7 @@
   },
   {
     "id": 78,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "Which style typically uses a toprope anchor so the climber is always below the anchor point?",
     "correctAnswer": "Top-rope climbing",
     "wrongAnswers": ["Lead climbing", "Deep water soloing", "Free soloing"],
@@ -813,7 +813,7 @@
   },
   {
     "id": 79,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "What does 'dyno' mean?",
     "correctAnswer": "A dynamic jump move to reach a hold",
     "wrongAnswers": [
@@ -826,7 +826,7 @@
   },
   {
     "id": 80,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "Which statement about the V-scale is most accurate?",
     "correctAnswer": "It is primarily about technical difficulty, not risk",
     "wrongAnswers": [
@@ -839,7 +839,7 @@
   },
   {
     "id": 81,
-    "category": "competition",
+    "category": "Competition",
     "question": "According to IFSC rules, how long is the climbing period per boulder in a Boulder final round?",
     "correctAnswer": "4 minutes",
     "wrongAnswers": ["3 minutes", "5 minutes", "6 minutes"],
@@ -850,7 +850,7 @@
   },
   {
     "id": 82,
-    "category": "competition",
+    "category": "Competition",
     "question": "Under IFSC bouldering rules, how many attempts may a competitor make on a boulder within the climbing period?",
     "correctAnswer": "Unlimited attempts within the time limit",
     "wrongAnswers": ["Exactly 3 attempts", "Exactly 5 attempts", "One attempt only"],
@@ -861,7 +861,7 @@
   },
   {
     "id": 83,
-    "category": "competition",
+    "category": "Competition",
     "question": "In IFSC bouldering, what must be demonstrated to be judged a successful 'top' on a boulder?",
     "correctAnswer": "A controlled position with both hands matched on the top hold (or standing on top, depending on design)",
     "wrongAnswers": [
@@ -876,7 +876,7 @@
   },
   {
     "id": 84,
-    "category": "competition",
+    "category": "Competition",
     "question": "Which discipline uses a standardized 15-meter wall in elite international competition?",
     "correctAnswer": "Speed climbing",
     "wrongAnswers": ["Lead climbing", "Bouldering", "Deep water soloing"],
@@ -885,7 +885,7 @@
   },
   {
     "id": 85,
-    "category": "competition",
+    "category": "Competition",
     "question": "Sport climbing first appeared in the Olympics in which year?",
     "correctAnswer": "2020 (Tokyo Olympics)",
     "wrongAnswers": ["2012 (London)", "2016 (Rio)", "2024 (Paris)"],
@@ -894,7 +894,7 @@
   },
   {
     "id": 86,
-    "category": "competition",
+    "category": "Competition",
     "question": "Which three disciplines comprised the 'combined' event in sport climbing at Tokyo 2020?",
     "correctAnswer": "Speed, Bouldering, Lead",
     "wrongAnswers": ["Speed, Trad, Ice", "Bouldering, Trad, Lead", "Lead, Ice, Dry tooling"],
@@ -903,7 +903,7 @@
   },
   {
     "id": 87,
-    "category": "competition",
+    "category": "Competition",
     "question": "What does IFSC stand for?",
     "correctAnswer": "International Federation of Sport Climbing",
     "wrongAnswers": [
@@ -916,7 +916,7 @@
   },
   {
     "id": 88,
-    "category": "competition",
+    "category": "Competition",
     "question": "In IFSC lead climbing, what ends a competitor’s attempt most commonly?",
     "correctAnswer": "Falling or weighting the rope",
     "wrongAnswers": ["Touching a zone hold", "Clipping the first quickdraw", "Using chalk"],
@@ -927,7 +927,7 @@
   },
   {
     "id": 89,
-    "category": "competition",
+    "category": "Competition",
     "question": "In IFSC lead, what is typically the time limit (climbing period) for a route attempt?",
     "correctAnswer": "6 minutes",
     "wrongAnswers": ["4 minutes", "5 minutes", "8 minutes"],
@@ -938,7 +938,7 @@
   },
   {
     "id": 90,
-    "category": "competition",
+    "category": "Competition",
     "question": "In IFSC Boulder qualification rounds, what is the typical climbing period per boulder (per the rules table)?",
     "correctAnswer": "5 minutes",
     "wrongAnswers": ["4 minutes", "6 minutes", "3 minutes"],
@@ -949,7 +949,7 @@
   },
   {
     "id": 91,
-    "category": "competition",
+    "category": "Competition",
     "question": "What is the main job of a routesetter in competition climbing?",
     "correctAnswer": "Design and set boulders/routes to test skill fairly and safely",
     "wrongAnswers": [
@@ -964,7 +964,7 @@
   },
   {
     "id": 92,
-    "category": "competition",
+    "category": "Competition",
     "question": "Which of these is NOT a standard IFSC competition discipline?",
     "correctAnswer": "Traditional climbing",
     "wrongAnswers": ["Bouldering", "Lead", "Speed"],
@@ -973,7 +973,7 @@
   },
   {
     "id": 93,
-    "category": "competition",
+    "category": "Competition",
     "question": "In Olympic sport climbing scoring, which statement is most accurate for Tokyo 2020 combined?",
     "correctAnswer": "Final rank was determined by multiplying ranks from the three disciplines",
     "wrongAnswers": [
@@ -986,7 +986,7 @@
   },
   {
     "id": 94,
-    "category": "competition",
+    "category": "Competition",
     "question": "What does the term 'isolation' refer to in IFSC events?",
     "correctAnswer": "A controlled area where athletes wait without seeing the routes/problems",
     "wrongAnswers": [
@@ -1001,7 +1001,7 @@
   },
   {
     "id": 95,
-    "category": "competition",
+    "category": "Competition",
     "question": "Which competition format feature most differentiates bouldering from lead in IFSC comps?",
     "correctAnswer": "Bouldering allows multiple attempts per problem; lead is typically one attempt",
     "wrongAnswers": [
@@ -1016,7 +1016,7 @@
   },
   {
     "id": 96,
-    "category": "competition",
+    "category": "Competition",
     "question": "In modern international events, what is the standard height limit for IFSC bouldering walls/problems?",
     "correctAnswer": "4.5 meters (maximum)",
     "wrongAnswers": ["3 meters", "5.5 meters", "10 meters"],
@@ -1027,7 +1027,7 @@
   },
   {
     "id": 97,
-    "category": "competition",
+    "category": "Competition",
     "question": "Which statement about speed climbing routes is correct for official competition?",
     "correctAnswer": "The route is standardized so all athletes climb the same moves worldwide",
     "wrongAnswers": [
@@ -1040,7 +1040,7 @@
   },
   {
     "id": 98,
-    "category": "competition",
+    "category": "Competition",
     "question": "Which of these is an IFSC-governed World Cup circuit discipline category?",
     "correctAnswer": "Bouldering World Cup",
     "wrongAnswers": ["Trad World Cup", "Big Wall World Cup", "Deep Water Solo World Cup"],
@@ -1049,7 +1049,7 @@
   },
   {
     "id": 99,
-    "category": "competition",
+    "category": "Competition",
     "question": "In IFSC rules, who has final authority to stop/restart a round after a repair/incident decision (per general rules section)?",
     "correctAnswer": "The Jury President",
     "wrongAnswers": ["The Head Routesetter", "The athletes’ coach", "The venue owner"],
@@ -1060,7 +1060,7 @@
   },
   {
     "id": 100,
-    "category": "competition",
+    "category": "Competition",
     "question": "In IFSC lead scoring, what typically determines a competitor’s score?",
     "correctAnswer": "The highest hold controlled/used before falling or time expiry",
     "wrongAnswers": [
@@ -1075,7 +1075,7 @@
   },
   {
     "id": 101,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "Who made the first ascent of the boulder problem Alphane (9A/V17) in Chironico?",
     "correctAnswer": "Shawn Raboutou",
     "wrongAnswers": ["Nalle Hukkataival", "Will Bosi", "Daniel Woods"],
@@ -1087,7 +1087,7 @@
   },
   {
     "id": 102,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "The boulder problem 'Return of the Sleepwalker' is located in which U.S. area?",
     "correctAnswer": "Black Velvet Canyon, Red Rock (Nevada)",
     "wrongAnswers": [
@@ -1100,7 +1100,7 @@
   },
   {
     "id": 103,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "Sleepwalker (V16/8C+)—the boulder that 'Return of the Sleepwalker' extends—was first climbed by whom?",
     "correctAnswer": "Jimmy Webb",
     "wrongAnswers": ["Daniel Woods", "Dave Graham", "Fred Nicole"],
@@ -1112,7 +1112,7 @@
   },
   {
     "id": 104,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "Dreamtime’s first ascent (2000) is most associated with which Swiss bouldering area?",
     "correctAnswer": "Cresciano (Ticino)",
     "wrongAnswers": [
@@ -1128,7 +1128,7 @@
   },
   {
     "id": 105,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "In bouldering, what does 'eliminate' most commonly mean?",
     "correctAnswer": "A variant that forbids specific holds/moves that are otherwise available",
     "wrongAnswers": [
@@ -1141,7 +1141,7 @@
   },
   {
     "id": 106,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "Which training tool is most closely associated with standardized benchmark boulders worldwide (problems labeled by year)?",
     "correctAnswer": "MoonBoard",
     "wrongAnswers": ["Campus board", "Treadwall", "Fingerboard"],
@@ -1150,7 +1150,7 @@
   },
   {
     "id": 107,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "The term 'dab' in bouldering judging most commonly refers to what?",
     "correctAnswer": "Touching the ground or a prohibited surface while on the problem",
     "wrongAnswers": [
@@ -1163,7 +1163,7 @@
   },
   {
     "id": 108,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "Which of these is primarily a *movement* used on steep boulders to generate tension by pulling with the toe on a hold?",
     "correctAnswer": "Toe hook",
     "wrongAnswers": ["Gaston", "Mantle", "Smear"],
@@ -1172,7 +1172,7 @@
   },
   {
     "id": 109,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "In Fontainebleau grading, which is harder?",
     "correctAnswer": "7C+",
     "wrongAnswers": ["7C", "7A+", "6C+"],
@@ -1184,7 +1184,7 @@
   },
   {
     "id": 110,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "Which statement best matches the usual *focus* of a bouldering grade (V-scale/Font)?",
     "correctAnswer": "Difficulty of the hardest sequence or overall difficulty of completing the problem (not risk)",
     "wrongAnswers": [
@@ -1200,7 +1200,7 @@
   },
   {
     "id": 111,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "Which bouldering term describes succeeding on the *first try* after receiving beta or watching someone?",
     "correctAnswer": "Flash",
     "wrongAnswers": ["Onsight", "Redpoint", "Headpoint"],
@@ -1209,7 +1209,7 @@
   },
   {
     "id": 112,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "In modern gym bouldering, 'run and jump' starts became prominent partly due to what constraint?",
     "correctAnswer": "Limited wall height encourages dynamic coordination moves",
     "wrongAnswers": [
@@ -1225,7 +1225,7 @@
   },
   {
     "id": 113,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "What is the main purpose of brushing holds (especially outdoors on rock) before/after attempts?",
     "correctAnswer": "Remove chalk/rubber and improve friction/cleanliness",
     "wrongAnswers": [
@@ -1238,7 +1238,7 @@
   },
   {
     "id": 114,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "Which of these is most characteristic of a 'compression' boulder problem style?",
     "correctAnswer": "Squeezing opposing features with hands/arms (often with wide body tension)",
     "wrongAnswers": [
@@ -1251,7 +1251,7 @@
   },
   {
     "id": 115,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "A 'sit start' on a boulder problem most specifically changes what?",
     "correctAnswer": "The starting position is seated/low, usually adding moves and difficulty",
     "wrongAnswers": [
@@ -1264,7 +1264,7 @@
   },
   {
     "id": 116,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "Which famous Yosemite boulder problem is on the Columbia Boulder near Camp 4?",
     "correctAnswer": "Midnight Lightning",
     "wrongAnswers": ["The Nose", "Astroman", "Separate Reality"],
@@ -1273,7 +1273,7 @@
   },
   {
     "id": 117,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "Which piece of gear is *most* relevant to reducing ankle roll risk when spotting or landing from boulders?",
     "correctAnswer": "Crash pads placed to cover uneven landings",
     "wrongAnswers": ["Quickdraws", "Camming devices", "Static rope"],
@@ -1282,7 +1282,7 @@
   },
   {
     "id": 118,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "Which statement about chalk is most accurate for outdoor bouldering ethics?",
     "correctAnswer": "Excess chalk can be a visual impact; many areas encourage brushing/cleaning after use",
     "wrongAnswers": [
@@ -1295,7 +1295,7 @@
   },
   {
     "id": 119,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "Which platform is widely used to share and repeat standardized boulder problems on a MoonBoard?",
     "correctAnswer": "MoonBoard app / community database",
     "wrongAnswers": ["IFSC score sheets", "UIAA database", "Petzl product catalog"],
@@ -1304,7 +1304,7 @@
   },
   {
     "id": 120,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "Which of these best describes 'tension' in steep bouldering context?",
     "correctAnswer": "Keeping the body rigid/controlled to prevent swinging off holds",
     "wrongAnswers": [
@@ -1317,7 +1317,7 @@
   },
   {
     "id": 121,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "Realization (Biographie) is located on which cliff/area?",
     "correctAnswer": "Céüse, France",
     "wrongAnswers": ["Siurana, Spain", "Kalymnos, Greece", "Flatanger, Norway"],
@@ -1326,7 +1326,7 @@
   },
   {
     "id": 122,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "Who bolted the route originally known as 'Biographie' (later climbed and renamed Realization by Sharma)?",
     "correctAnswer": "Jean-Christophe Lafaille",
     "wrongAnswers": ["Arnaud Petit", "Patrick Edlinger", "Sylvain Millet"],
@@ -1335,7 +1335,7 @@
   },
   {
     "id": 123,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "La Dura Dura (9b+) is located in which Spanish area?",
     "correctAnswer": "Oliana (Roc de Rumbau), Catalonia",
     "wrongAnswers": ["Margalef, Catalonia", "Mallorca, Balearic Islands", "Rodellar, Aragón"],
@@ -1344,7 +1344,7 @@
   },
   {
     "id": 124,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "Which climber made the first free ascent of La Dura Dura (9b+) on 7 Feb 2013?",
     "correctAnswer": "Adam Ondra",
     "wrongAnswers": ["Chris Sharma", "Seb Bouin", "Jorge Díaz-Rullo"],
@@ -1353,7 +1353,7 @@
   },
   {
     "id": 125,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "Jumbo Love (9b/5.15b) is a long single-pitch sport route on which mountain?",
     "correctAnswer": "Clark Mountain (Mojave Desert, California)",
     "wrongAnswers": ["El Capitan (Yosemite)", "Half Dome (Yosemite)", "Mount Arapiles (Victoria)"],
@@ -1362,7 +1362,7 @@
   },
   {
     "id": 126,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "Who completed the first free ascent of Jumbo Love on 11 Sep 2008?",
     "correctAnswer": "Chris Sharma",
     "wrongAnswers": ["Adam Ondra", "Wolfgang Güllich", "Alex Megos"],
@@ -1374,7 +1374,7 @@
   },
   {
     "id": 127,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "Cobra Crack is best described as what type of climb?",
     "correctAnswer": "A hard single-pitch trad crack climb (granite) in Squamish",
     "wrongAnswers": [
@@ -1387,7 +1387,7 @@
   },
   {
     "id": 128,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "Who made the first free ascent of Cobra Crack in 2006?",
     "correctAnswer": "Sonnie Trotter",
     "wrongAnswers": ["Didier Berthod", "Tommy Caldwell", "Hansjörg Auer"],
@@ -1396,7 +1396,7 @@
   },
   {
     "id": 129,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "In the British trad grading system, what does the *adjectival* grade (e.g., E2, E5) attempt to capture beyond technical difficulty?",
     "correctAnswer": "Overall seriousness (protection, sustainedness, exposure) as well as difficulty",
     "wrongAnswers": [
@@ -1409,7 +1409,7 @@
   },
   {
     "id": 130,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "In YDS, which is harder?",
     "correctAnswer": "5.11d",
     "wrongAnswers": ["5.11a", "5.10d", "5.9"],
@@ -1418,7 +1418,7 @@
   },
   {
     "id": 131,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "What is the primary function of a 'personal anchor system' or tether at a belay?",
     "correctAnswer": "To attach the climber securely to the anchor",
     "wrongAnswers": [
@@ -1431,7 +1431,7 @@
   },
   {
     "id": 132,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "In lead climbing, what is 'z-clipping'?",
     "correctAnswer": "Clipping the rope from below a lower draw into a higher draw, creating crossed rope segments",
     "wrongAnswers": [
@@ -1446,7 +1446,7 @@
   },
   {
     "id": 133,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "What is 'rope drag' primarily caused by on wandering routes?",
     "correctAnswer": "Friction from the rope running around corners/features and through gear",
     "wrongAnswers": [
@@ -1459,7 +1459,7 @@
   },
   {
     "id": 134,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "Which quickdraw type is most commonly used to reduce rope drag on wandering sport routes?",
     "correctAnswer": "Longer/slingset (extendable) quickdraw",
     "wrongAnswers": ["A steel maillon", "A static line", "A nut key"],
@@ -1468,7 +1468,7 @@
   },
   {
     "id": 135,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "In belaying, what is the primary purpose of a 'stopper knot' at the free end of the rope?",
     "correctAnswer": "Prevent the rope from running through the device if the end is reached",
     "wrongAnswers": [
@@ -1481,7 +1481,7 @@
   },
   {
     "id": 136,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "What is the main reason dynamic ropes are used for lead climbing instead of static ropes?",
     "correctAnswer": "They stretch to reduce peak forces in a fall",
     "wrongAnswers": [
@@ -1494,7 +1494,7 @@
   },
   {
     "id": 137,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "Which of these is a 'passive' trad protection piece?",
     "correctAnswer": "Stopper (nut)",
     "wrongAnswers": ["Spring-loaded camming device", "Quickdraw", "Bolt hanger"],
@@ -1506,7 +1506,7 @@
   },
   {
     "id": 138,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "In multipitch climbing, what does 'simul-climbing' most commonly mean?",
     "correctAnswer": "Both climbers move at the same time with protection between them",
     "wrongAnswers": [
@@ -1519,7 +1519,7 @@
   },
   {
     "id": 139,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "What is a 'prusik' most commonly used for in rope systems?",
     "correctAnswer": "Backing up rappels or ascending a rope via friction hitch",
     "wrongAnswers": ["Clipping bolts faster", "Improving chalk friction", "Measuring pitch length"],
@@ -1528,7 +1528,7 @@
   },
   {
     "id": 140,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "Which style term means a climb was led with pre-placed protection/quickdraws already clipped?",
     "correctAnswer": "Pinkpoint",
     "wrongAnswers": ["Onsight", "Ground-up", "Free solo"],
@@ -1750,7 +1750,7 @@
   },
   {
     "id": 161,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "In the French sport grading system, which is harder?",
     "correctAnswer": "7c+",
     "wrongAnswers": ["7c", "7b+", "6c+"],
@@ -1759,7 +1759,7 @@
   },
   {
     "id": 162,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "Which grade system is most commonly used for bouldering in North America?",
     "correctAnswer": "V-scale (Hueco scale)",
     "wrongAnswers": ["Ewbank", "French sport grades", "UIAA"],
@@ -1768,7 +1768,7 @@
   },
   {
     "id": 163,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "Which knot is commonly used to tie a climber directly into the harness tie-in points?",
     "correctAnswer": "Figure-eight follow-through",
     "wrongAnswers": ["Double fisherman’s", "Overhand bend (EDK)", "Prusik knot"],
@@ -1777,7 +1777,7 @@
   },
   {
     "id": 164,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "What does UIAA stand for in climbing context?",
     "correctAnswer": "International Climbing and Mountaineering Federation (UIAA)",
     "wrongAnswers": [
@@ -1792,7 +1792,7 @@
   },
   {
     "id": 165,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "In sport climbing, what does a 'project' most commonly mean?",
     "correctAnswer": "A climb you are working on over multiple sessions",
     "wrongAnswers": [
@@ -1805,7 +1805,7 @@
   },
   {
     "id": 166,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "What is a 'gaston' move?",
     "correctAnswer": "Pulling outward on a sidepull with the elbow raised, like opening a door",
     "wrongAnswers": [
@@ -1818,7 +1818,7 @@
   },
   {
     "id": 167,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "What is 'laybacking' primarily used for?",
     "correctAnswer": "Climbing a crack/edge by pulling with hands while pushing feet against the wall",
     "wrongAnswers": [
@@ -1831,7 +1831,7 @@
   },
   {
     "id": 168,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "Which rope type is generally recommended for top-rope lead-fall protection?",
     "correctAnswer": "Dynamic rope",
     "wrongAnswers": ["Static rope", "Steel cable", "Accessory cord only"],
@@ -1840,7 +1840,7 @@
   },
   {
     "id": 169,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "In rope systems, what is a 'belay loop' on a harness primarily for?",
     "correctAnswer": "Connecting belay device and tying into the system as a strong attachment point",
     "wrongAnswers": [
@@ -1853,7 +1853,7 @@
   },
   {
     "id": 170,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "Which statement about 'sport climbing' is most accurate?",
     "correctAnswer": "Protection is primarily fixed bolts; the leader clips quickdraws while climbing",
     "wrongAnswers": [
@@ -1866,7 +1866,7 @@
   },
   {
     "id": 171,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "What does 'trad climbing' primarily imply about protection?",
     "correctAnswer": "The leader places removable gear (nuts/cams) as they climb",
     "wrongAnswers": [
@@ -1879,7 +1879,7 @@
   },
   {
     "id": 172,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "What does 'beta' mean in climbing slang?",
     "correctAnswer": "Information about the best sequence/method for a climb",
     "wrongAnswers": ["A type of rope", "A grading system", "A carabiner shape"],
@@ -1888,7 +1888,7 @@
   },
   {
     "id": 173,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "Which grip generally increases finger joint loading the most on small edges?",
     "correctAnswer": "Full crimp",
     "wrongAnswers": ["Open hand", "Palm press", "Foot smear"],
@@ -1897,7 +1897,7 @@
   },
   {
     "id": 174,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "What is 'smearing' primarily?",
     "correctAnswer": "Using shoe rubber on blank rock relying on friction",
     "wrongAnswers": ["Jamming a hand in a crack", "Hooking the toe to pull", "Clipping a bolt"],
@@ -1906,7 +1906,7 @@
   },
   {
     "id": 175,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "What does 'edging' most specifically describe?",
     "correctAnswer": "Using the edge of the climbing shoe on a small foothold",
     "wrongAnswers": ["Jumping to a hold", "Sliding down the wall", "Using the heel to pull"],
@@ -1915,7 +1915,7 @@
   },
   {
     "id": 176,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "Which of these best describes a 'dihedral' in climbing?",
     "correctAnswer": "An inside corner where two rock faces meet",
     "wrongAnswers": ["A roof crack", "A boulder pad placement", "A type of carabiner gate"],
@@ -1924,7 +1924,7 @@
   },
   {
     "id": 177,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "What is 'choss' in climbing slang?",
     "correctAnswer": "Loose, poor-quality rock",
     "wrongAnswers": ["A perfect granite splitter crack", "A brand of chalk", "A dyno technique"],
@@ -1933,7 +1933,7 @@
   },
   {
     "id": 178,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "In many guidebooks, what does 'PG-13' or 'R' typically indicate (in areas that use it)?",
     "correctAnswer": "A protection/seriousness rating separate from technical grade",
     "wrongAnswers": ["A bouldering grade conversion", "The number of pitches", "A knot type"],
@@ -1942,7 +1942,7 @@
   },
   {
     "id": 179,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "Which accessory is most commonly used to carry chalk while climbing?",
     "correctAnswer": "Chalk bag",
     "wrongAnswers": ["Nut tool", "Cam hook", "Maillon"],
@@ -1951,7 +1951,7 @@
   },
   {
     "id": 180,
-    "category": "general knowledge",
+    "category": "General Knowledge",
     "question": "What is the primary purpose of 'quickdraw' rubber keepers (dogbones with captive ends)?",
     "correctAnswer": "Help keep the rope-end carabiner oriented correctly",
     "wrongAnswers": [
@@ -1964,7 +1964,7 @@
   },
   {
     "id": 181,
-    "category": "competition",
+    "category": "Competition",
     "question": "At Paris 2024, sport climbing was split into which medal events per gender?",
     "correctAnswer": "Speed, and Boulder & Lead combined",
     "wrongAnswers": ["Lead only, and Bouldering only", "Speed only", "Trad, Sport, Bouldering"],
@@ -1976,7 +1976,7 @@
   },
   {
     "id": 182,
-    "category": "competition",
+    "category": "Competition",
     "question": "Which organization is the international governing body for sport climbing competitions (World Cups/World Champs)?",
     "correctAnswer": "International Federation of Sport Climbing (IFSC)",
     "wrongAnswers": ["UIAA", "IOC", "Parks Victoria"],
@@ -1985,7 +1985,7 @@
   },
   {
     "id": 183,
-    "category": "competition",
+    "category": "Competition",
     "question": "In IFSC bouldering finals (traditional format), what is the maximum climbing period per boulder?",
     "correctAnswer": "4 minutes",
     "wrongAnswers": ["3 minutes", "5 minutes", "6 minutes"],
@@ -1996,7 +1996,7 @@
   },
   {
     "id": 184,
-    "category": "competition",
+    "category": "Competition",
     "question": "In IFSC bouldering qualification/semi-final rounds (traditional format), what is the typical climbing period per boulder?",
     "correctAnswer": "5 minutes",
     "wrongAnswers": ["4 minutes", "6 minutes", "8 minutes"],
@@ -2007,7 +2007,7 @@
   },
   {
     "id": 185,
-    "category": "competition",
+    "category": "Competition",
     "question": "Which wall height is standardized for official speed climbing competition?",
     "correctAnswer": "15 meters",
     "wrongAnswers": ["10 meters", "12 meters", "20 meters"],
@@ -2016,7 +2016,7 @@
   },
   {
     "id": 186,
-    "category": "competition",
+    "category": "Competition",
     "question": "In IFSC lead competition, what commonly ends a climber’s attempt before time expires?",
     "correctAnswer": "Falling or weighting the rope",
     "wrongAnswers": ["Touching the zone hold", "Using chalk", "Asking for beta"],
@@ -2027,7 +2027,7 @@
   },
   {
     "id": 187,
-    "category": "competition",
+    "category": "Competition",
     "question": "Under IFSC rules, what is 'isolation' designed to prevent?",
     "correctAnswer": "Athletes seeing others’ attempts and gaining extra information",
     "wrongAnswers": [
@@ -2042,7 +2042,7 @@
   },
   {
     "id": 188,
-    "category": "competition",
+    "category": "Competition",
     "question": "According to the Olympics.com explainer, how many sport climbing gold medals were awarded at Paris 2024 in total?",
     "correctAnswer": "4",
     "wrongAnswers": ["2", "6", "8"],
@@ -2053,7 +2053,7 @@
   },
   {
     "id": 189,
-    "category": "competition",
+    "category": "Competition",
     "question": "In the Olympic combined event (Paris 2024), which disciplines are combined into one medal event?",
     "correctAnswer": "Bouldering and Lead",
     "wrongAnswers": ["Speed and Lead", "Speed and Bouldering", "Trad and Sport"],
@@ -2064,7 +2064,7 @@
   },
   {
     "id": 190,
-    "category": "competition",
+    "category": "Competition",
     "question": "Which statement about the Tokyo 2020 Olympic format is correct?",
     "correctAnswer": "Speed, bouldering, and lead were combined into one medal event",
     "wrongAnswers": [
@@ -2077,7 +2077,7 @@
   },
   {
     "id": 191,
-    "category": "competition",
+    "category": "Competition",
     "question": "Which term refers to the person responsible for ensuring the event is judged according to IFSC rules (key officiating authority)?",
     "correctAnswer": "Jury President",
     "wrongAnswers": ["Head Setter", "Chief Belayer", "Route Sponsor"],
@@ -2088,7 +2088,7 @@
   },
   {
     "id": 192,
-    "category": "competition",
+    "category": "Competition",
     "question": "In bouldering comps, what does a 'zone' typically represent?",
     "correctAnswer": "An intermediate scoring hold indicating partial progress",
     "wrongAnswers": ["A hold that is off-limits", "The starting foothold", "A time bonus hold"],
@@ -2099,7 +2099,7 @@
   },
   {
     "id": 193,
-    "category": "competition",
+    "category": "Competition",
     "question": "What is the primary job of a competition routesetter?",
     "correctAnswer": "Set routes/boulders that fairly test skills and are safe",
     "wrongAnswers": ["Calculate Olympic quotas", "Write athlete biographies", "Sell tickets"],
@@ -2110,7 +2110,7 @@
   },
   {
     "id": 194,
-    "category": "competition",
+    "category": "Competition",
     "question": "Which of these is NOT an IFSC World Cup discipline?",
     "correctAnswer": "Traditional climbing",
     "wrongAnswers": ["Lead", "Bouldering", "Speed"],
@@ -2119,7 +2119,7 @@
   },
   {
     "id": 195,
-    "category": "competition",
+    "category": "Competition",
     "question": "In lead climbing comps, scores are primarily based on what?",
     "correctAnswer": "The highest hold controlled before falling/time",
     "wrongAnswers": ["Fastest time to the top", "Fewest chalk dips", "Most dynos attempted"],
@@ -2130,7 +2130,7 @@
   },
   {
     "id": 196,
-    "category": "competition",
+    "category": "Competition",
     "question": "Which statement best describes why speed climbing can be run head-to-head?",
     "correctAnswer": "Two identical lanes/routes allow direct time comparison",
     "wrongAnswers": [
@@ -2143,7 +2143,7 @@
   },
   {
     "id": 197,
-    "category": "competition",
+    "category": "Competition",
     "question": "Which IFSC discipline most directly tests endurance on a long roped route with a time limit?",
     "correctAnswer": "Lead",
     "wrongAnswers": ["Speed", "Bouldering", "Deep water soloing"],
@@ -2152,7 +2152,7 @@
   },
   {
     "id": 198,
-    "category": "competition",
+    "category": "Competition",
     "question": "Olympics.com notes Paris 2024 has two sport climbing events per gender. Which change does this reflect vs Tokyo 2020?",
     "correctAnswer": "Speed became a standalone medal event (separate from boulder+lead)",
     "wrongAnswers": [
@@ -2167,7 +2167,7 @@
   },
   {
     "id": 199,
-    "category": "competition",
+    "category": "Competition",
     "question": "According to Wikipedia’s summary, how did the number of medal events change from Tokyo 2020 to Paris 2024?",
     "correctAnswer": "It doubled from 2 to 4",
     "wrongAnswers": ["It stayed the same", "It halved", "It increased by 1 only"],
@@ -2176,7 +2176,7 @@
   },
   {
     "id": 200,
-    "category": "competition",
+    "category": "Competition",
     "question": "Which venue area hosted sport climbing at the Paris 2024 Olympics per Wikipedia?",
     "correctAnswer": "Le Bourget Sport Climbing Venue (Saint-Denis)",
     "wrongAnswers": [
@@ -2189,7 +2189,7 @@
   },
   {
     "id": 201,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "Which route grade is the hardest?",
     "correctAnswer": "French 6a+",
     "wrongAnswers": ["YDS 5.10a", "Ewbank 18", "British VS 4c"],
@@ -2201,7 +2201,7 @@
   },
   {
     "id": 202,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "Which of the following route grades is the hardest?",
     "correctAnswer": "YDS 5.11c",
     "wrongAnswers": ["French 7a", "Ewbank 24", "British E3 5c"],
@@ -2213,7 +2213,7 @@
   },
   {
     "id": 203,
-    "category": "rope climbing",
+    "category": "Rope Climbing",
     "question": "Which route grade represents the highest difficulty?",
     "correctAnswer": "YDS 5.12d",
     "wrongAnswers": ["French 7c", "Ewbank 28", "British E6 6b"],
@@ -2225,7 +2225,7 @@
   },
   {
     "id": 204,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "Which bouldering grade is the hardest?",
     "correctAnswer": "Font 7A",
     "wrongAnswers": ["V5", "Font 6C", "V4"],
@@ -2237,7 +2237,7 @@
   },
   {
     "id": 205,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "Which boulder problem grade is the hardest?",
     "correctAnswer": "Font 7B",
     "wrongAnswers": ["V7", "Font 7A+", "V6"],
@@ -2249,7 +2249,7 @@
   },
   {
     "id": 206,
-    "category": "bouldering",
+    "category": "Bouldering",
     "question": "Which bouldering grade represents the highest difficulty?",
     "correctAnswer": "Font 7C+",
     "wrongAnswers": ["V10", "Font 7C", "V9"],

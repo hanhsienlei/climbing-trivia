@@ -5,19 +5,12 @@ import Anthropic from "@anthropic-ai/sdk";
 import { readFileSync, writeFileSync, existsSync } from "fs";
 import { resolve } from "path";
 import type { Question } from "../src/types";
+import { CATEGORIES } from "../src/types";
 
 const OUTPUT_PATH = resolve(__dirname, "../src/data/questions.json");
 const BATCH_SIZE = 20;
 const TOTAL_QUESTIONS = 50;
 const MAX_RETRIES = 3;
-
-const VALID_CATEGORIES = [
-  "Bouldering",
-  "Rope Climbing",
-  "Australia",
-  "General Knowledge",
-  "Competition",
-] as const;
 
 interface ValidationResult {
   isValid: boolean;
@@ -39,7 +32,7 @@ function validateQuestion(q: unknown): ValidationResult {
 
   if (
     typeof obj.category !== "string" ||
-    !VALID_CATEGORIES.includes(obj.category as (typeof VALID_CATEGORIES)[number])
+    !CATEGORIES.includes(obj.category as (typeof CATEGORIES)[number])
   ) {
     errors.push(`Invalid category: "${String(obj.category)}"`);
   }
@@ -76,6 +69,16 @@ function validateQuestion(q: unknown): ValidationResult {
     errors.push("Missing or empty explanation");
   }
 
+  if (!Array.isArray(obj.references) || obj.references.length === 0) {
+    errors.push("Missing or empty references array");
+  } else {
+    for (let i = 0; i < obj.references.length; i++) {
+      if (typeof obj.references[i] !== "string" || !obj.references[i].startsWith("http")) {
+        errors.push(`references[${i}] must be a valid URL starting with http`);
+      }
+    }
+  }
+
   return { isValid: errors.length === 0, errors };
 }
 
@@ -110,19 +113,22 @@ Cover a mix of these topics:
 - General rock climbing and bouldering trivia (sport, trad, bouldering, deep water solo)
 - Famous routes and boulder problems worldwide
 
-Each question must be assigned one of these ${VALID_CATEGORIES.length} categories: ${VALID_CATEGORIES.map((c) => `"${c}"`).join(", ")}. Distribute questions roughly evenly across all ${VALID_CATEGORIES.length} categories.
+Each question must be assigned one of these ${CATEGORIES.length} categories: ${CATEGORIES.map((c) => `"${c}"`).join(", ")}. Distribute questions roughly evenly across all ${CATEGORIES.length} categories.
 
 Each question should have exactly 1 correct answer and 3 plausible but incorrect answers. Make the questions challenging but fair — suitable for a pub quiz night at a climbing gym.
 
-For each question, also include a brief explanation (2-3 sentences) of why the correct answer is right. Include an interesting fact if possible.${avoidList}
+For each question, also include a brief explanation (2-3 sentences) of why the correct answer is right. Include an interesting fact if possible.
+
+Also include at least one reference URL for each question as a source. Use Wikipedia, climbing websites (8a.nu, theCrag, Mountain Project), competition results, or other reputable sources.${avoidList}
 
 Respond with ONLY a JSON array, no other text. Each element should have this shape:
 {
   "question": "the question text",
-  "category": "one of: ${VALID_CATEGORIES.join(", ")}",
+  "category": "one of: ${CATEGORIES.join(", ")}",
   "correctAnswer": "the correct answer",
   "wrongAnswers": ["wrong1", "wrong2", "wrong3"],
-  "explanation": "brief explanation of the correct answer"
+  "explanation": "brief explanation of the correct answer",
+  "references": ["https://example.com/source1", "https://example.com/source2"]
 }`,
       },
     ],
@@ -183,6 +189,7 @@ async function main() {
         correctAnswer: typed.correctAnswer,
         wrongAnswers: typed.wrongAnswers,
         explanation: typed.explanation,
+        references: typed.references,
       });
       existingTexts.push(typed.question);
       validCount++;

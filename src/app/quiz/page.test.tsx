@@ -16,7 +16,7 @@ vi.mock("next/navigation", () => ({
 vi.mock("@/data/questions.json", () => ({
   default: Array.from({ length: 15 }, (_, i) => ({
     id: i + 1,
-    category: i < 5 ? "bouldering" : i < 10 ? "rope climbing" : "australia",
+    category: i < 5 ? "Bouldering" : i < 10 ? "Rope Climbing" : "Australia",
     question: `Question ${i + 1}?`,
     correctAnswer: `Correct ${i + 1}`,
     wrongAnswers: [`Wrong ${i + 1}A`, `Wrong ${i + 1}B`, `Wrong ${i + 1}C`],
@@ -72,22 +72,22 @@ describe("QuizPage", () => {
   });
 
   it("should display category badge when category filter is applied", async () => {
-    mockSearchParams.get.mockReturnValue("bouldering");
+    mockSearchParams.get.mockReturnValue("Bouldering");
 
     render(<QuizPage />);
 
     await waitFor(() => {
-      expect(screen.getByText("bouldering")).toBeDefined();
+      expect(screen.getByText("Bouldering")).toBeDefined();
     });
   });
 
   it("should filter questions by category", async () => {
-    mockSearchParams.get.mockReturnValue("australia");
+    mockSearchParams.get.mockReturnValue("Australia");
 
     render(<QuizPage />);
 
     await waitFor(() => {
-      // Should select from australia questions only (IDs 11-15)
+      // Should select from Australia questions only (IDs 11-15)
       expect(screen.getByText(/Question 1 of/i)).toBeDefined();
     });
   });
@@ -344,7 +344,7 @@ describe("QuizPage", () => {
 
   it("should save category with result when quiz is filtered", async () => {
     const user = userEvent.setup();
-    mockSearchParams.get.mockReturnValue("bouldering");
+    mockSearchParams.get.mockReturnValue("Bouldering");
 
     render(<QuizPage />);
 
@@ -369,7 +369,7 @@ describe("QuizPage", () => {
       const stored = localStorage.getItem(STORAGE_KEY_RESULT);
       expect(stored).not.toBeNull();
       const result = JSON.parse(stored!);
-      expect(result.category).toBe("bouldering");
+      expect(result.category).toBe("Bouldering");
       expect(result.total).toBe(totalQuestions);
     });
   });
@@ -429,7 +429,7 @@ describe("QuizPage", () => {
     vi.spyOn(quizLib, "selectQuestions").mockReturnValueOnce([
       {
         id: 101,
-        category: "shared",
+        category: "Bouldering",
         question: "Shared Question 1?",
         correctAnswer: "Correct 1",
         wrongAnswers: ["Shared Choice", "Wrong 1B", "Wrong 1C"],
@@ -437,7 +437,7 @@ describe("QuizPage", () => {
       },
       {
         id: 102,
-        category: "shared",
+        category: "Bouldering",
         question: "Shared Question 2?",
         correctAnswer: "Correct 2",
         wrongAnswers: ["Shared Choice", "Wrong 2B", "Wrong 2C"],
